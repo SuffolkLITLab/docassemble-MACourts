@@ -743,6 +743,42 @@ class MACourtList(DAList):
             local_housing_court = "Western Housing Court - Hadley Session"
         elif address_to_compare.county.lower() == "berkshire county":
             local_housing_court = "Western Housing Court - Pittsfield Session"
+        elif address_to_compare.city.lower() in [
+                                "tyringham",
+                                "richmond",
+                                "alford",
+                                "otis",
+                                "mount washington",
+                                "williamstown",
+                                "egremont",
+                                "becket",
+                                "sheffield",
+                                "new ashford",
+                                "west stockbridge",
+                                "great barrington",
+                                "cheshire",
+                                "lenox",
+                                "windsor",
+                                "lanesborough",
+                                "washington",
+                                "new marlborough",
+                                "monterey",
+                                "stockbridge",
+                                "sandisfield",
+                                "hinsdale",
+                                "hancock",
+                                "county",
+                                "lee",
+                                "peru",
+                                "savoy",
+                                "dalton",
+                                "pittsfield",
+                                "florida",
+                                "clarksburg",
+                                "adams",
+                                "north adams"
+                            ]:
+            local_housing_court = "Western Housing Court - Pittsfield Session"
         elif address_to_compare.city.lower() in ['agawam', 'blandford', 'brimfield', 'chester', 'chicopee', 'east longmeadow', 'granville', 'hampden', 'holland', 'holyoke', 'longmeadow', 'ludlow', 'monson', 'montgomery', 'palmer', 'russell', 'southwick', 'springfield', 'tolland', 'wales', 'west springfield', 'westfield','wilbraham']:
             local_housing_court = "Western Housing Court - Springfield Session"
         elif address_to_compare.city.lower() in ['charlton', 'dudley', 'oxford', 'southbridge', 'sturbridge', 'webster']:
@@ -773,7 +809,12 @@ class MACourtList(DAList):
             local_housing_court = "Southeast Housing Court - New Bedford Session"
         elif address_to_compare.county.lower() in ["barnstable county", "dukes county","nantucket county"]:
             local_housing_court = "Southeast Housing Court - Barnstable session"
-        # List below is too inclusive but because statements are evaluated in order, no need to change it right now
+        elif address_to_compare.city.lower() in [
+                "barnstable", "bourne", "brewster", "chatham", "dennis", "eastham", "falmouth", "harwich", "mashpee", "orleans", "provincetown", "sandwich", "yarmouth",
+                "aquinnah", "chilmark", "edgartown", "oak bluffs", "west tisbury",
+                "nantucket"
+        ]:
+            local_housing_court = "Southeast Housing Court - Barnstable Session"
         elif address_to_compare.city.lower() in ['gosnold','aquinnah', 'barnstable', 'bourne', 'brewster', 'carver', 'chatham', 'chilmark', 'dennis', 'duxbury', 'edgartown', 'falmouth', 'halifax', 'hanson', 'harwich', 'kingston', 'lakeville', 'marion', 'marshfield', 'mashpee', 'mattapoisett', 'middleborough', 'nantucket', 'oak bluffs', 'pembroke', 'plymouth', 'plympton', 'provincetown', 'rochester', 'sandwich', 'wareham', 'accord', 'assinippi', 'hanover', 'hingham', 'hull', 'humarock', 'norwell', 'rockland', 'scituate',"tisbury"]:
             local_housing_court = "Southeast Housing Court - Plymouth Session"
         elif address_to_compare.city.lower() in ['attleboro', 'berkley', 'dighton', 'easton', 'mansfield', 'north attleborough', 'norton', 'raynham', 'rehoboth', 'seekonk','taunton']:
