@@ -7,66 +7,52 @@
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
       crossorigin=""
     />
     <style>
       html, body, #map { height: 100%; margin: 0; }
       .leaflet-container { font: 14px/1.4 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
-      .legend { background: white; padding: .5rem .75rem; border-radius: .5rem; box-shadow: 0 2px 8px rgba(0,0,0,.1); line-height: 1.3; }
       .topbar { position: absolute; z-index: 1000; top: 10px; left: 50%; transform: translateX(-50%); background: rgba(255,255,255,.9); padding: .35rem .6rem; border-radius: .5rem; }
       .topbar a { text-decoration: none; color: #1d4ed8; }
+      #street-list { position: absolute; bottom: 10px; left: 10px; z-index: 1000; background: white; max-height: 220px; overflow: auto; padding: .5rem; border-radius: .5rem; box-shadow: 0 2px 8px rgba(0,0,0,.1); width: 260px; font-size: 13px; }
+      #download-btn { display: block; margin-top: .5rem; padding: .3rem .5rem; border: 1px solid #ccc; border-radius: .3rem; background: #f3f4f6; cursor: pointer; font-size: 13px; }
     </style>
   </head>
   <body>
     <div id="map"></div>
-
     <div class="topbar">Permalink to this view: <a id="permalink" href="#">(updating…)</a></div>
+    <div id="street-list"><strong>Uncovered Streets</strong><br/><em>Loading…</em></div>
 
-    <script
-      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-      crossorigin=""
-    ></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="https://unpkg.com/@turf/turf@6.5.0/turf.min.js"></script>
 
     <script>
-      const GEOJSON_URL = 'https://raw.githubusercontent.com/SuffolkLITLab/docassemble-MACourts/main/docassemble/MACourts/data/sources/boston_wards.geojson';
+      const WARDS_URL = 'https://raw.githubusercontent.com/SuffolkLITLab/docassemble-MACourts/main/docassemble/MACourts/data/sources/boston_wards.geojson';
+      const CITY_URL = 'https://raw.githubusercontent.com/SuffolkLITLab/docassemble-MACourts/main/data/docassemble/MACourts/data/sources/city_boundary.geojson';
+      const STREETS_URL = 'https://raw.githubusercontent.com/SuffolkLITLab/docassemble-MACourts/main/data/docassemble/MACourts/data/sources/streets.geojson';
 
       const map = L.map('map').setView([42.3601, -71.0589], 12);
-
-      // Use a lighter basemap style to reduce clutter
       const cartoLight = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
         subdomains: 'abcd',
         maxZoom: 20
       }).addTo(map);
+      const layerControl = L.control.layers({ "Carto Light": cartoLight }).addTo(map);
 
       function updateHash() {
         const c = map.getCenter();
         const z = map.getZoom();
         const hash = `#${z}/${c.lat.toFixed(5)}/${c.lng.toFixed(5)}`;
-        if (location.hash !== hash) {
-          history.replaceState(null, '', hash);
-        }
+        if (location.hash !== hash) history.replaceState(null, '', hash);
         document.getElementById('permalink').href = location.href;
         document.getElementById('permalink').textContent = location.href;
       }
       map.on('moveend', updateHash);
 
-      if (location.hash) {
-        const [z, lat, lng] = location.hash.replace('#', '').split('/').map(parseFloat);
-        if (!Number.isNaN(z) && !Number.isNaN(lat) && !Number.isNaN(lng)) {
-          map.setView([lat, lng], z);
-        }
-      }
-
-      const colorPalette = [
-        '#e11d48', '#2563eb', '#16a34a', '#f59e0b', '#7c3aed',
-        '#0d9488', '#9333ea', '#dc2626', '#0284c7', '#65a30d'
-      ];
+      const colorPalette = [ '#e11d48', '#2563eb', '#16a34a', '#f59e0b', '#7c3aed',
+        '#0d9488', '#9333ea', '#dc2626', '#0284c7', '#65a30d' ];
       const courthouseColors = {};
       let colorIndex = 0;
-
       function getCourthouseColor(courthouse) {
         if (!courthouse) return '#666';
         if (!courthouseColors[courthouse]) {
@@ -76,57 +62,78 @@
         return courthouseColors[courthouse];
       }
 
-      fetch(GEOJSON_URL, { cache: 'no-store' })
-        .then(r => {
-          if (!r.ok) throw new Error(`HTTP ${r.status} fetching GeoJSON`);
-          return r.json();
-        })
-        .then(data => {
-          const layer = L.geoJSON(data, {
-            style: feature => {
-              const courthouse = feature.properties?.courthouse;
-              return {
-                color: getCourthouseColor(courthouse),
-                weight: 2,
-                opacity: 0.8,
-                fillOpacity: 0.05 // lower fill to reduce busyness
-              };
-            },
-            onEachFeature: (feature, lyr) => {
-              if (feature && feature.properties) {
-                const entries = Object.entries(feature.properties)
-                  .map(([k,v]) => `<strong>${k}</strong>: ${String(v)}`)
-                  .join('<br/>');
-                if (entries) lyr.bindPopup(entries);
-              }
-            }
-          }).addTo(map);
+      let wardsGeojson;
+      let uncoveredStreetNames = [];
 
-          if (!location.hash) {
-            try {
-              map.fitBounds(layer.getBounds(), { padding: [20, 20] });
-            } catch (e) {
-              map.setView([42.3601, -71.0589], 12);
+      fetch(WARDS_URL).then(r => r.json()).then(data => {
+        wardsGeojson = data;
+        const wardLayer = L.geoJSON(data, {
+          style: f => ({
+            color: getCourthouseColor(f.properties?.courthouse),
+            weight: 2, opacity: 0.8, fillOpacity: 0.05
+          }),
+          onEachFeature: (f, lyr) => {
+            if (f.properties) {
+              const entries = Object.entries(f.properties)
+                .map(([k,v]) => `<strong>${k}</strong>: ${String(v)}`).join('<br/>');
+              if (entries) lyr.bindPopup(entries);
             }
           }
+        }).addTo(map);
+        layerControl.addOverlay(wardLayer, "Courthouse Wards");
+        updateHash();
+        loadCityBoundaryAndStreets();
+      });
 
-          updateHash();
+      function loadCityBoundaryAndStreets() {
+        Promise.all([
+          fetch(CITY_URL).then(r => r.json()),
+          fetch(STREETS_URL).then(r => r.json())
+        ]).then(([cityGeojson, streets]) => {
+          const cityLayer = L.geoJSON(cityGeojson, {
+            style: { color: "black", weight: 2, fillOpacity: 0 }
+          }).addTo(map);
+          layerControl.addOverlay(cityLayer, "Boston City Boundary");
 
-          const legend = L.control({ position: 'bottomright' });
-          legend.onAdd = function() {
-            const div = L.DomUtil.create('div', 'legend');
-            div.innerHTML = '<strong>Courthouse Colors</strong><br/>';
-            Object.entries(courthouseColors).forEach(([ch, color]) => {
-              div.innerHTML += `<span style="background:${color};width:12px;height:12px;display:inline-block;margin-right:4px;"></span>${ch}<br/>`;
-            });
-            return div;
-          };
-          legend.addTo(map);
-        })
-        .catch(err => {
+          const union = turf.union(...wardsGeojson.features);
+          const uncovered = turf.difference(cityGeojson.features[0], union);
+          const uncoveredLayer = L.geoJSON(uncovered, {
+            style: { color: "#444", weight: 1, fillColor: "#999", fillOpacity: 0.4 }
+          }).addTo(map);
+          layerControl.addOverlay(uncoveredLayer, "Uncovered Areas");
+
+          const uncoveredStreets = streets.features.filter(street =>
+            turf.booleanIntersects(street, uncovered)
+          );
+          uncoveredStreetNames = [...new Set(uncoveredStreets.map(f => f.properties.ST_NAME).filter(Boolean))].sort();
+
+          const listDiv = document.getElementById('street-list');
+          if (uncoveredStreetNames.length === 0) {
+            listDiv.innerHTML = '<strong>Uncovered Streets</strong><br/><em>None found!</em>';
+          } else {
+            listDiv.innerHTML = '<strong>Uncovered Streets</strong><br/>' +
+              uncoveredStreetNames.join('<br/>') +
+              '<button id="download-btn">Download CSV</button>';
+            document.getElementById('download-btn').onclick = downloadCSV;
+          }
+        }).catch(err => {
           console.error(err);
-          alert('Could not load the GeoJSON. Make sure the GEOJSON_URL points to a public RAW URL.');
+          alert('Could not load Boston boundary or streets data.');
         });
+      }
+
+      function downloadCSV() {
+        const header = "Street Name\\n";
+        const rows = uncoveredStreetNames.map(n => `"${n}"`).join("\\n");
+        const csv = header + rows;
+        const blob = new Blob([csv], { type: 'text/csv' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = "uncovered_streets.csv";
+        a.click();
+        URL.revokeObjectURL(url);
+      }
     </script>
   </body>
 </html>
