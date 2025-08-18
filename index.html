@@ -1,139 +1,340 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>GeoJSON Map Viewer</title>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      crossorigin=""
-    />
-    <style>
-      html, body, #map { height: 100%; margin: 0; }
-      .leaflet-container { font: 14px/1.4 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
-      .topbar { position: absolute; z-index: 1000; top: 10px; left: 50%; transform: translateX(-50%); background: rgba(255,255,255,.9); padding: .35rem .6rem; border-radius: .5rem; }
-      .topbar a { text-decoration: none; color: #1d4ed8; }
-      #street-list { position: absolute; bottom: 10px; left: 10px; z-index: 1000; background: white; max-height: 220px; overflow: auto; padding: .5rem; border-radius: .5rem; box-shadow: 0 2px 8px rgba(0,0,0,.1); width: 260px; font-size: 13px; }
-      #download-btn { display: block; margin-top: .5rem; padding: .3rem .5rem; border: 1px solid #ccc; border-radius: .3rem; background: #f3f4f6; cursor: pointer; font-size: 13px; }
-    </style>
-  </head>
-  <body>
-    <div id="map"></div>
-    <div class="topbar">Permalink to this view: <a id="permalink" href="#">(updating…)</a></div>
-    <div id="street-list"><strong>Uncovered Streets</strong><br/><em>Loading…</em></div>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Boston Courthouse Wards Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    #map { height: 80vh; }
+    .leaflet-container { font: 14px/1.4 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    #controls { margin: 8px 0; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+    #note { margin-top: 6px; color: #374151; font-size: 13px; }
+    #diagnostics { margin-top: 6px; font-size: 12px; color: #111827; background:#f9fafb; border:1px solid #e5e7eb; padding:8px; border-radius:6px;}
+    #street-panel {
+      background: white; border: 1px solid #ccc; margin-top: 5px; padding: 5px;
+      max-height: 250px; overflow-y: auto; display: none;
+    }
+    #toggle-streets { margin-top: 5px; }
+    label { user-select: none; }
+  </style>
+</head>
+<body>
+  <h3>Boston Courthouse Wards</h3>
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-    <script src="https://unpkg.com/@turf/turf@6.5.0/turf.min.js"></script>
+  <div id="controls">
+    <label><input type="checkbox" id="cleanup-toggle" /> Try geometry cleanup</label>
+    <button id="recompute-btn">Recompute Uncovered Area</button>
+    <label><input type="checkbox" id="show-clipped-toggle" /> Show clipped wards (debug)</label>
+    <label><input type="checkbox" id="show-union-toggle" /> Show union of wards (debug)</label>
+    <button id="toggle-streets">Show Uncovered Streets</button>
+  </div>
 
-    <script>
-      const WARDS_URL = 'https://raw.githubusercontent.com/SuffolkLITLab/docassemble-MACourts/main/docassemble/MACourts/data/sources/boston_wards.geojson';
-      const CITY_URL = 'https://raw.githubusercontent.com/SuffolkLITLab/docassemble-MACourts/main/data/docassemble/MACourts/data/sources/city_boundary.geojson';
-      const STREETS_URL = 'https://raw.githubusercontent.com/SuffolkLITLab/docassemble-MACourts/main/data/docassemble/MACourts/data/sources/streets.geojson';
+  <div id="map"></div>
 
-      const map = L.map('map').setView([42.3601, -71.0589], 12);
-      const cartoLight = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
-        subdomains: 'abcd',
-        maxZoom: 20
-      }).addTo(map);
-      const layerControl = L.control.layers({ "Carto Light": cartoLight }).addTo(map);
+  <div id="street-panel">
+    <div id="street-list"><strong>Uncovered Streets</strong><br/>Loading…</div>
+  </div>
 
-      function updateHash() {
-        const c = map.getCenter();
-        const z = map.getZoom();
-        const hash = `#${z}/${c.lat.toFixed(5)}/${c.lng.toFixed(5)}`;
-        if (location.hash !== hash) history.replaceState(null, '', hash);
-        document.getElementById('permalink').href = location.href;
-        document.getElementById('permalink').textContent = location.href;
+  <div id="note"></div>
+  <div id="diagnostics">—</div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
+
+  <script>
+    // Static data URLs (your repo)
+    const WARDS_URL   = 'https://raw.githubusercontent.com/SuffolkLITLab/docassemble-MACourts/main/docassemble/MACourts/data/sources/boston_wards.geojson';
+    const CITY_URL    = 'https://raw.githubusercontent.com/SuffolkLITLab/docassemble-MACourts/main/docassemble/MACourts/data/sources/city_boundary.geojson';
+    const STREETS_URL = 'https://raw.githubusercontent.com/SuffolkLITLab/docassemble-MACourts/main/docassemble/MACourts/data/sources/streets.geojson';
+
+    // Map
+    const map = L.map('map').setView([42.3601, -71.0589], 12);
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/">OSM</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
+      subdomains: 'abcd', maxZoom: 19
+    }).addTo(map);
+
+    const overlays = {};
+    const courthouseColors = {};
+    const palette = ['#e11d48','#2563eb','#16a34a','#f59e0b','#7c3aed','#0d9488','#9333ea','#dc2626','#0284c7','#65a30d'];
+    function colorFor(c) {
+      if (!courthouseColors[c]) {
+        courthouseColors[c] = palette[Object.keys(courthouseColors).length % palette.length];
       }
-      map.on('moveend', updateHash);
+      return courthouseColors[c];
+    }
 
-      const colorPalette = [ '#e11d48', '#2563eb', '#16a34a', '#f59e0b', '#7c3aed',
-        '#0d9488', '#9333ea', '#dc2626', '#0284c7', '#65a30d' ];
-      const courthouseColors = {};
-      let colorIndex = 0;
-      function getCourthouseColor(courthouse) {
-        if (!courthouse) return '#666';
-        if (!courthouseColors[courthouse]) {
-          courthouseColors[courthouse] = colorPalette[colorIndex % colorPalette.length];
-          colorIndex++;
-        }
-        return courthouseColors[courthouse];
+    let cityBoundary, wards, streets;
+    let wardLayer, cityLayer, uncoveredLayer, clippedLayer, unionLayer;
+    let uncoveredGeometry = null;
+
+    const $note = document.getElementById('note');
+    const $diag = document.getElementById('diagnostics');
+    const $cleanup = document.getElementById('cleanup-toggle');
+    const $recompute = document.getElementById('recompute-btn');
+    const $toggleStreets = document.getElementById('toggle-streets');
+    const $streetPanel = document.getElementById('street-panel');
+    const $showClipped = document.getElementById('show-clipped-toggle');
+    const $showUnion = document.getElementById('show-union-toggle');
+
+    // ---------- UI helpers ----------
+    function status(msg) { $note.textContent = msg; }
+    function yieldUI() { return new Promise(r => setTimeout(r, 0)); }
+    function km2(m2){ return (m2/1e6).toFixed(2); }
+
+    // ---------- Geometry helpers ----------
+    function isPoly(f){ const t=f?.geometry?.type; return t==='Polygon'||t==='MultiPolygon'; }
+    function truncate(f,p=6){ try{ return turf.truncate(f,{precision:p,coordinates:2}); }catch{ return f; } }
+    function rewindCCW(f){ try{ return turf.rewind(f,{reverse:true}); }catch{ return f; } }
+    function buffer0(f){ try{ return turf.buffer(f,0,{units:'meters'}); }catch{ return f; } }
+    function cleanBasic(f){ return buffer0(truncate(rewindCCW(f),6)); }
+    function cleanStrong(f){ return buffer0(truncate(rewindCCW(f),6)); }
+
+    function tryIntersect(a,b, strong=false){
+      try { return turf.intersect(strong?cleanStrong(a):cleanBasic(a), strong?cleanStrong(b):cleanBasic(b)); }
+      catch { return null; }
+    }
+    function tryUnion(a,b,strong=false){
+      const A = strong?cleanStrong(a):cleanBasic(a);
+      const B = strong?cleanStrong(b):cleanBasic(b);
+      try { return turf.union(A,B); } catch { return null; }
+    }
+
+    async function robustClipWardsToCity(cityFeat, wardFeats, strong=false) {
+      status('Step 1/4: Clipping wards to city boundary…');
+      await yieldUI();
+      const inside = [];
+      for (const w of wardFeats) {
+        if (!isPoly(w)) continue;
+        const c = tryIntersect(cityFeat, w, strong);
+        if (c) inside.push(c);
       }
+      return inside;
+    }
 
-      let wardsGeojson;
-      let uncoveredStreetNames = [];
+    async function robustUnion(features, strong=false) {
+      status('Step 2/4: Unioning ward polygons…');
+      await yieldUI();
+      if (features.length === 0) return null;
+      let acc = features[0];
+      for (let i=1; i<features.length; i++) {
+        const u = tryUnion(acc, features[i], strong);
+        if (u) acc = u; // skip bad ones
+      }
+      return acc;
+    }
 
-      fetch(WARDS_URL).then(r => r.json()).then(data => {
-        wardsGeojson = data;
-        const wardLayer = L.geoJSON(data, {
-          style: f => ({
-            color: getCourthouseColor(f.properties?.courthouse),
-            weight: 2, opacity: 0.8, fillOpacity: 0.05
-          }),
-          onEachFeature: (f, lyr) => {
-            if (f.properties) {
-              const entries = Object.entries(f.properties)
-                .map(([k,v]) => `<strong>${k}</strong>: ${String(v)}`).join('<br/>');
-              if (entries) lyr.bindPopup(entries);
-            }
-          }
-        }).addTo(map);
-        layerControl.addOverlay(wardLayer, "Courthouse Wards");
-        updateHash();
-        loadCityBoundaryAndStreets();
+    async function computeUncovered(cityFeat, wardFeats, strong=false) {
+      const cityClean = strong ? cleanStrong(cityFeat) : cleanBasic(cityFeat);
+      const clipped = await robustClipWardsToCity(cityClean, wardFeats, strong);
+
+      // Debug layer for clipped wards
+      if (clippedLayer) { map.removeLayer(clippedLayer); clippedLayer = null; }
+      clippedLayer = L.geoJSON({type:'FeatureCollection', features: clipped}, {
+        style: { color: '#14b8a6', weight: 2, fillOpacity: 0.05 }
       });
+      if ($showClipped.checked) clippedLayer.addTo(map);
 
-      function loadCityBoundaryAndStreets() {
-        Promise.all([
-          fetch(CITY_URL).then(r => r.json()),
-          fetch(STREETS_URL).then(r => r.json())
-        ]).then(([cityGeojson, streets]) => {
-          const cityLayer = L.geoJSON(cityGeojson, {
-            style: { color: "black", weight: 2, fillOpacity: 0 }
-          }).addTo(map);
-          layerControl.addOverlay(cityLayer, "Boston City Boundary");
+      const unioned = await robustUnion(clipped, strong);
 
-          const union = turf.union(...wardsGeojson.features);
-          const uncovered = turf.difference(cityGeojson.features[0], union);
-          const uncoveredLayer = L.geoJSON(uncovered, {
-            style: { color: "#444", weight: 1, fillColor: "#999", fillOpacity: 0.4 }
-          }).addTo(map);
-          layerControl.addOverlay(uncoveredLayer, "Uncovered Areas");
+      // Debug layer for union
+      if (unionLayer) { map.removeLayer(unionLayer); unionLayer = null; }
+      if (unioned) {
+        unionLayer = L.geoJSON(unioned, { style: { color: '#7c3aed', weight: 2, fillOpacity: 0.05 } });
+        if ($showUnion.checked) unionLayer.addTo(map);
+      }
 
-          const uncoveredStreets = streets.features.filter(street =>
-            turf.booleanIntersects(street, uncovered)
-          );
-          uncoveredStreetNames = [...new Set(uncoveredStreets.map(f => f.properties.ST_NAME).filter(Boolean))].sort();
+      status('Step 3/4: Subtracting union from city…');
+      await yieldUI();
+      if (!unioned) return cityClean; // no wards inside city; everything uncovered
+      try { return turf.difference(cityClean, unioned); }
+      catch { return cityClean; } // fall back — area sanity check later
+    }
 
-          const listDiv = document.getElementById('street-list');
+    // ---------- Streets (batched) ----------
+    let streetsProcessedForCurrent = false;
+    let uncoveredStreetNames = [];
+
+    function processStreetsInBatches(streetsFC, uncovered, batchSize=200) {
+      const listDiv = document.getElementById('street-list');
+      if (!uncovered) {
+        listDiv.innerHTML = '<strong>Uncovered Streets</strong><br/><em>None found!</em>';
+        streetsProcessedForCurrent = true;
+        return;
+      }
+      let idx = 0; uncoveredStreetNames = [];
+      const total = streetsFC.features.length;
+      listDiv.innerHTML = '<strong>Uncovered Streets</strong><br/>Processing… 0%';
+      function loop(){
+        const end = Math.min(idx + batchSize, total);
+        for (; idx < end; idx++) {
+          const s = streetsFC.features[idx];
+          try {
+            if (turf.booleanIntersects(s, uncovered)) {
+              const name = s.properties?.ST_NAME || s.properties?.name;
+              if (name) uncoveredStreetNames.push(name);
+            }
+          } catch {}
+        }
+        if (idx < total) {
+          const pct = Math.round((idx/total)*100);
+          listDiv.innerHTML = `<strong>Uncovered Streets</strong><br/>Processing… ${pct}%`;
+          setTimeout(loop,0);
+        } else {
+          uncoveredStreetNames = [...new Set(uncoveredStreetNames)].sort();
           if (uncoveredStreetNames.length === 0) {
             listDiv.innerHTML = '<strong>Uncovered Streets</strong><br/><em>None found!</em>';
           } else {
-            listDiv.innerHTML = '<strong>Uncovered Streets</strong><br/>' +
+            listDiv.innerHTML =
+              '<strong>Uncovered Streets</strong><br/>' +
               uncoveredStreetNames.join('<br/>') +
-              '<button id="download-btn">Download CSV</button>';
-            document.getElementById('download-btn').onclick = downloadCSV;
+              '<br/><button id="download-btn">Download CSV</button>';
+            document.getElementById('download-btn').onclick = () => {
+              const header = "Street Name\n";
+              const rows = uncoveredStreetNames.map(n => `"${n}"`).join("\n");
+              const blob = new Blob([header + rows], { type: 'text/csv' });
+              const url = URL.createObjectURL(blob);
+              const a = document.createElement('a');
+              a.href = url; a.download = "uncovered_streets.csv"; a.click();
+              URL.revokeObjectURL(url);
+            };
           }
-        }).catch(err => {
-          console.error(err);
-          alert('Could not load Boston boundary or streets data.');
-        });
+          streetsProcessedForCurrent = true;
+        }
+      }
+      loop();
+    }
+
+    // ---------- UI actions ----------
+    $toggleStreets.addEventListener('click', () => {
+      if ($streetPanel.style.display === 'none') {
+        $streetPanel.style.display = 'block';
+        $toggleStreets.innerText = 'Hide Uncovered Streets';
+        if (!streetsProcessedForCurrent && streets) {
+          processStreetsInBatches(streets, uncoveredGeometry);
+        }
+      } else {
+        $streetPanel.style.display = 'none';
+        $toggleStreets.innerText = 'Show Uncovered Streets';
+      }
+    });
+
+    $recompute.addEventListener('click', async () => {
+      await renderUncovered($cleanup.checked);
+    });
+
+    $showClipped.addEventListener('change', () => {
+      if (!clippedLayer) return;
+      if ($showClipped.checked) clippedLayer.addTo(map); else map.removeLayer(clippedLayer);
+    });
+
+    $showUnion.addEventListener('change', () => {
+      if (!unionLayer) return;
+      if ($showUnion.checked) unionLayer.addTo(map); else map.removeLayer(unionLayer);
+    });
+
+    // ---------- Render ----------
+    function drawStaticLayers() {
+      if (wardLayer) map.removeLayer(wardLayer);
+      wardLayer = L.geoJSON(wards, {
+        style: f => ({
+          color: colorFor(f.properties?.courthouse),
+          weight: 2, opacity: 0.8, fillOpacity: 0.15
+        }),
+        onEachFeature: (f, layer) => {
+          const p = f.properties || {};
+          layer.bindPopup(`Ward: ${p.ward ?? p.WARD ?? ''}<br/>Courthouse: ${p.courthouse ?? p.COURTHOUSE ?? ''}`);
+        }
+      }).addTo(map);
+      overlays["Courthouse Wards"] = wardLayer;
+
+      if (cityLayer) map.removeLayer(cityLayer);
+      cityLayer = L.geoJSON(cityBoundary, { style: { color: "black", weight: 2, fillOpacity: 0 } }).addTo(map);
+      overlays["Boston Boundary"] = cityLayer;
+
+      if (!document.querySelector('.leaflet-control-layers')) {
+        L.control.layers(null, overlays).addTo(map);
+      }
+    }
+
+    async function renderUncovered(strong=false) {
+      status(strong ? 'Recomputing (with cleanup)…' : 'Recomputing…');
+      if (uncoveredLayer) { map.removeLayer(uncoveredLayer); uncoveredLayer = null; }
+      if (clippedLayer) { map.removeLayer(clippedLayer); }
+      if (unionLayer) { map.removeLayer(unionLayer); }
+      clippedLayer = unionLayer = null;
+      streetsProcessedForCurrent = false;
+
+      const cityFeat = cityBoundary?.features?.[0];
+      if (!cityFeat) { status('City boundary missing.'); return; }
+
+      const unc = await computeUncovered(cityFeat, wards.features || [], strong);
+      status('Step 4/4: Rendering…');
+      await yieldUI();
+
+      // Diagnostics
+      try {
+        const areaCity = turf.area(cityFeat);
+        const areaUnion = unionLayer ? turf.area(unionLayer.toGeoJSON()) : 0;
+        const areaUnc  = unc ? turf.area(unc) : 0;
+        const clippedCount = clippedLayer ? clippedLayer.toGeoJSON().features.length : 0;
+        $diag.innerHTML = `
+          <strong>Diagnostics</strong><br/>
+          Wards: ${wards.features?.length ?? 0}, Clipped inside city: ${clippedCount}<br/>
+          City area: ${km2(areaCity)} km²<br/>
+          Union(wards) area: ${km2(areaUnion)} km²<br/>
+          Uncovered area: ${km2(areaUnc)} km²
+        `;
+      } catch { $diag.textContent = 'Diagnostics unavailable.'; }
+
+      if (unc) {
+        // sanity: if uncovered ≈ city, treat as failure
+        let failed = false;
+        try {
+          const aCity = turf.area(cityFeat);
+          const aUnc  = turf.area(unc);
+          if (aCity > 0 && aUnc / aCity >= 0.98) failed = true;
+        } catch {}
+        if (failed) {
+          uncoveredGeometry = null;
+          status(strong
+            ? 'Still could not subtract wards from the city (even with cleanup). Inspect the debug layers: are clipped wards empty or union tiny?'
+            : 'Could not subtract wards cleanly. Try enabling “Try geometry cleanup” then press Recompute. Also toggle the debug layers.');
+          return;
+        }
+
+        uncoveredGeometry = unc;
+        uncoveredLayer = L.geoJSON(uncoveredGeometry, { style: { color: "red", weight: 2, fillOpacity: 0.1 } }).addTo(map);
+        overlays["Uncovered Areas"] = uncoveredLayer;
+        try { map.fitBounds(uncoveredLayer.getBounds(), { padding:[20,20] }); } catch {}
+        status('Done.');
+      } else {
+        uncoveredGeometry = null;
+        status('Great: wards fully cover the city (no uncovered area).');
       }
 
-      function downloadCSV() {
-        const header = "Street Name\\n";
-        const rows = uncoveredStreetNames.map(n => `"${n}"`).join("\\n");
-        const csv = header + rows;
-        const blob = new Blob([csv], { type: 'text/csv' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = "uncovered_streets.csv";
-        a.click();
-        URL.revokeObjectURL(url);
+      // If street panel open, kick off batched processing now
+      if ($streetPanel.style.display !== 'none' && streets) {
+        processStreetsInBatches(streets, uncoveredGeometry);
       }
-    </script>
-  </body>
+    }
+
+    // ---------- Load data ----------
+    Promise.all([
+      fetch(CITY_URL).then(r => r.json()),
+      fetch(STREETS_URL).then(r => r.json()),
+      fetch(WARDS_URL).then(r => r.json())
+    ])
+    .then(async ([cityFC, streetsFC, wardsFC]) => {
+      cityBoundary = cityFC; streets = streetsFC; wards = wardsFC;
+      drawStaticLayers();
+      await renderUncovered(false); // initial
+    })
+    .catch(err => {
+      alert("Could not load Boston boundary or streets data: " + err);
+      console.error(err);
+    });
+  </script>
+</body>
 </html>
