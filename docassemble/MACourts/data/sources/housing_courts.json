@@ -196,7 +196,9 @@
     ],
     "description": "The Metro South Housing Court - Brockton Session serves Abington, Avon, Bellingham, Braintree, Bridgewater, Brockton, Canton, Cohasset, Dedham, Dover, East Bridgewater, Eastham, Foxborough, Franklin, Holbrook, Medfield, Medway, Millis, Milton, Needham, Norfolk, Norwood, Plainville, Quincy, Randolph, Sharon, Stoughton, Walpole, Wellesley, West Bridgewater, Westwood, Weymouth, Whitman, and Wrentham.",
     "court_code": "H82",
-    "tyler_code": "1265"
+    "tyler_code": "1265",
+    "tyler_lower_court_code": "1829",
+    "tyler_prod_lower_court_code": "7058"
   },
   {
     "fax": "(508) 894-4166",
@@ -224,7 +226,9 @@
     ],
     "description": "This court serves all cities and towns in Norfolk County. Filings only permitted at this location on days court is in session (currently Fridays).",
     "court_code": "H82",
-    "tyler_code": "1265"
+    "tyler_code": "1265",
+    "tyler_lower_court_code": "1829",
+    "tyler_prod_lower_court_code": "7058"
   },
   {
     "fax": "",
