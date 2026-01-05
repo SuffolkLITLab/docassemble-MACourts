@@ -12,9 +12,9 @@ class TestCourtFinder(unittest.TestCase):
       data_path = data_path=Path(__file__).resolve().parent.joinpath('../data/sources')
       self.all_courts = MACourtList(data_path=data_path)
       self.all_courts.load_courts(
-          ['housing_courts','bmc','district_courts','superior_courts','land_court','juvenile_courts','probate_and_family_courts','appeals_court'],
+          ['housing_courts','bmc','district_courts','superior_courts','land_court','juvenile_courts','probate_and_family_courts','appeals_court', 'supreme_judicial_court'],
       )
-      self.court_types = ["District Court", "Boston Municipal Court","Housing Court","Superior Court", "Probate and Family Court","Juvenile Court","Land Court"]
+      self.court_types = ["District Court", "Boston Municipal Court","Housing Court","Superior Court", "Probate and Family Court","Juvenile Court","Land Court", "Supreme Judicial Court", "Appeals Court"]
 
     def test_search_in_bristol(self):
         address = Address(address="91 Highland Road", city="Swansea", state="Massachusetts", county="Bristol County", zip="02777")
@@ -43,6 +43,12 @@ class TestCourtFinder(unittest.TestCase):
         self.assertIn("Suffolk Probate and Family Court", court_strings)
         self.assertIn("Boston Juvenile Court", court_strings)
         self.assertIn("Land Court", court_strings)
+
+    def test_find_sjc(self):
+        address = Address(address="123 Main St", city="Anywhere", state="Massachusetts", zip="00000")
+        court_list = self.all_courts.matching_courts(address, court_types=["Supreme Judicial Court"])
+        self.assertEqual(len(court_list), 1)
+        self.assertEqual(court_list[0].name, "Supreme Judicial Court")
 
     def test_random_points(self):
         # previously generated 65 random points that were within the state, and turned those into these addresses
