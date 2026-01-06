@@ -7,16 +7,17 @@
     "phone": "(617) 557-1000",
     "has_po_box": false,
     "location": {
-      "latitude": 42.358930,
-      "longitude": -71.061340
+      "latitude": 42.35893,
+      "longitude": -71.06134
     },
     "address": {
       "city": "Boston",
       "zip": "02108",
-      "orig_address": "1 Pemberton Square, Suite 2500, Boston, MA 02108",
+      "orig_address": "John Adams Courthouse, 1 Pemberton Square, Suite 2500, Boston, MA 02108",
       "county": "Suffolk County",
       "state": "MA",
-      "address": "1 Pemberton Square"
+      "address": "1 Pemberton Square",
+      "unit": "Suite 2500"
     },
     "description": "The Massachusetts Supreme Judicial Court is the Commonwealth's highest appellate court. The seven Justices hear appeals on a broad range of criminal and civil cases."
   }

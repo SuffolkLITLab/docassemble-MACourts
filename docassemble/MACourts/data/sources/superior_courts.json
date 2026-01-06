@@ -19,10 +19,10 @@
       "state": "MA",
       "address": "3195 Main St., P.O. Box 425"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Christine Higginbotham",   
-        "phone": "(508) 375-6683",  
+        "name": "Christine Higginbotham",
+        "phone": "(508) 375-6683",
         "email": "christine.higginbotham@jud.state.ma.us"
       }
     ],
@@ -48,11 +48,11 @@
       "state": "MA",
       "address": "76 East St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Michele Dillon",  
-        "phone": "(413) 499-7487 x7404", 
-        "email": "michele.dillon@jud.state.ma.us" 
+        "name": "Michele Dillon",
+        "phone": "(413) 499-7487 x7404",
+        "email": "michele.dillon@jud.state.ma.us"
       }
     ],
     "description": "This court serves all cities and towns of Berkshire County.\r\n\r\n"
@@ -77,10 +77,10 @@
       "state": "MA",
       "address": "9 Court St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Aaron Strojny",   
-        "phone": "508-823-6588", 
+        "name": "Aaron Strojny",
+        "phone": "508-823-6588",
         "email": "Aaron.strojny@jud.state.ma.us"
       }
     ],
@@ -93,7 +93,6 @@
     "tyler_prod_lower_court_code": "7101",
     "url": "https://www.mass.gov/locations/bristol-county-superior-court-fall-river",
     "name": "Bristol County Superior Court",
-    "url": "https://www.mass.gov/locations/bristol-county-superior-court-fall-river",
     "phone": "(508) 491-3300",
     "has_po_box": false,
     "location": {
@@ -108,10 +107,10 @@
       "state": "MA",
       "address": "186 S. Main St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Jennifer Sullivan", 
-        "phone": "508-491-3300",  
+        "name": "Jennifer Sullivan",
+        "phone": "508-491-3300",
         "email": "jennifer.sullivan@jud.state.ma.us"
       }
     ],
@@ -124,7 +123,6 @@
     "tyler_prod_lower_court_code": "7101",
     "url": "https://www.mass.gov/locations/bristol-county-superior-court-new-bedford",
     "name": "Bristol County Superior Court",
-    "url": "https://www.mass.gov/locations/bristol-county-superior-court-new-bedford",
     "phone": "(508) 996-2051",
     "has_po_box": false,
     "location": {
@@ -140,11 +138,11 @@
       "address": "441 County St.",
       "unit": "1st Floor"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Jennifer Sullivan", 
-        "phone": "508-491-3300", 
-        "email": "jennifer.sullivan@jud.state.ma.us" 
+        "name": "Jennifer Sullivan",
+        "phone": "508-491-3300",
+        "email": "jennifer.sullivan@jud.state.ma.us"
       }
     ],
     "description": "The Bristol County Superior Court in New Bedford serves the cities and towns of Bristol County. This location handles  only civil matters."
@@ -169,11 +167,11 @@
       "state": "MA",
       "address": "81 Main St., P.O. Box 1267"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Deanna L. Ruiz",  
-        "phone": "508-627-4668", 
-        "email": "deanna.ruiz@jud.state.ma.us" 
+        "name": "Deanna L. Ruiz",
+        "phone": "508-627-4668",
+        "email": "deanna.ruiz@jud.state.ma.us"
       }
     ],
     "description": "This court serves all the towns of Dukes County."
@@ -198,20 +196,20 @@
       "state": "MA",
       "address": "56 Federal St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Rebecca Matuza", 
-        "phone": "978-825-4813", 
-        "email": "rebecca.matuza@jud.state.ma.us" 
+        "name": "Rebecca Matuza",
+        "phone": "978-825-4813",
+        "email": "rebecca.matuza@jud.state.ma.us"
       },
       {
-        "name": "Maria Dres", 
-        "phone": "978-825-4823", 
+        "name": "Maria Dres",
+        "phone": "978-825-4823",
         "email": "maria.dres@jud.state.ma.us"
       },
       {
-        "name": "Lisa Gomes", 
-        "phone": "978-825-4830", 
+        "name": "Lisa Gomes",
+        "phone": "978-825-4830",
         "email": "lisa.gomes@jud.state.ma.us"
       }
     ],
@@ -224,7 +222,6 @@
     "tyler_prod_lower_court_code": "7103",
     "url": "https://www.mass.gov/locations/essex-county-superior-court-lawrence",
     "name": "Essex County Superior Court",
-    "url": "https://www.mass.gov/locations/essex-county-superior-court-lawrence",
     "phone": "(978) 242-1900",
     "has_po_box": false,
     "location": {
@@ -239,10 +236,10 @@
       "state": "MA",
       "address": "43 Appleton Way"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Stefano J. Cornelio, Esq.", 
-        "phone": "978-242-1901", 
+        "name": "Stefano J. Cornelio, Esq.",
+        "phone": "978-242-1901",
         "email": "stefano.cornelio@jud.state.ma.us"
       }
     ],
@@ -255,7 +252,6 @@
     "tyler_prod_lower_court_code": "7103",
     "url": "https://www.mass.gov/locations/essex-county-superior-court-newburyport",
     "name": "Essex County Superior Court",
-    "url": "https://www.mass.gov/locations/essex-county-superior-court-newburyport",
     "phone": "(978) 462-4474",
     "has_po_box": false,
     "location": {
@@ -270,11 +266,11 @@
       "state": "MA",
       "address": "145 High St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Dawn Mansfield", 
-        "phone": "(978) 462-4474",  
-        "email": "dawn.mansfield@jud.state.ma.us" 
+        "name": "Dawn Mansfield",
+        "phone": "(978) 462-4474",
+        "email": "dawn.mansfield@jud.state.ma.us"
       }
     ],
     "description": "This court serves all cities and towns of Essex County."
@@ -299,14 +295,14 @@
       "state": "MA",
       "address": "43 Hope St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Brittney Smith",   
+        "name": "Brittney Smith",
         "email": "brittney.smith@jud.state.ma.us"
       },
       {
-        "name": "Susan Emond", 
-        "phone": "413-775-7401", 
+        "name": "Susan Emond",
+        "phone": "413-775-7401",
         "email": "susan.emond@jud.state.ma.us"
       }
     ],
@@ -332,10 +328,10 @@
       "state": "MA",
       "address": "50 State St., P.O. Box 559"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Sheree Cope", 
-        "phone": "413-748-7650", 
+        "name": "Sheree Cope",
+        "phone": "413-748-7650",
         "email": "sheree.cope@jud.state.ma.us"
       }
     ],
@@ -361,15 +357,15 @@
       "state": "MA",
       "address": "15 Gothic St., P.O. Box 1119"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Kelley Devine",  
-        "phone": "413-584-5810 x287",  
+        "name": "Kelley Devine",
+        "phone": "413-584-5810 x287",
         "email": "kelley.devine@jud.state.ma.us"
       },
       {
-        "name": "Patricia Shepard", 
-        "phone": "413-584-5810, ext 289", 
+        "name": "Patricia Shepard",
+        "phone": "413-584-5810, ext 289",
         "email": "patricia.shepard@jud.state.ma.us"
       }
     ],
@@ -384,23 +380,23 @@
     "phone": "(781) 939-2700",
     "has_po_box": false,
     "location": {
-      "latitude": 42.499978,
-      "longitude": -71.163233
+      "latitude": 42.500623,
+      "longitude": -71.163788
     },
     "address": {
       "city": "Woburn",
       "zip": "01801",
-      "orig_address": "200 Trade Center, 2nd Floor, Woburn, MA 01801",
+      "orig_address": "200 Tradecenter Drive, 2nd Floor, Woburn, MA 01801",
       "county": "Middlesex County",
       "state": "MA",
-      "address": "200 Trade Center",
+      "address": "200 Tradecenter Drive",
       "unit": "2nd Floor"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Matt Day", 
-        "phone": "781-939-2700 x2802", 
-        "email": "matthew.day@jud.state.ma.us" 
+        "name": "Matt Day",
+        "phone": "781-939-2700 x2802",
+        "email": "matthew.day@jud.state.ma.us"
       }
     ],
     "description": "This court serves all cities and towns of Middlesex County."
@@ -412,7 +408,6 @@
     "tyler_prod_lower_court_code": "7106",
     "url": "https://www.mass.gov/locations/middlesex-county-superior-court-lowell",
     "name": "Middlesex County Superior Court",
-    "url": "https://www.mass.gov/locations/middlesex-county-superior-court-lowell",
     "phone": "(978) 656-7800",
     "has_po_box": false,
     "location": {
@@ -427,10 +422,10 @@
       "state": "MA",
       "address": "370 Jackson St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Matt Day",    
-        "phone": "781-939-2700 x2802", 
+        "name": "Matt Day",
+        "phone": "781-939-2700 x2802",
         "email": "matthew.day@jud.state.ma.us"
       }
     ],
@@ -456,11 +451,11 @@
       "state": "MA",
       "address": "16 Broad St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Susan Beamish",  
-        "phone": "508-228-2669",  
-        "email": "susan.beamish@jud.state.ma.us" 
+        "name": "Susan Beamish",
+        "phone": "508-228-2669",
+        "email": "susan.beamish@jud.state.ma.us"
       }
     ],
     "description": "This court serves all cities and towns in Nantucket County."
@@ -485,11 +480,11 @@
       "state": "MA",
       "address": "650 High Street"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Mary Hickey",   
-        "phone": "(781) 326-1600 x354",  
-        "email": "mary.hickey@jud.state.ma.us" 
+        "name": "Mary Hickey",
+        "phone": "(781) 326-1600 x354",
+        "email": "mary.hickey@jud.state.ma.us"
       }
     ],
     "description": "This court serves all cities and towns in Norfolk County."
@@ -515,11 +510,11 @@
       "state": "MA",
       "address": "52 Obery St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Ulisses Varela", 
-        "phone": "(508) 747-8566",   
-        "email": "ulisses.varela@jud.state.ma.us" 
+        "name": "Ulisses Varela",
+        "phone": "(508) 747-8566",
+        "email": "ulisses.varela@jud.state.ma.us"
       }
     ],
     "description": "This court serves all cities and towns in Plymouth County. Criminal sessions are held in Brockton."
@@ -545,10 +540,10 @@
       "state": "MA",
       "address": "72 Belmont St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Ulisses Varela",    
-        "phone": "(508) 747-8566",  
+        "name": "Ulisses Varela",
+        "phone": "(508) 747-8566",
         "email": "ulisses.varela@jud.state.ma.us"
       }
     ],
@@ -574,20 +569,20 @@
       "state": "MA",
       "address": "3 Pemberton Square"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Margaret Buckley", 
-        "phone": "(617) 788-8110",  
-        "email": "margaret.buckley@jud.state.ma.us" 
+        "name": "Margaret Buckley",
+        "phone": "(617) 788-8110",
+        "email": "margaret.buckley@jud.state.ma.us"
       },
       {
-        "name": "Paul Kenneally", 
-        "phone": "(617) 788-8172", 
+        "name": "Paul Kenneally",
+        "phone": "(617) 788-8172",
         "email": "paul.kenneally@jud.state.ma.us"
       },
       {
-        "name": "Abigail Bryan", 
-        "phone": "(617) 788-7769", 
+        "name": "Abigail Bryan",
+        "phone": "(617) 788-7769",
         "email": "abigail.bryan@jud.state.ma.us"
       }
     ],
@@ -613,10 +608,10 @@
       "state": "MA",
       "address": "225 Main St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Amanda Karalus",   
-        "phone": "508-831-2347", 
+        "name": "Amanda Karalus",
+        "phone": "508-831-2347",
         "email": "amanda.calocci@jud.state.ma.us"
       }
     ],

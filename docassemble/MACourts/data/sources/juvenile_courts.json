@@ -19,15 +19,15 @@
       "state": "MA",
       "address": "88 North Main St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Simone DeSousa", 
-        "phone": "508-222-5350 x348", 
-        "email": "simone.desousa@jud.state.ma.us" 
-      }, 
+        "name": "Simone DeSousa",
+        "phone": "508-222-5350 x348",
+        "email": "simone.desousa@jud.state.ma.us"
+      },
       {
-        "name": "Ann Pacheco", 
-        "phone": "508-676-0090 x116", 
+        "name": "Ann Pacheco",
+        "phone": "508-676-0090 x116",
         "email": "ann.pacheco@jud.state.ma.us"
       }
     ],
@@ -54,11 +54,11 @@
       "state": "MA",
       "address": "3195 Main Street, P.O. Box 427"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Aldonna Lamarche", 
-        "phone": "508-362-1389 x228",  
-        "email": "aldonna.lamarche@jud.state.ma.us" 
+        "name": "Aldonna Lamarche",
+        "phone": "508-362-1389 x228",
+        "email": "aldonna.lamarche@jud.state.ma.us"
       }
     ],
     "description": "The Barnstable County, town of Plymouth Division of the Juvenile Court in Barnstable serves Barnstable, Sandwich, Yarmouth."
@@ -83,11 +83,11 @@
       "state": "MA",
       "address": "205 State St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Carrie Mayer", 
-        "phone": "413-775-0014", 
-        "email": "carrie.mayer@jud.state.ma.us" 
+        "name": "Carrie Mayer",
+        "phone": "413-775-0014",
+        "email": "carrie.mayer@jud.state.ma.us"
       }
     ],
     "description": "The Franklin-Hampshire Counties Juvenile Court in Belchertown serves Belchertown, Granby and Ware."
@@ -114,10 +114,10 @@
       "state": "MA",
       "address": "24 New Chardon St., P.O. Box 9663"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Diane McDermott", 
-        "phone": "617-788-8525", 
+        "name": "Diane McDermott",
+        "phone": "617-788-8525",
         "email": "diane.mcdermott@jud.state.ma.us"
       }
     ],
@@ -143,10 +143,10 @@
       "state": "MA",
       "address": "215 Main St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Carolyn Gomes", 
-        "phone": "508-897-4929", 
+        "name": "Carolyn Gomes",
+        "phone": "508-897-4929",
         "email": "carolyn.gomes@jud.state.ma.us"
       }
     ],
@@ -172,21 +172,21 @@
       "state": "MA",
       "address": "121 Third St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Jean Ward", 
-        "phone": "978-441-3151 x3", 
-        "email": "jean.ward@jud.state.ma.us" 
+        "name": "Jean Ward",
+        "phone": "978-441-3151 x3",
+        "email": "jean.ward@jud.state.ma.us"
       },
       {
-        "name": "Lissette Rivera", 
-        "phone": "617-494-4110 x226", 
+        "name": "Lissette Rivera",
+        "phone": "617-494-4110 x226",
         "email": "lissette.rivera@jud.state.ma.us"
       },
       {
-        "name": "Judith Evers", 
-        "phone": "617-494-4110 x258", 
-        "email": "judith.evers@jud.state.ma.us" 
+        "name": "Judith Evers",
+        "phone": "617-494-4110 x258",
+        "email": "judith.evers@jud.state.ma.us"
       }
     ],
     "description": "The Middlesex County Juvenile Court in Cambridge serves Arlington, Belmont, Cambridge, Everett, Malden, Medford, Melrose, Somerville, and Wakefield."
@@ -211,10 +211,10 @@
       "state": "MA",
       "address": "120 Broadway"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Colleen Moran", 
-        "phone": "617-660-9357", 
+        "name": "Colleen Moran",
+        "phone": "617-660-9357",
         "email": "colleen.moran@jud.state.ma.us"
       }
     ],
@@ -240,16 +240,16 @@
       "state": "MA",
       "address": "55 Allied Drive"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Charlene Ali", 
-        "phone": "781-329-1500", 
+        "name": "Charlene Ali",
+        "phone": "781-329-1500",
         "email": "charlene.ali@jud.state.ma.us"
       },
       {
-        "name": "Joan Miller", 
-        "phone": "617-376-7505", 
-        "email": "joan.miller@jud.state.ma.us" 
+        "name": "Joan Miller",
+        "phone": "617-376-7505",
+        "email": "joan.miller@jud.state.ma.us"
       }
     ],
     "description": "The Norfolk County Juvenile Court in Dedham serves Avon, Canton, Dedham, Dover, Foxborough, Franklin, Medfield, Medway, Millis, Needham, Norfolk, Norwood, Plainville, Sharon, Stoughton, Walpole, Wellesley, Westwood, and Wrentham."
@@ -274,16 +274,16 @@
       "state": "MA",
       "address": "510 Washington St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Kim MacDonald", 
-        "phone": "617-288-9500 x225", 
+        "name": "Kim MacDonald",
+        "phone": "617-288-9500 x225",
         "email": "kimberly.macdonald@jud.state.ma.us"
       },
       {
-        "name": "Leslie Martinez", 
-        "phone": "617-288-9500 x200", 
-        "email": "leslie.martinez@jud.state.ma.us" 
+        "name": "Leslie Martinez",
+        "phone": "617-288-9500 x200",
+        "email": "leslie.martinez@jud.state.ma.us"
       }
     ],
     "description": "This court is formally called the Suffolk County Juvenile Court - Dorchester. Delinquency, harassment and criminal cases for the area covered by the Boston Police's Dorchester Division. All care and protections, child requiring assistance and jury trials are heard in the Boston session.  Substance abuse and mental Illness cases are heard in all sites within the Suffolk County Juvenile Court."
@@ -297,21 +297,21 @@
     "phone": "(508) 949-3070",
     "has_po_box": false,
     "location": {
-      "latitude": 42.044564,
-      "longitude": -71.899681
+      "latitude": 42.034261,
+      "longitude": -71.92352
     },
     "address": {
       "city": "Dudley",
       "zip": "01571",
-      "orig_address": "100 West Main Street, Dudley, MA 01571",
+      "orig_address": "279 West Main Street, Dudley, MA 01571",
       "county": "Worcester County",
       "state": "MA",
-      "address": "100 West Main Street"
+      "address": "279 West Main Street"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Will George", 
-        "phone": "508-943-7123", 
+        "name": "Will George",
+        "phone": "508-943-7123",
         "email": "william.george@jud.state.ma.us"
       }
     ],
@@ -325,17 +325,16 @@
     "tyler_lower_court_code": "1833",
     "tyler_prod_lower_court_code": "7062",
     "name": "Edgartown Juvenile Court",
-    "url": "https://www.mass.gov/locations/edgartown-juvenile-court",
     "phone": "(508) 627-8983",
     "has_po_box": true,
     "location": {
-      "latitude": 41.394404,
-      "longitude": -70.530817
+      "latitude": 41.394771,
+      "longitude": -70.530632
     },
     "address": {
       "city": "Edgartown",
       "zip": "02539",
-      "orig_address": "12 Mariners Way #4, Edgartown, MA 02539",
+      "orig_address": "12 Mariner's Way, Unit 4, PO Box 550, Edgartown, MA 02539",
       "county": "Dukes County",
       "state": "MA",
       "address": "12 Mariner's Way",
@@ -365,15 +364,15 @@
       "address": "289 Rock St.",
       "unit": "4th Floor"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Ann Pacheco", 
-        "phone": "(508) 676-0090 x116", 
+        "name": "Ann Pacheco",
+        "phone": "(508) 676-0090 x116",
         "email": "ann.pacheco@jud.state.ma.us"
       },
       {
-        "name": "Dawn Mello", 
-        "phone": "(508) 676-0090 X103", 
+        "name": "Dawn Mello",
+        "phone": "(508) 676-0090 X103",
         "email": "dawn.mello@jud.state.ma.us"
       }
     ],
@@ -399,10 +398,10 @@
       "state": "MA",
       "address": "161 Jones Rd."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Tee Sadler", 
-        "phone": "508-495-1500", 
+        "name": "Tee Sadler",
+        "phone": "508-495-1500",
         "email": "tee.sadler@jud.state.ma.us"
       }
     ],
@@ -417,26 +416,26 @@
     "phone": "(978) 345-7620",
     "has_po_box": false,
     "location": {
-      "latitude": 42.584951,
-      "longitude": -71.802238
+      "latitude": 42.584583,
+      "longitude": -71.801732
     },
     "address": {
       "city": "Fitchburg",
       "zip": "01420",
-      "orig_address": "120 Elm Street, Fitchburg, MA 01420",
+      "orig_address": "100 Elm Street, Fitchburg, MA 01420",
       "county": "Worcester County",
       "state": "MA",
-      "address": "120 Elm Street"
+      "address": "100 Elm Street"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Sharon Shosey", 
-        "phone": "978-345-2111", 
+        "name": "Sharon Shosey",
+        "phone": "978-345-2111",
         "email": "sharon.shosey@jud.state.ma.us"
       },
       {
-        "name": "Denise Vasko", 
-        "phone": "978-345-2111", 
+        "name": "Denise Vasko",
+        "phone": "978-345-2111",
         "email": "denise.vasko@jud.state.ma.us"
       }
     ],
@@ -462,21 +461,21 @@
       "state": "MA",
       "address": "110 Mount Wayte Ave."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Jean Ward", 
-        "phone": "978-441-3151 x3", 
+        "name": "Jean Ward",
+        "phone": "978-441-3151 x3",
         "email": "jean.ward@jud.state.ma.us"
       },
       {
-        "name": "Lissette Rivera", 
-        "phone": "617-494-4110 x226", 
+        "name": "Lissette Rivera",
+        "phone": "617-494-4110 x226",
         "email": "lissette.rivera@jud.state.ma.us"
       },
       {
-        "name": "Judith Evers", 
-        "phone": "617-494-4110 x258", 
-        "email": "judith.evers@jud.state.ma.us" 
+        "name": "Judith Evers",
+        "phone": "617-494-4110 x258",
+        "email": "judith.evers@jud.state.ma.us"
       }
     ],
     "description": "The Middlesex County Juvenile Court in Framingham serves Acton, Ashland, Bedford, Carlisle, Concord, Framingham, Holliston, Hopkinton, Hudson, Lexington, Lincoln, Marlborough, Maynard, Natick, Sherborn, Stow, Sudbury, and Wayland."
@@ -501,10 +500,10 @@
       "state": "MA",
       "address": "9 Gilmore Ave."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Calandra Austin", 
-        "phone": "413-528-3520 x3", 
+        "name": "Calandra Austin",
+        "phone": "413-528-3520 x3",
         "email": "calandra.austin@jud.state.ma.us"
       }
     ],
@@ -530,10 +529,10 @@
       "state": "MA",
       "address": "43 Hope St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Carrie Mayer", 
-        "phone": "413-775-0014", 
+        "name": "Carrie Mayer",
+        "phone": "413-775-0014",
         "email": "carrie.mayer@jud.state.ma.us"
       }
     ],
@@ -562,10 +561,10 @@
       "address": "116 Russell St.",
       "unit": "Route 9"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Carrie Mayer", 
-        "phone": "413-775-0014", 
+        "name": "Carrie Mayer",
+        "phone": "413-775-0014",
         "email": "carrie.mayer@jud.state.ma.us"
       }
     ],
@@ -591,10 +590,10 @@
       "state": "MA",
       "address": "28 George Washington Blvd."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
         "name": "Carolyn Gomes",
-        "phone": "508-897-4929", 
+        "phone": "508-897-4929",
         "email": "carolyn.gomes@jud.state.ma.us"
       }
     ],
@@ -620,10 +619,10 @@
       "state": "MA",
       "address": "121 Elm Street"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Joyce Jerard", 
-        "phone": "413-748-7705", 
+        "name": "Joyce Jerard",
+        "phone": "413-748-7705",
         "email": "joyce.jerard@jud.state.ma.us"
       }
     ],
@@ -650,10 +649,10 @@
       "address": "2 Appleton Street",
       "unit": "Fenton Judicial Center"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Marina Greeke", 
-        "phone": "(978) 725-4900", 
+        "name": "Marina Greeke",
+        "phone": "(978) 725-4900",
         "email": "marina.greeke@jud.state.ma.us"
       }
     ],
@@ -681,20 +680,20 @@
       "state": "MA",
       "address": "370 Jackson Street"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Jean Ward", 
-        "phone": "978-441-3151 x3", 
+        "name": "Jean Ward",
+        "phone": "978-441-3151 x3",
         "email": "jean.ward@jud.state.ma.us"
       },
       {
-        "name": "Lissette Rivera", 
-        "phone": "617-494-4110 x226", 
+        "name": "Lissette Rivera",
+        "phone": "617-494-4110 x226",
         "email": "lissette.rivera@jud.state.ma.us"
       },
       {
-        "name": "Judith Evers", 
-        "phone": "617-494-4110 x258", 
+        "name": "Judith Evers",
+        "phone": "617-494-4110 x258",
         "email": "judith.evers@jud.state.ma.us"
       }
     ],
@@ -720,10 +719,10 @@
       "state": "MA",
       "address": "139 Central Ave."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Marina Greeke", 
-        "phone": "(978) 725-4900", 
+        "name": "Marina Greeke",
+        "phone": "(978) 725-4900",
         "email": "marina.greeke@jud.state.ma.us"
       }
     ],
@@ -736,24 +735,25 @@
     "tyler_prod_lower_court_code": "7082",
     "name": "Milford Juvenile Court",
     "phone": "(508) 478-8638",
-    "has_po_box": false,
+    "has_po_box": true,
     "location": {
-      "latitude": 42.140685,
-      "longitude": -71.538166
+      "latitude": 42.125158,
+      "longitude": -71.517044
     },
     "address": {
       "city": "Milford",
       "zip": "01757",
-      "orig_address": "161 West Street, Milford, MA 01757",
+      "orig_address": "161 West Street, Route 140, P.O. Box 370, Milford, MA 01757",
       "county": "Worcester County",
       "state": "MA",
-      "address": "161 West Street"
+      "address": "161 West Street",
+      "unit": "Route 140"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Thomas Carrigan", 
-        "phone": "508-473-1260 x110", 
-        "email": "thomas.carrigan@jud.state.ma.us" 
+        "name": "Thomas Carrigan",
+        "phone": "508-473-1260 x110",
+        "email": "thomas.carrigan@jud.state.ma.us"
       }
     ],
     "description": "The Worcester County Juvenile Court in Milford serves Bellingham, Blackstone, Douglas, Hopedale, Mendon, Milford, Millville, Northbridge, Sutton, Upton, and Uxbridge."
@@ -800,15 +800,15 @@
       "state": "MA",
       "address": "75 N. Sixth St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
         "name": "Karin Butler",
-        "phone": "508-990-4608", 
+        "phone": "508-990-4608",
         "email": "karin.butler@jud.state.ma.us"
       },
       {
-        "name": "Cecilia Simas", 
-        "phone": "508-990-4658", 
+        "name": "Cecilia Simas",
+        "phone": "508-990-4658",
         "email": "cecilia.simas@jud.state.ma.us"
       }
     ],
@@ -836,15 +836,15 @@
       "state": "MA",
       "address": "188 State St. Route 1, Traffic Circle"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Marina Greeke", 
-        "phone": "(978) 725-4900", 
+        "name": "Marina Greeke",
+        "phone": "(978) 725-4900",
         "email": "marina.greeke@jud.state.ma.us"
       },
       {
-        "name": "Jane Pagley-Stanwood", 
-        "phone": "978-462-2652", 
+        "name": "Jane Pagley-Stanwood",
+        "phone": "978-462-2652",
         "email": "jane.pagley@jud.state.ma.us"
       }
     ],
@@ -860,21 +860,22 @@
     "phone": "(413) 664-8700",
     "has_po_box": false,
     "location": {
-      "latitude": 42.699818,
-      "longitude": -73.111991
+      "latitude": 42.705677,
+      "longitude": -73.11138
     },
     "address": {
       "city": "North Adams",
       "zip": "01247",
-      "orig_address": "21 Holden St., North Adams, MA 01247",
+      "orig_address": "111 Holden St., 2nd floor, North Adams, MA 01247",
       "county": "Berkshire County",
       "state": "MA",
-      "address": "21 Holden St."
+      "address": "111 Holden St.",
+      "unit": "2nd floor"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Julie Salatino", 
-        "phone": "413-443-8597", 
+        "name": "Julie Salatino",
+        "phone": "413-443-8597",
         "email": "julie.salatino@jud.state.ma.us"
       }
     ],
@@ -900,10 +901,10 @@
       "state": "MA",
       "address": "1 Court Square"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Carrie Mayer", 
-        "phone": "413-775-0014", 
+        "name": "Carrie Mayer",
+        "phone": "413-775-0014",
         "email": "carrie.mayer@jud.state.ma.us"
       }
     ],
@@ -954,15 +955,15 @@
       "address": "235 Sykes Street",
       "unit": "Suite 3"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Joyce Jerard",  
-        "phone": "413-748-7705", 
+        "name": "Joyce Jerard",
+        "phone": "413-748-7705",
         "email": "joyce.jerard@jud.state.ma.us"
       },
       {
-        "name": "Sandra Walaszek", 
-        "phone": "413-748-8609", 
+        "name": "Sandra Walaszek",
+        "phone": "413-748-8609",
         "email": "sandra.walaszek@jud.state.ma.us"
       }
     ],
@@ -988,10 +989,10 @@
       "state": "MA",
       "address": "190 North Street"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Julie Salatino", 
-        "phone": "413-443-8597", 
+        "name": "Julie Salatino",
+        "phone": "413-443-8597",
         "email": "julie.salatino@jud.state.ma.us"
       }
     ],
@@ -1005,7 +1006,6 @@
     "tyler_lower_court_code": "1837",
     "tyler_prod_lower_court_code": "7066",
     "name": "Plymouth Juvenile Court",
-    "url": "https://www.mass.gov/locations/plymouth-juvenile-court",
     "phone": "(508) 747-0858",
     "has_po_box": false,
     "location": {
@@ -1021,10 +1021,10 @@
       "address": "52 Obery St.",
       "unit": "Suite 1092"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Aldonna Lamarche", 
-        "phone": "508-362-1389 x228", 
+        "name": "Aldonna Lamarche",
+        "phone": "508-362-1389 x228",
         "email": "aldonna.lamarche@jud.state.ma.us"
       }
     ],
@@ -1050,15 +1050,15 @@
       "state": "MA",
       "address": "1 Dennis Ryan Parkway"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Charlene Ali", 
-        "phone": "781-329-1500", 
+        "name": "Charlene Ali",
+        "phone": "781-329-1500",
         "email": "charlene.ali@jud.state.ma.us"
       },
       {
-        "name": "Joan Miller", 
-        "phone": "617-376-7505", 
+        "name": "Joan Miller",
+        "phone": "617-376-7505",
         "email": "joan.miller@jud.state.ma.us"
       }
     ],
@@ -1084,15 +1084,15 @@
       "state": "MA",
       "address": "56 Federal St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Marina Greeke",  
-        "phone": "(978) 725-4900", 
+        "name": "Marina Greeke",
+        "phone": "(978) 725-4900",
         "email": "marina.greeke@jud.state.ma.us"
       },
       {
-        "name": "Staci Gergley", 
-        "phone": "978-741-5326", 
+        "name": "Staci Gergley",
+        "phone": "978-741-5326",
         "email": "staci.gergley@jud.state.ma.us"
       }
     ],
@@ -1118,15 +1118,15 @@
       "state": "MA",
       "address": "80 State Street"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Joyce Jerard", 
-        "phone": "413-748-7705", 
+        "name": "Joyce Jerard",
+        "phone": "413-748-7705",
         "email": "joyce.jerard@jud.state.ma.us"
       },
       {
-        "name": "Sandra Walaszek", 
-        "phone": "413-748-8609", 
+        "name": "Sandra Walaszek",
+        "phone": "413-748-8609",
         "email": "sandra.walaszek@jud.state.ma.us"
       }
     ],
@@ -1152,15 +1152,15 @@
       "state": "MA",
       "address": "80 State Street"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Joyce Jerard", 
-        "phone": "413-748-7705", 
+        "name": "Joyce Jerard",
+        "phone": "413-748-7705",
         "email": "joyce.jerard@jud.state.ma.us"
       },
       {
-        "name": "Sandra Walaszek", 
-        "phone": "413-748-8609", 
+        "name": "Sandra Walaszek",
+        "phone": "413-748-8609",
         "email": "sandra.walaszek@jud.state.ma.us"
       }
     ],
@@ -1186,15 +1186,15 @@
       "state": "MA",
       "address": "1288 Central St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Charlene Ali", 
-        "phone": "781-329-1500", 
+        "name": "Charlene Ali",
+        "phone": "781-329-1500",
         "email": "charlene.ali@jud.state.ma.us"
       },
       {
-        "name": "Joan Miller", 
-        "phone": "617-376-7505", 
+        "name": "Joan Miller",
+        "phone": "617-376-7505",
         "email": "joan.miller@jud.state.ma.us"
       }
     ],
@@ -1223,16 +1223,16 @@
       "address": "40 Broadway",
       "unit": "Suite 1521"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Carol Fitzsimmons", 
-        "phone": "508-977-4910 ext. 612-4907", 
+        "name": "Carol Fitzsimmons",
+        "phone": "508-977-4910 ext. 612-4907",
         "email": "carol.fitzsimmons@jud.state.ma.us"
       },
       {
-        "name": "Amber Clark", 
-        "phone": "508-977-4910 ext. 612-4916", 
-        "email": "amber.clark@jud.state.ma.us" 
+        "name": "Amber Clark",
+        "phone": "508-977-4910 ext. 612-4916",
+        "email": "amber.clark@jud.state.ma.us"
       }
     ],
     "description": "The Bristol County Juvenile Court in Taunton serves Berkley, Dighton, Easton, Raynham, Rehoboth, Seekonk and Taunton."
@@ -1257,16 +1257,16 @@
       "state": "MA",
       "address": "38 Linden St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Lissette Rivera", 
-        "phone": "617-494-4110 x226", 
+        "name": "Lissette Rivera",
+        "phone": "617-494-4110 x226",
         "email": "lissette.rivera@jud.state.ma.us"
       },
       {
-        "name": "Judith Evers", 
-        "phone": "617-494-4110 x258", 
-        "email": "judith.evers@jud.state.ma.us" 
+        "name": "Judith Evers",
+        "phone": "617-494-4110 x258",
+        "email": "judith.evers@jud.state.ma.us"
       }
     ],
     "description": "The Middlesex County Juvenile Court in Waltham serves Concord, Newton, Watertown, Waltham and Weston."
@@ -1291,10 +1291,10 @@
       "state": "MA",
       "address": "2200 Cranberry Highway"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Carolyn Gomes", 
-        "phone": "508-897-4929", 
+        "name": "Carolyn Gomes",
+        "phone": "508-897-4929",
         "email": "carolyn.gomes@jud.state.ma.us"
       }
     ],
@@ -1320,10 +1320,10 @@
       "state": "MA",
       "address": "445 Arborway"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
         "name": "Maria Hidalgo",
-        "phone": "617-971-1213", 
+        "phone": "617-971-1213",
         "email": "maria.hidalgo@jud.state.ma.us"
       }
     ],
@@ -1349,10 +1349,10 @@
       "state": "MA",
       "address": "225 Main Street"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Katherine Walsh", 
-        "phone": "508-831-2481", 
+        "name": "Katherine Walsh",
+        "phone": "508-831-2481",
         "email": "katherine.walsh@jud.state.ma.us"
       }
     ],
