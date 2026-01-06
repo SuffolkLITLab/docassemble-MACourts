@@ -189,6 +189,7 @@ class MACourtList(DAList):
             'Probate and Family Court': self.matching_probate_and_family_court,
             'Superior Court': self.matching_superior_court,
             'Appeals Court': self.matching_appeals_court,
+            'Supreme Judicial Court': self.matching_supreme_judicial_court,
         }
         if court_types is None:
             court_types = []
@@ -242,7 +243,8 @@ class MACourtList(DAList):
         * land_court,
         * juvenile_courts,
         * probate_and_family_courts,
-        * appeals_court
+        * appeals_court,
+        * supreme_judicial_court
         """
         if data_path is None:
           if hasattr(self, 'data_path'):
@@ -280,6 +282,8 @@ class MACourtList(DAList):
             court_department = 'Probate and Family Court'
         elif court_name == "appeals_court":
             court_department = "Appeals Court"
+        elif court_name == "supreme_judicial_court":
+            court_department = "Supreme Judicial Court"
 
         path = path_and_mimetype(os.path.join(data_path, json_path+'.json'))[0]
         if path is None:
@@ -554,6 +558,10 @@ class MACourtList(DAList):
     def matching_appeals_court(self, address: Address) -> Optional[MACourt]:
         """Two appeals courts: single justice and panel. Returns the single justice one by default."""
         return next((court for court in self.elements if court.name.rstrip().lower() == 'massachusetts appeals court (single justice)'),None)
+
+    def matching_supreme_judicial_court(self, address: Address) -> Optional[MACourt]:
+        """There's currently only one Supreme Judicial Court."""
+        return next((court for court in self.elements if court.name.rstrip().lower() == 'supreme judicial court'),None)
       
     def matching_district_court(self, address: Address) -> Set[MACourt]:
         """Return list of MACourts representing the District Court(s) serving the given address"""

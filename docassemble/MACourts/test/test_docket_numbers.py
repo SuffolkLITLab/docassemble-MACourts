@@ -6,7 +6,7 @@ class TestDocketNumbers(unittest.TestCase):
   def setUp(self):
     self.all_courts = MACourtList()
     self.all_courts.load_courts(
-        ['housing_courts','bmc','district_courts','superior_courts','land_court','juvenile_courts','probate_and_family_courts','appeals_court'],
+        ['housing_courts','bmc','district_courts','superior_courts','land_court','juvenile_courts','probate_and_family_courts','appeals_court', 'supreme_judicial_court'],
         data_path=Path(__file__).resolve().parent.joinpath('../data/sources'))
 
   def _check_court_name(self, docket_number, expected_name):
