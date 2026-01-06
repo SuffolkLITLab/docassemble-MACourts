@@ -36,7 +36,7 @@ class TestCourtFinder(unittest.TestCase):
                 state="Massachusetts", zip="02135"))
         court_list = self.all_courts.matching_courts(address, court_types=self.court_types)
         court_strings = [str(court.name) for court in court_list]
-        self.assertEqual(len(court_list), 6)
+        self.assertEqual(len(court_list), 8) # Added SJC and Appeals Court
         self.assertIn("Brighton Division, Boston Municipal Court", court_strings)
         self.assertIn("Suffolk County Superior Court", court_strings)
         self.assertIn("Eastern Housing Court", court_strings)
