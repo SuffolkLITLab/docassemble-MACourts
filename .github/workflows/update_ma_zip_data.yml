@@ -1,0 +1,36 @@
+name: Update MA zip code dataset
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-ma-zip-data:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pgeocode
+        run: pip install pgeocode
+      - name: Regenerate MA zip data
+        run: python scripts/generate_ma_zip_data.py
+      - name: Commit and push if changed
+        run: |
+          if git status --porcelain docassemble/MACourts/data/sources/ma_zip_codes.json | grep -q .; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add docassemble/MACourts/data/sources/ma_zip_codes.json
+            git commit -m "chore: update MA zip codes [skip ci]"
+            git push
+          else
+            echo "No MA zip code updates needed."
+          fi

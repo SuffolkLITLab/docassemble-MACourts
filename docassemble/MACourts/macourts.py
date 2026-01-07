@@ -9,6 +9,8 @@ from typing import Any, Callable, List, Mapping, Optional, Set, Union, Tuple
 from docassemble.webapp.playground import PlaygroundSection
 from collections.abc import Iterable
 import copy
+import math
+from functools import lru_cache
 
 # Needed for Boston Municipal Court
 import geopandas as gpd
@@ -61,6 +63,143 @@ def try_to_populate_county(address: Address, force:bool = False) -> None:
     except:
         pass
     address.county = county   
+
+def _normalize_zip_code(zip_code: Optional[Union[str, int]]) -> str:
+    if not zip_code:
+        return ""
+    if isinstance(zip_code, str):
+        return zip_code
+    try:
+        if isinstance(zip_code, float) and math.isnan(zip_code):
+            return ""
+        numeric = int(zip_code)
+    except (TypeError, ValueError):
+        return ""
+    if numeric < 0:
+        return ""
+    digits = str(numeric)
+    if len(digits) == 4:
+        return digits.zfill(5)
+    return digits
+
+def _is_blank(value: Any) -> bool:
+    if value is None:
+        return True
+    if isinstance(value, float) and math.isnan(value):
+        return True
+    if isinstance(value, str) and value.strip() == "":
+        return True
+    return False
+
+def _split_place_names(value: Any) -> List[str]:
+    if _is_blank(value):
+        return []
+    parts = re.split(r"\s*[,/;]\s*", str(value).strip())
+    cleaned = [part.strip() for part in parts if part.strip()]
+    # Preserve order while de-duplicating
+    return list(dict.fromkeys(cleaned))
+
+def _normalize_county_name(county_name: str) -> str:
+    cleaned = county_name.strip()
+    if not cleaned:
+        return ""
+    if cleaned.lower().endswith("county"):
+        return cleaned
+    return f"{cleaned} County"
+
+def _clean_float(value: Any) -> Optional[float]:
+    if value is None:
+        return None
+    try:
+        if isinstance(value, float) and math.isnan(value):
+            return None
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+def _get_record_value(record: Any, key: str) -> Any:
+    try:
+        return record.get(key)
+    except Exception:
+        return getattr(record, key, None)
+
+@lru_cache(maxsize=1)
+def _load_ma_zip_data() -> Mapping[str, Mapping[str, Any]]:
+    data_path = 'docassemble.MACourts:data/sources/'
+    path = path_and_mimetype(os.path.join(data_path, 'ma_zip_codes.json'))[0]
+    if path is None:
+        path = os.path.join(os.path.dirname(__file__), 'data', 'sources', 'ma_zip_codes.json')
+    with open(path) as zip_data_file:
+        return json.load(zip_data_file)
+
+def _zip_code_to_addresses(zip_code: Optional[Union[str, int]]) -> List[Address]:
+    normalized_zip = _normalize_zip_code(zip_code)
+    if not normalized_zip:
+        return []
+    zip_data = _load_ma_zip_data()
+    record = zip_data.get(normalized_zip)
+
+    if record is None and isinstance(zip_code, str):
+        zip_plus4_match = re.search(r"\b(\d{5})-?\d{4}\b", zip_code)
+        if zip_plus4_match:
+            fallback_zip = zip_plus4_match.group(1)
+            if fallback_zip != normalized_zip:
+                record = zip_data.get(fallback_zip)
+
+    if record is None:
+        return []
+
+    place_names = _split_place_names(_get_record_value(record, "place_name"))
+    if not place_names:
+        place_names = _split_place_names(_get_record_value(record, "community_name"))
+
+    if not place_names:
+        return []
+
+    county_names = _split_place_names(_get_record_value(record, "county_name"))
+    county_names = [_normalize_county_name(name) for name in county_names if name]
+
+    state_name = _get_record_value(record, "state_name") or _get_record_value(record, "state_code") or "MA"
+    latitude = _clean_float(_get_record_value(record, "latitude"))
+    longitude = _clean_float(_get_record_value(record, "longitude"))
+
+    if len(county_names) == 1:
+        county_map = [county_names[0]] * len(place_names)
+    elif len(county_names) == len(place_names):
+        county_map = county_names
+    else:
+        county_map = [None] * len(place_names)
+
+    addresses: List[Address] = []
+    for index, city in enumerate(place_names):
+        addr = Address()
+        addr.city = city
+        if state_name:
+            addr.state = state_name
+        addr.zip = normalized_zip
+        county = county_map[index] if index < len(county_map) else None
+        if county:
+            addr.county = county
+        if latitude is not None and longitude is not None:
+            addr.location = LatitudeLongitude(latitude=latitude, longitude=longitude)
+        addr.norm = addr
+        addr.norm_long = addr
+        addresses.append(addr)
+    return addresses
+
+def _address_is_zip_only(address: Address) -> bool:
+    zip_value = getattr(address, "zip", None)
+    if _is_blank(zip_value):
+        return False
+    has_city = not _is_blank(getattr(address, "city", None))
+    has_county = not _is_blank(getattr(address, "county", None))
+    has_address = not _is_blank(getattr(address, "address", None))
+    has_location = (
+        hasattr(address, "location")
+        and not _is_blank(getattr(address.location, "latitude", None))
+        and not _is_blank(getattr(address.location, "longitude", None))
+    )
+    return not (has_city or has_county or has_address or has_location)
 
 class MACourt(Court):
     """Object representing a court in Massachusetts.
@@ -151,27 +290,55 @@ class MACourtList(DAList):
         else:
             return None
 
-    def matching_courts(self, address: Union[Address, typing.Iterable[Address]], court_types: Optional[Union[str, typing.Iterable[str]]]=None) -> List[MACourt]:
-        """Return a list of courts serving the specified address(es). Optionally limit to one or more types of courts"""
-        if isinstance(address, Iterable):
-            courts: Set[MACourt] = set()
+    def matching_courts(
+        self,
+        address: Optional[Union[Address, typing.Iterable[Address]]],
+        court_types: Optional[Union[str, typing.Iterable[str]]]=None,
+        zip_code: Optional[Union[str, int]]=None,
+    ) -> List[MACourt]:
+        """Return a list of courts serving the specified address(es). Optionally limit to one or more types of courts.
+        If zip_code is provided or an Address only has a zip, use the zip to expand into possible cities."""
+        addresses: List[Address] = []
+        if zip_code:
+            addresses.extend(_zip_code_to_addresses(zip_code))
+
+        if address is None:
+            if not addresses:
+                return []
+        elif isinstance(address, Iterable) and not isinstance(address, (Address, str, bytes)):
             for add in address:
-                try:
-                    # It's helpful to normalize the address, but it's OK if 
-                    # geolocation fails
-                    # Populating county also geocodes
-                    try_to_populate_county(add)
-                except:
-                    pass
-                res = self.matching_courts_single_address(add, court_types)
-                if isinstance(res, Iterable):
-                    courts.update(filter(lambda el: el is not None, res))
-                elif not res is None:
-                    courts.add(res)
-            return sorted(list(courts), key=lambda y: y.name)
+                if _address_is_zip_only(add):
+                    addresses.extend(_zip_code_to_addresses(getattr(add, "zip", None)))
+                else:
+                    addresses.append(add)
         else:
-            try_to_populate_county(address)
-            return self.matching_courts_single_address(address, court_types)
+            if _address_is_zip_only(address):
+                addresses.extend(_zip_code_to_addresses(getattr(address, "zip", None)))
+            else:
+                addresses.append(address)
+
+        if not addresses:
+            return []
+
+        if len(addresses) == 1:
+            try_to_populate_county(addresses[0])
+            return self.matching_courts_single_address(addresses[0], court_types)
+
+        courts: Set[MACourt] = set()
+        for add in addresses:
+            try:
+                # It's helpful to normalize the address, but it's OK if 
+                # geolocation fails
+                # Populating county also geocodes
+                try_to_populate_county(add)
+            except:
+                pass
+            res = self.matching_courts_single_address(add, court_types)
+            if isinstance(res, Iterable):
+                courts.update(filter(lambda el: el is not None, res))
+            elif not res is None:
+                courts.add(res)
+        return sorted(list(courts), key=lambda y: y.name)
 
     def matching_courts_single_address(self, address: Address, court_types: Optional[Union[str, typing.Iterable[str]]]=None) -> List[MACourt]:
         try:

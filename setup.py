@@ -52,8 +52,7 @@ setup(name='docassemble.MACourts',
       license='The MIT License (MIT)',
       url='https://docassemble.org',
       packages=find_namespace_packages(),
-      install_requires=['Shapely>=1.0.15', 'geopandas>=0.2.0', 'usaddress>=0.5.10', 'shapely>=2.0.6'],
+      install_requires=['Shapely>=1.0.15', 'geopandas>=0.2.0', 'usaddress>=0.5.10', 'shapely>=2.0.6', 'pgeocode'],
       zip_safe=False,
       package_data=find_package_data(where='docassemble/MACourts/', package='docassemble.MACourts'),
      )
-

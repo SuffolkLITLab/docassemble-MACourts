@@ -1,0 +1,4112 @@
+{
+  "01001": {
+    "place_name": "Agawam",
+    "county_name": "Hampden",
+    "latitude": 42.0702,
+    "longitude": -72.6227
+  },
+  "01002": {
+    "place_name": "Amherst",
+    "county_name": "Hampshire",
+    "latitude": 42.3671,
+    "longitude": -72.4646
+  },
+  "01003": {
+    "place_name": "Amherst",
+    "county_name": "Hampshire",
+    "latitude": 42.3919,
+    "longitude": -72.5248
+  },
+  "01004": {
+    "place_name": "Amherst",
+    "county_name": "Hampshire",
+    "latitude": 42.3845,
+    "longitude": -72.5132
+  },
+  "01005": {
+    "place_name": "Barre",
+    "county_name": "Worcester",
+    "latitude": 42.4097,
+    "longitude": -72.1084
+  },
+  "01007": {
+    "place_name": "Belchertown",
+    "county_name": "Hampshire",
+    "latitude": 42.2751,
+    "longitude": -72.411
+  },
+  "01008": {
+    "place_name": "Blandford",
+    "county_name": "Hampden",
+    "latitude": 42.1829,
+    "longitude": -72.9361
+  },
+  "01009": {
+    "place_name": "Bondsville",
+    "county_name": "Hampden",
+    "latitude": 42.2061,
+    "longitude": -72.3405
+  },
+  "01010": {
+    "place_name": "Brimfield",
+    "county_name": "Hampden",
+    "latitude": 42.1165,
+    "longitude": -72.1885
+  },
+  "01011": {
+    "place_name": "Chester",
+    "county_name": "Hampden",
+    "latitude": 42.2794,
+    "longitude": -72.9888
+  },
+  "01012": {
+    "place_name": "Chesterfield",
+    "county_name": "Hampshire",
+    "latitude": 42.3923,
+    "longitude": -72.8256
+  },
+  "01013": {
+    "place_name": "Chicopee",
+    "county_name": "Hampden",
+    "latitude": 42.1487,
+    "longitude": -72.6079
+  },
+  "01014": {
+    "place_name": "Chicopee",
+    "county_name": "Hampden",
+    "latitude": 42.1707,
+    "longitude": -72.6048
+  },
+  "01020": {
+    "place_name": "Chicopee",
+    "county_name": "Hampden",
+    "latitude": 42.1764,
+    "longitude": -72.5761
+  },
+  "01021": {
+    "place_name": "Chicopee",
+    "county_name": "Hampden",
+    "latitude": 42.1707,
+    "longitude": -72.6048
+  },
+  "01022": {
+    "place_name": "Chicopee",
+    "county_name": "Hampden",
+    "latitude": 42.1934,
+    "longitude": -72.5544
+  },
+  "01026": {
+    "place_name": "Cummington",
+    "county_name": "Hampshire",
+    "latitude": 42.4633,
+    "longitude": -72.9202
+  },
+  "01027": {
+    "place_name": "Easthampton",
+    "county_name": "Hampshire",
+    "latitude": 42.2668,
+    "longitude": -72.669
+  },
+  "01028": {
+    "place_name": "East Longmeadow",
+    "county_name": "Hampden",
+    "latitude": 42.0672,
+    "longitude": -72.5056
+  },
+  "01029": {
+    "place_name": "East Otis",
+    "county_name": "Berkshire",
+    "latitude": 42.1909,
+    "longitude": -73.0517
+  },
+  "01030": {
+    "place_name": "Feeding Hills",
+    "county_name": "Hampden",
+    "latitude": 42.0718,
+    "longitude": -72.6751
+  },
+  "01031": {
+    "place_name": "Gilbertville",
+    "county_name": "Worcester",
+    "latitude": 42.3322,
+    "longitude": -72.1986
+  },
+  "01032": {
+    "place_name": "Goshen",
+    "county_name": "Hampshire",
+    "latitude": 42.4404,
+    "longitude": -72.7995
+  },
+  "01033": {
+    "place_name": "Granby",
+    "county_name": "Hampshire",
+    "latitude": 42.2557,
+    "longitude": -72.52
+  },
+  "01034": {
+    "place_name": "Granville",
+    "county_name": "Hampden",
+    "latitude": 42.1127,
+    "longitude": -72.952
+  },
+  "01035": {
+    "place_name": "Hadley",
+    "county_name": "Hampshire",
+    "latitude": 42.3606,
+    "longitude": -72.5715
+  },
+  "01036": {
+    "place_name": "Hampden",
+    "county_name": "Hampden",
+    "latitude": 42.0648,
+    "longitude": -72.4318
+  },
+  "01037": {
+    "place_name": "Hardwick",
+    "county_name": "Worcester",
+    "latitude": 42.3479,
+    "longitude": -72.2253
+  },
+  "01038": {
+    "place_name": "Hatfield",
+    "county_name": "Hampshire",
+    "latitude": 42.3844,
+    "longitude": -72.6167
+  },
+  "01039": {
+    "place_name": "Haydenville",
+    "county_name": "Hampshire",
+    "latitude": 42.3818,
+    "longitude": -72.7032
+  },
+  "01040": {
+    "place_name": "Holyoke",
+    "county_name": "Hampden",
+    "latitude": 42.202,
+    "longitude": -72.6262
+  },
+  "01041": {
+    "place_name": "Holyoke",
+    "county_name": "Hampden",
+    "latitude": 42.2043,
+    "longitude": -72.6162
+  },
+  "01050": {
+    "place_name": "Huntington",
+    "county_name": "Hampshire",
+    "latitude": 42.2653,
+    "longitude": -72.8733
+  },
+  "01053": {
+    "place_name": "Leeds",
+    "county_name": "Hampshire",
+    "latitude": 42.3543,
+    "longitude": -72.7034
+  },
+  "01054": {
+    "place_name": "Leverett",
+    "county_name": "Franklin",
+    "latitude": 42.4682,
+    "longitude": -72.4993
+  },
+  "01056": {
+    "place_name": "Ludlow",
+    "county_name": "Hampden",
+    "latitude": 42.1728,
+    "longitude": -72.471
+  },
+  "01057": {
+    "place_name": "Monson",
+    "county_name": "Hampden",
+    "latitude": 42.101,
+    "longitude": -72.3196
+  },
+  "01059": {
+    "place_name": "North Amherst",
+    "county_name": "Hampshire",
+    "latitude": 42.4104,
+    "longitude": -72.5309
+  },
+  "01060": {
+    "place_name": "Northampton",
+    "county_name": "Hampshire",
+    "latitude": 42.3223,
+    "longitude": -72.6313
+  },
+  "01061": {
+    "place_name": "Northampton",
+    "county_name": "Hampshire",
+    "latitude": 42.3696,
+    "longitude": -72.636
+  },
+  "01062": {
+    "place_name": "Florence",
+    "county_name": "Hampshire",
+    "latitude": 42.3219,
+    "longitude": -72.6928
+  },
+  "01063": {
+    "place_name": "Northampton",
+    "county_name": "Hampshire",
+    "latitude": 42.3179,
+    "longitude": -72.6402
+  },
+  "01066": {
+    "place_name": "North Hatfield",
+    "county_name": "Hampshire",
+    "latitude": 42.4112,
+    "longitude": -72.6223
+  },
+  "01068": {
+    "place_name": "Oakham",
+    "county_name": "Worcester",
+    "latitude": 42.348,
+    "longitude": -72.0513
+  },
+  "01069": {
+    "place_name": "Palmer",
+    "county_name": "Hampden",
+    "latitude": 42.1762,
+    "longitude": -72.3288
+  },
+  "01070": {
+    "place_name": "Plainfield",
+    "county_name": "Hampshire",
+    "latitude": 42.5144,
+    "longitude": -72.9183
+  },
+  "01071": {
+    "place_name": "Russell",
+    "county_name": "Hampden",
+    "latitude": 42.1471,
+    "longitude": -72.8403
+  },
+  "01072": {
+    "place_name": "Shutesbury",
+    "county_name": "Franklin",
+    "latitude": 42.482,
+    "longitude": -72.4213
+  },
+  "01073": {
+    "place_name": "Southampton",
+    "county_name": "Hampshire",
+    "latitude": 42.2247,
+    "longitude": -72.7194
+  },
+  "01074": {
+    "place_name": "South Barre",
+    "county_name": "Worcester",
+    "latitude": 42.3854,
+    "longitude": -72.0954
+  },
+  "01075": {
+    "place_name": "South Hadley",
+    "county_name": "Hampshire",
+    "latitude": 42.2375,
+    "longitude": -72.5811
+  },
+  "01077": {
+    "place_name": "Southwick",
+    "county_name": "Hampden",
+    "latitude": 42.0511,
+    "longitude": -72.7706
+  },
+  "01079": {
+    "place_name": "Thorndike",
+    "county_name": "Hampden",
+    "latitude": 42.1929,
+    "longitude": -72.3296
+  },
+  "01080": {
+    "place_name": "Three Rivers",
+    "county_name": "Hampden",
+    "latitude": 42.1819,
+    "longitude": -72.3624
+  },
+  "01081": {
+    "place_name": "Wales",
+    "county_name": "Hampden",
+    "latitude": 42.0627,
+    "longitude": -72.2046
+  },
+  "01082": {
+    "place_name": "Ware",
+    "county_name": "Hampshire",
+    "latitude": 42.2618,
+    "longitude": -72.2583
+  },
+  "01083": {
+    "place_name": "Warren",
+    "county_name": "Worcester",
+    "latitude": 42.204,
+    "longitude": -72.1994
+  },
+  "01084": {
+    "place_name": "West Chesterfield",
+    "county_name": "Hampshire",
+    "latitude": 42.3903,
+    "longitude": -72.8709
+  },
+  "01085": {
+    "place_name": "Westfield",
+    "county_name": "Hampden",
+    "latitude": 42.1251,
+    "longitude": -72.7495
+  },
+  "01086": {
+    "place_name": "Westfield",
+    "county_name": "Hampden",
+    "latitude": 42.1734,
+    "longitude": -72.848
+  },
+  "01088": {
+    "place_name": "West Hatfield",
+    "county_name": "Hampshire",
+    "latitude": 42.3906,
+    "longitude": -72.6469
+  },
+  "01089": {
+    "place_name": "West Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.1151,
+    "longitude": -72.6411
+  },
+  "01090": {
+    "place_name": "West Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.1707,
+    "longitude": -72.6048
+  },
+  "01092": {
+    "place_name": "West Warren",
+    "county_name": "Worcester",
+    "latitude": 42.2029,
+    "longitude": -72.229
+  },
+  "01093": {
+    "place_name": "Whately",
+    "county_name": "Franklin",
+    "latitude": 42.4427,
+    "longitude": -72.6525
+  },
+  "01094": {
+    "place_name": "Wheelwright",
+    "county_name": "Worcester",
+    "latitude": 42.3582,
+    "longitude": -72.1408
+  },
+  "01095": {
+    "place_name": "Wilbraham",
+    "county_name": "Hampden",
+    "latitude": 42.1245,
+    "longitude": -72.4464
+  },
+  "01096": {
+    "place_name": "Williamsburg",
+    "county_name": "Hampshire",
+    "latitude": 42.4085,
+    "longitude": -72.778
+  },
+  "01097": {
+    "place_name": "Woronoco",
+    "county_name": "Hampden",
+    "latitude": 42.164,
+    "longitude": -72.8295
+  },
+  "01098": {
+    "place_name": "Worthington",
+    "county_name": "Hampshire",
+    "latitude": 42.3843,
+    "longitude": -72.9314
+  },
+  "01101": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.1015,
+    "longitude": -72.5898
+  },
+  "01102": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.1707,
+    "longitude": -72.6048
+  },
+  "01103": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.1029,
+    "longitude": -72.5887
+  },
+  "01104": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.1288,
+    "longitude": -72.5778
+  },
+  "01105": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.0999,
+    "longitude": -72.5783
+  },
+  "01106": {
+    "place_name": "Longmeadow",
+    "county_name": "Hampden",
+    "latitude": 42.0507,
+    "longitude": -72.5676
+  },
+  "01107": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.1179,
+    "longitude": -72.6065
+  },
+  "01108": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.0853,
+    "longitude": -72.5584
+  },
+  "01109": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.1145,
+    "longitude": -72.5543
+  },
+  "01111": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.1707,
+    "longitude": -72.6048
+  },
+  "01115": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.1029,
+    "longitude": -72.5916
+  },
+  "01116": {
+    "place_name": "Longmeadow",
+    "county_name": "Hampden",
+    "latitude": 42.1707,
+    "longitude": -72.6048
+  },
+  "01118": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.0929,
+    "longitude": -72.5274
+  },
+  "01119": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.1247,
+    "longitude": -72.5121
+  },
+  "01128": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.0944,
+    "longitude": -72.4889
+  },
+  "01129": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.1223,
+    "longitude": -72.4876
+  },
+  "01138": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.1707,
+    "longitude": -72.6048
+  },
+  "01139": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.1707,
+    "longitude": -72.6048
+  },
+  "01144": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.1018,
+    "longitude": -72.5915
+  },
+  "01151": {
+    "place_name": "Indian Orchard",
+    "county_name": "Hampden",
+    "latitude": 42.1532,
+    "longitude": -72.505
+  },
+  "01152": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.1707,
+    "longitude": -72.6048
+  },
+  "01199": {
+    "place_name": "Springfield",
+    "county_name": "Hampden",
+    "latitude": 42.1199,
+    "longitude": -72.605
+  },
+  "01201": {
+    "place_name": "Pittsfield",
+    "county_name": "Berkshire",
+    "latitude": 42.4531,
+    "longitude": -73.2471
+  },
+  "01202": {
+    "place_name": "Pittsfield",
+    "county_name": "Berkshire",
+    "latitude": 42.3929,
+    "longitude": -73.2285
+  },
+  "01203": {
+    "place_name": "Pittsfield",
+    "county_name": "Berkshire",
+    "latitude": 42.3929,
+    "longitude": -73.2285
+  },
+  "01220": {
+    "place_name": "Adams",
+    "county_name": "Berkshire",
+    "latitude": 42.6223,
+    "longitude": -73.1172
+  },
+  "01222": {
+    "place_name": "Ashley Falls",
+    "county_name": "Berkshire",
+    "latitude": 42.0596,
+    "longitude": -73.3202
+  },
+  "01223": {
+    "place_name": "Becket",
+    "county_name": "Berkshire",
+    "latitude": 42.3594,
+    "longitude": -73.1203
+  },
+  "01224": {
+    "place_name": "Berkshire",
+    "county_name": "Berkshire",
+    "latitude": 42.5126,
+    "longitude": -73.1929
+  },
+  "01225": {
+    "place_name": "Cheshire",
+    "county_name": "Berkshire",
+    "latitude": 42.5611,
+    "longitude": -73.158
+  },
+  "01226": {
+    "place_name": "Dalton",
+    "county_name": "Berkshire",
+    "latitude": 42.475,
+    "longitude": -73.1603
+  },
+  "01227": {
+    "place_name": "Dalton",
+    "county_name": "Berkshire",
+    "latitude": 42.4737,
+    "longitude": -73.1662
+  },
+  "01229": {
+    "place_name": "Glendale",
+    "county_name": "Berkshire",
+    "latitude": 42.2793,
+    "longitude": -73.3435
+  },
+  "01230": {
+    "place_name": "Great Barrington",
+    "county_name": "Berkshire",
+    "latitude": 42.1959,
+    "longitude": -73.3607
+  },
+  "01235": {
+    "place_name": "Hinsdale",
+    "county_name": "Berkshire",
+    "latitude": 42.4298,
+    "longitude": -73.0724
+  },
+  "01236": {
+    "place_name": "Housatonic",
+    "county_name": "Berkshire",
+    "latitude": 42.2653,
+    "longitude": -73.3745
+  },
+  "01237": {
+    "place_name": "Lanesborough",
+    "county_name": "Berkshire",
+    "latitude": 42.5173,
+    "longitude": -73.2282
+  },
+  "01238": {
+    "place_name": "Lee",
+    "county_name": "Berkshire",
+    "latitude": 42.299,
+    "longitude": -73.2317
+  },
+  "01240": {
+    "place_name": "Lenox",
+    "county_name": "Berkshire",
+    "latitude": 42.3642,
+    "longitude": -73.2713
+  },
+  "01242": {
+    "place_name": "Lenox Dale",
+    "county_name": "Berkshire",
+    "latitude": 42.3386,
+    "longitude": -73.2509
+  },
+  "01243": {
+    "place_name": "Middlefield",
+    "county_name": "Hampshire",
+    "latitude": 42.3561,
+    "longitude": -73.0104
+  },
+  "01244": {
+    "place_name": "Mill River",
+    "county_name": "Berkshire",
+    "latitude": 42.1228,
+    "longitude": -73.254
+  },
+  "01245": {
+    "place_name": "Monterey",
+    "county_name": "Berkshire",
+    "latitude": 42.1867,
+    "longitude": -73.2065
+  },
+  "01247": {
+    "place_name": "North Adams",
+    "county_name": "Berkshire",
+    "latitude": 42.6955,
+    "longitude": -73.08
+  },
+  "01252": {
+    "place_name": "North Egremont",
+    "county_name": "Berkshire",
+    "latitude": 42.1986,
+    "longitude": -73.4462
+  },
+  "01253": {
+    "place_name": "Otis",
+    "county_name": "Berkshire",
+    "latitude": 42.1931,
+    "longitude": -73.0918
+  },
+  "01254": {
+    "place_name": "Richmond",
+    "county_name": "Berkshire",
+    "latitude": 42.3784,
+    "longitude": -73.3645
+  },
+  "01255": {
+    "place_name": "Sandisfield",
+    "county_name": "Berkshire",
+    "latitude": 42.1094,
+    "longitude": -73.1163
+  },
+  "01256": {
+    "place_name": "Savoy",
+    "county_name": "Berkshire",
+    "latitude": 42.577,
+    "longitude": -73.0233
+  },
+  "01257": {
+    "place_name": "Sheffield",
+    "county_name": "Berkshire",
+    "latitude": 42.1001,
+    "longitude": -73.3611
+  },
+  "01258": {
+    "place_name": "South Egremont",
+    "county_name": "Berkshire",
+    "latitude": 42.1012,
+    "longitude": -73.4566
+  },
+  "01259": {
+    "place_name": "Southfield",
+    "county_name": "Berkshire",
+    "latitude": 42.078,
+    "longitude": -73.2609
+  },
+  "01260": {
+    "place_name": "South Lee",
+    "county_name": "Berkshire",
+    "latitude": 42.2779,
+    "longitude": -73.2773
+  },
+  "01262": {
+    "place_name": "Stockbridge",
+    "county_name": "Berkshire",
+    "latitude": 42.301,
+    "longitude": -73.3223
+  },
+  "01263": {
+    "place_name": "Stockbridge",
+    "county_name": "Berkshire",
+    "latitude": 42.3929,
+    "longitude": -73.2285
+  },
+  "01264": {
+    "place_name": "Tyringham",
+    "county_name": "Berkshire",
+    "latitude": 42.22,
+    "longitude": -73.1979
+  },
+  "01266": {
+    "place_name": "West Stockbridge",
+    "county_name": "Berkshire",
+    "latitude": 42.3348,
+    "longitude": -73.3825
+  },
+  "01267": {
+    "place_name": "Williamstown",
+    "county_name": "Berkshire",
+    "latitude": 42.7089,
+    "longitude": -73.2036
+  },
+  "01270": {
+    "place_name": "Windsor",
+    "county_name": "Berkshire",
+    "latitude": 42.515,
+    "longitude": -73.0412
+  },
+  "01301": {
+    "place_name": "Greenfield",
+    "county_name": "Franklin",
+    "latitude": 42.6013,
+    "longitude": -72.6236
+  },
+  "01302": {
+    "place_name": "Greenfield",
+    "county_name": "Franklin",
+    "latitude": 42.5222,
+    "longitude": -72.6242
+  },
+  "01330": {
+    "place_name": "Ashfield",
+    "county_name": "Franklin",
+    "latitude": 42.5232,
+    "longitude": -72.811
+  },
+  "01331": {
+    "place_name": "Athol",
+    "county_name": "Worcester",
+    "latitude": 42.5959,
+    "longitude": -72.2267
+  },
+  "01337": {
+    "place_name": "Bernardston",
+    "county_name": "Franklin",
+    "latitude": 42.6952,
+    "longitude": -72.5772
+  },
+  "01338": {
+    "place_name": "Buckland",
+    "county_name": "Franklin",
+    "latitude": 42.5736,
+    "longitude": -72.8213
+  },
+  "01339": {
+    "place_name": "Charlemont",
+    "county_name": "Franklin",
+    "latitude": 42.608,
+    "longitude": -72.8901
+  },
+  "01340": {
+    "place_name": "Colrain",
+    "county_name": "Franklin",
+    "latitude": 42.679,
+    "longitude": -72.7265
+  },
+  "01341": {
+    "place_name": "Conway",
+    "county_name": "Franklin",
+    "latitude": 42.5138,
+    "longitude": -72.7025
+  },
+  "01342": {
+    "place_name": "Deerfield",
+    "county_name": "Franklin",
+    "latitude": 42.5406,
+    "longitude": -72.6072
+  },
+  "01343": {
+    "place_name": "Drury",
+    "county_name": "Berkshire",
+    "latitude": 42.6427,
+    "longitude": -72.9862
+  },
+  "01344": {
+    "place_name": "Erving",
+    "county_name": "Franklin",
+    "latitude": 42.6076,
+    "longitude": -72.4292
+  },
+  "01346": {
+    "place_name": "Heath",
+    "county_name": "Franklin",
+    "latitude": 42.6853,
+    "longitude": -72.8391
+  },
+  "01347": {
+    "place_name": "Lake Pleasant",
+    "county_name": "Franklin",
+    "latitude": 42.5566,
+    "longitude": -72.5181
+  },
+  "01349": {
+    "place_name": "Millers Falls",
+    "county_name": "Franklin",
+    "latitude": 42.582,
+    "longitude": -72.4926
+  },
+  "01350": {
+    "place_name": "Monroe Bridge",
+    "county_name": "Franklin",
+    "latitude": 42.7215,
+    "longitude": -72.9762
+  },
+  "01351": {
+    "place_name": "Montague",
+    "county_name": "Franklin",
+    "latitude": 42.5429,
+    "longitude": -72.5328
+  },
+  "01354": {
+    "place_name": "Gill",
+    "county_name": "Franklin",
+    "latitude": 42.6404,
+    "longitude": -72.4995
+  },
+  "01355": {
+    "place_name": "New Salem",
+    "county_name": "Franklin",
+    "latitude": 42.5146,
+    "longitude": -72.3062
+  },
+  "01360": {
+    "place_name": "Northfield",
+    "county_name": "Franklin",
+    "latitude": 42.6887,
+    "longitude": -72.451
+  },
+  "01364": {
+    "place_name": "Orange",
+    "county_name": "Franklin",
+    "latitude": 42.6129,
+    "longitude": -72.2924
+  },
+  "01366": {
+    "place_name": "Petersham",
+    "county_name": "Worcester",
+    "latitude": 42.4898,
+    "longitude": -72.1893
+  },
+  "01367": {
+    "place_name": "Rowe",
+    "county_name": "Franklin",
+    "latitude": 42.6953,
+    "longitude": -72.9258
+  },
+  "01368": {
+    "place_name": "Royalston",
+    "county_name": "Worcester",
+    "latitude": 42.6722,
+    "longitude": -72.1964
+  },
+  "01370": {
+    "place_name": "Shelburne Falls",
+    "county_name": "Franklin",
+    "latitude": 42.6022,
+    "longitude": -72.7391
+  },
+  "01373": {
+    "place_name": "South Deerfield",
+    "county_name": "Franklin",
+    "latitude": 42.4756,
+    "longitude": -72.6153
+  },
+  "01375": {
+    "place_name": "Sunderland",
+    "county_name": "Franklin",
+    "latitude": 42.4539,
+    "longitude": -72.5676
+  },
+  "01376": {
+    "place_name": "Turners Falls",
+    "county_name": "Franklin",
+    "latitude": 42.5954,
+    "longitude": -72.5557
+  },
+  "01378": {
+    "place_name": "Warwick",
+    "county_name": "Franklin",
+    "latitude": 42.6671,
+    "longitude": -72.3397
+  },
+  "01379": {
+    "place_name": "Wendell",
+    "county_name": "Franklin",
+    "latitude": 42.5656,
+    "longitude": -72.4009
+  },
+  "01380": {
+    "place_name": "Wendell Depot",
+    "county_name": "Franklin",
+    "latitude": 42.5534,
+    "longitude": -72.3927
+  },
+  "01420": {
+    "place_name": "Fitchburg",
+    "county_name": "Worcester",
+    "latitude": 42.5796,
+    "longitude": -71.8031
+  },
+  "01430": {
+    "place_name": "Ashburnham",
+    "county_name": "Worcester",
+    "latitude": 42.6496,
+    "longitude": -71.9267
+  },
+  "01431": {
+    "place_name": "Ashby",
+    "county_name": "Middlesex",
+    "latitude": 42.6745,
+    "longitude": -71.8174
+  },
+  "01432": {
+    "place_name": "Ayer",
+    "county_name": "Middlesex",
+    "latitude": 42.5591,
+    "longitude": -71.5788
+  },
+  "01434": {
+    "place_name": "Devens",
+    "county_name": "Worcester",
+    "latitude": 42.5385,
+    "longitude": -71.6115
+  },
+  "01436": {
+    "place_name": "Baldwinville",
+    "county_name": "Worcester",
+    "latitude": 42.5936,
+    "longitude": -72.0646
+  },
+  "01438": {
+    "place_name": "East Templeton",
+    "county_name": "Worcester",
+    "latitude": 42.5631,
+    "longitude": -72.037
+  },
+  "01440": {
+    "place_name": "Gardner",
+    "county_name": "Worcester",
+    "latitude": 42.574,
+    "longitude": -71.9898
+  },
+  "01441": {
+    "place_name": "Westminster",
+    "county_name": "Worcester",
+    "latitude": 42.5459,
+    "longitude": -71.9106
+  },
+  "01450": {
+    "place_name": "Groton",
+    "county_name": "Middlesex",
+    "latitude": 42.6124,
+    "longitude": -71.5584
+  },
+  "01451": {
+    "place_name": "Harvard",
+    "county_name": "Worcester",
+    "latitude": 42.4986,
+    "longitude": -71.5753
+  },
+  "01452": {
+    "place_name": "Hubbardston",
+    "county_name": "Worcester",
+    "latitude": 42.4865,
+    "longitude": -72.0012
+  },
+  "01453": {
+    "place_name": "Leominster",
+    "county_name": "Worcester",
+    "latitude": 42.5274,
+    "longitude": -71.7563
+  },
+  "01460": {
+    "place_name": "Littleton",
+    "county_name": "Middlesex",
+    "latitude": 42.5401,
+    "longitude": -71.4877
+  },
+  "01462": {
+    "place_name": "Lunenburg",
+    "county_name": "Worcester",
+    "latitude": 42.5884,
+    "longitude": -71.7266
+  },
+  "01463": {
+    "place_name": "Pepperell",
+    "county_name": "Middlesex",
+    "latitude": 42.6689,
+    "longitude": -71.5934
+  },
+  "01464": {
+    "place_name": "Shirley",
+    "county_name": "Middlesex",
+    "latitude": 42.5734,
+    "longitude": -71.6483
+  },
+  "01467": {
+    "place_name": "Still River",
+    "county_name": "Worcester",
+    "latitude": 42.4871,
+    "longitude": -71.6131
+  },
+  "01468": {
+    "place_name": "Templeton",
+    "county_name": "Worcester",
+    "latitude": 42.546,
+    "longitude": -72.065
+  },
+  "01469": {
+    "place_name": "Townsend",
+    "county_name": "Middlesex",
+    "latitude": 42.6525,
+    "longitude": -71.6896
+  },
+  "01470": {
+    "place_name": "Groton",
+    "county_name": "Middlesex",
+    "latitude": 42.6112,
+    "longitude": -71.5745
+  },
+  "01471": {
+    "place_name": "Groton",
+    "county_name": "Middlesex",
+    "latitude": 42.6112,
+    "longitude": -71.5745
+  },
+  "01472": {
+    "place_name": "West Groton",
+    "county_name": "Middlesex",
+    "latitude": 42.6043,
+    "longitude": -71.6273
+  },
+  "01473": {
+    "place_name": "Westminster",
+    "county_name": "Worcester",
+    "latitude": 42.5483,
+    "longitude": -71.9096
+  },
+  "01474": {
+    "place_name": "West Townsend",
+    "county_name": "Middlesex",
+    "latitude": 42.6678,
+    "longitude": -71.7522
+  },
+  "01475": {
+    "place_name": "Winchendon",
+    "county_name": "Worcester",
+    "latitude": 42.6789,
+    "longitude": -72.0475
+  },
+  "01501": {
+    "place_name": "Auburn",
+    "county_name": "Worcester",
+    "latitude": 42.2055,
+    "longitude": -71.8391
+  },
+  "01503": {
+    "place_name": "Berlin",
+    "county_name": "Worcester",
+    "latitude": 42.3844,
+    "longitude": -71.6356
+  },
+  "01504": {
+    "place_name": "Blackstone",
+    "county_name": "Worcester",
+    "latitude": 42.0287,
+    "longitude": -71.5269
+  },
+  "01505": {
+    "place_name": "Boylston",
+    "county_name": "Worcester",
+    "latitude": 42.3377,
+    "longitude": -71.731
+  },
+  "01506": {
+    "place_name": "Brookfield",
+    "county_name": "Worcester",
+    "latitude": 42.1991,
+    "longitude": -72.0989
+  },
+  "01507": {
+    "place_name": "Charlton",
+    "county_name": "Worcester",
+    "latitude": 42.1379,
+    "longitude": -71.9664
+  },
+  "01508": {
+    "place_name": "Charlton City",
+    "county_name": "Worcester",
+    "latitude": 42.1459,
+    "longitude": -71.9884
+  },
+  "01509": {
+    "place_name": "Charlton Depot",
+    "county_name": "Worcester",
+    "latitude": 42.1731,
+    "longitude": -71.9787
+  },
+  "01510": {
+    "place_name": "Clinton",
+    "county_name": "Worcester",
+    "latitude": 42.4181,
+    "longitude": -71.6828
+  },
+  "01515": {
+    "place_name": "East Brookfield",
+    "county_name": "Worcester",
+    "latitude": 42.2193,
+    "longitude": -72.0481
+  },
+  "01516": {
+    "place_name": "Douglas",
+    "county_name": "Worcester",
+    "latitude": 42.0528,
+    "longitude": -71.7509
+  },
+  "01518": {
+    "place_name": "Fiskdale",
+    "county_name": "Worcester",
+    "latitude": 42.1228,
+    "longitude": -72.1178
+  },
+  "01519": {
+    "place_name": "Grafton",
+    "county_name": "Worcester",
+    "latitude": 42.2004,
+    "longitude": -71.6868
+  },
+  "01520": {
+    "place_name": "Holden",
+    "county_name": "Worcester",
+    "latitude": 42.342,
+    "longitude": -71.8414
+  },
+  "01521": {
+    "place_name": "Holland",
+    "county_name": "Hampden",
+    "latitude": 42.0403,
+    "longitude": -72.1544
+  },
+  "01522": {
+    "place_name": "Jefferson",
+    "county_name": "Worcester",
+    "latitude": 42.3755,
+    "longitude": -71.8706
+  },
+  "01523": {
+    "place_name": "Lancaster",
+    "county_name": "Worcester",
+    "latitude": 42.451,
+    "longitude": -71.6868
+  },
+  "01524": {
+    "place_name": "Leicester",
+    "county_name": "Worcester",
+    "latitude": 42.237,
+    "longitude": -71.9188
+  },
+  "01525": {
+    "place_name": "Linwood",
+    "county_name": "Worcester",
+    "latitude": 42.0973,
+    "longitude": -71.6448
+  },
+  "01526": {
+    "place_name": "Manchaug",
+    "county_name": "Worcester",
+    "latitude": 42.0945,
+    "longitude": -71.7476
+  },
+  "01527": {
+    "place_name": "Millbury",
+    "county_name": "Worcester",
+    "latitude": 42.1968,
+    "longitude": -71.7644
+  },
+  "01529": {
+    "place_name": "Millville",
+    "county_name": "Worcester",
+    "latitude": 42.0331,
+    "longitude": -71.5798
+  },
+  "01531": {
+    "place_name": "New Braintree",
+    "county_name": "Worcester",
+    "latitude": 42.3198,
+    "longitude": -72.1306
+  },
+  "01532": {
+    "place_name": "Northborough",
+    "county_name": "Worcester",
+    "latitude": 42.3182,
+    "longitude": -71.6464
+  },
+  "01534": {
+    "place_name": "Northbridge",
+    "county_name": "Worcester",
+    "latitude": 42.1494,
+    "longitude": -71.6564
+  },
+  "01535": {
+    "place_name": "North Brookfield",
+    "county_name": "Worcester",
+    "latitude": 42.2665,
+    "longitude": -72.0821
+  },
+  "01536": {
+    "place_name": "North Grafton",
+    "county_name": "Worcester",
+    "latitude": 42.2297,
+    "longitude": -71.7037
+  },
+  "01537": {
+    "place_name": "North Oxford",
+    "county_name": "Worcester",
+    "latitude": 42.1655,
+    "longitude": -71.886
+  },
+  "01538": {
+    "place_name": "North Uxbridge",
+    "county_name": "Worcester",
+    "latitude": 42.0876,
+    "longitude": -71.6412
+  },
+  "01540": {
+    "place_name": "Oxford",
+    "county_name": "Worcester",
+    "latitude": 42.1129,
+    "longitude": -71.8687
+  },
+  "01541": {
+    "place_name": "Princeton",
+    "county_name": "Worcester",
+    "latitude": 42.4508,
+    "longitude": -71.8762
+  },
+  "01542": {
+    "place_name": "Rochdale",
+    "county_name": "Worcester",
+    "latitude": 42.1997,
+    "longitude": -71.9069
+  },
+  "01543": {
+    "place_name": "Rutland",
+    "county_name": "Worcester",
+    "latitude": 42.3762,
+    "longitude": -71.949
+  },
+  "01545": {
+    "place_name": "Shrewsbury",
+    "county_name": "Worcester",
+    "latitude": 42.2848,
+    "longitude": -71.7205
+  },
+  "01546": {
+    "place_name": "Shrewsbury",
+    "county_name": "Worcester",
+    "latitude": 42.3648,
+    "longitude": -71.8969
+  },
+  "01550": {
+    "place_name": "Southbridge",
+    "county_name": "Worcester",
+    "latitude": 42.075,
+    "longitude": -72.0353
+  },
+  "01560": {
+    "place_name": "South Grafton",
+    "county_name": "Worcester",
+    "latitude": 42.176,
+    "longitude": -71.6927
+  },
+  "01561": {
+    "place_name": "South Lancaster",
+    "county_name": "Worcester",
+    "latitude": 42.4435,
+    "longitude": -71.6861
+  },
+  "01562": {
+    "place_name": "Spencer",
+    "county_name": "Worcester",
+    "latitude": 42.2441,
+    "longitude": -71.9906
+  },
+  "01564": {
+    "place_name": "Sterling",
+    "county_name": "Worcester",
+    "latitude": 42.4354,
+    "longitude": -71.7752
+  },
+  "01566": {
+    "place_name": "Sturbridge",
+    "county_name": "Worcester",
+    "latitude": 42.1126,
+    "longitude": -72.0842
+  },
+  "01568": {
+    "place_name": "Upton",
+    "county_name": "Worcester",
+    "latitude": 42.1756,
+    "longitude": -71.6032
+  },
+  "01569": {
+    "place_name": "Uxbridge",
+    "county_name": "Worcester",
+    "latitude": 42.0744,
+    "longitude": -71.6329
+  },
+  "01570": {
+    "place_name": "Webster",
+    "county_name": "Worcester",
+    "latitude": 42.0521,
+    "longitude": -71.8486
+  },
+  "01571": {
+    "place_name": "Dudley",
+    "county_name": "Worcester",
+    "latitude": 42.0489,
+    "longitude": -71.8932
+  },
+  "01581": {
+    "place_name": "Westborough",
+    "county_name": "Worcester",
+    "latitude": 42.2679,
+    "longitude": -71.6176
+  },
+  "01583": {
+    "place_name": "West Boylston",
+    "county_name": "Worcester",
+    "latitude": 42.3584,
+    "longitude": -71.7838
+  },
+  "01585": {
+    "place_name": "West Brookfield",
+    "county_name": "Worcester",
+    "latitude": 42.2441,
+    "longitude": -72.1511
+  },
+  "01586": {
+    "place_name": "West Millbury",
+    "county_name": "Worcester",
+    "latitude": 42.1712,
+    "longitude": -71.8037
+  },
+  "01588": {
+    "place_name": "Whitinsville",
+    "county_name": "Worcester",
+    "latitude": 42.1153,
+    "longitude": -71.6644
+  },
+  "01590": {
+    "place_name": "Sutton",
+    "county_name": "Worcester",
+    "latitude": 42.1266,
+    "longitude": -71.7552
+  },
+  "01601": {
+    "place_name": "Worcester",
+    "county_name": "Worcester",
+    "latitude": 42.2626,
+    "longitude": -71.8023
+  },
+  "01602": {
+    "place_name": "Worcester",
+    "county_name": "Worcester",
+    "latitude": 42.2703,
+    "longitude": -71.8417
+  },
+  "01603": {
+    "place_name": "Worcester",
+    "county_name": "Worcester",
+    "latitude": 42.245,
+    "longitude": -71.838
+  },
+  "01604": {
+    "place_name": "Worcester",
+    "county_name": "Worcester",
+    "latitude": 42.2541,
+    "longitude": -71.7746
+  },
+  "01605": {
+    "place_name": "Worcester",
+    "county_name": "Worcester",
+    "latitude": 42.2894,
+    "longitude": -71.7888
+  },
+  "01606": {
+    "place_name": "Worcester",
+    "county_name": "Worcester",
+    "latitude": 42.311,
+    "longitude": -71.7958
+  },
+  "01607": {
+    "place_name": "Worcester",
+    "county_name": "Worcester",
+    "latitude": 42.2303,
+    "longitude": -71.7938
+  },
+  "01608": {
+    "place_name": "Worcester",
+    "county_name": "Worcester",
+    "latitude": 42.2624,
+    "longitude": -71.8003
+  },
+  "01609": {
+    "place_name": "Worcester",
+    "county_name": "Worcester",
+    "latitude": 42.2826,
+    "longitude": -71.8277
+  },
+  "01610": {
+    "place_name": "Worcester",
+    "county_name": "Worcester",
+    "latitude": 42.2492,
+    "longitude": -71.8108
+  },
+  "01611": {
+    "place_name": "Cherry Valley",
+    "county_name": "Worcester",
+    "latitude": 42.2373,
+    "longitude": -71.875
+  },
+  "01612": {
+    "place_name": "Paxton",
+    "county_name": "Worcester",
+    "latitude": 42.3066,
+    "longitude": -71.9202
+  },
+  "01613": {
+    "place_name": "Worcester",
+    "county_name": "Worcester",
+    "latitude": 42.2933,
+    "longitude": -71.802
+  },
+  "01614": {
+    "place_name": "Worcester",
+    "county_name": "Worcester",
+    "latitude": 42.2626,
+    "longitude": -71.8023
+  },
+  "01615": {
+    "place_name": "Worcester",
+    "county_name": "Worcester",
+    "latitude": 42.2626,
+    "longitude": -71.8023
+  },
+  "01653": {
+    "place_name": "Worcester",
+    "county_name": "Worcester",
+    "latitude": 42.3648,
+    "longitude": -71.8969
+  },
+  "01655": {
+    "place_name": "Worcester",
+    "county_name": "Worcester",
+    "latitude": 42.3648,
+    "longitude": -71.8969
+  },
+  "01701": {
+    "place_name": "Framingham",
+    "county_name": "Middlesex",
+    "latitude": 42.3007,
+    "longitude": -71.4255
+  },
+  "01702": {
+    "place_name": "Framingham",
+    "county_name": "Middlesex",
+    "latitude": 42.2822,
+    "longitude": -71.4339
+  },
+  "01703": {
+    "place_name": "Framingham",
+    "county_name": "Middlesex",
+    "latitude": 42.4464,
+    "longitude": -71.4594
+  },
+  "01704": {
+    "place_name": "Framingham",
+    "county_name": "Middlesex",
+    "latitude": 42.4464,
+    "longitude": -71.4594
+  },
+  "01705": {
+    "place_name": "Framingham",
+    "county_name": "Middlesex",
+    "latitude": 42.4464,
+    "longitude": -71.4594
+  },
+  "01718": {
+    "place_name": "Acton",
+    "county_name": "Middlesex",
+    "latitude": 42.4851,
+    "longitude": -71.4328
+  },
+  "01719": {
+    "place_name": "Boxborough",
+    "county_name": "Middlesex",
+    "latitude": 42.4884,
+    "longitude": -71.5178
+  },
+  "01720": {
+    "place_name": "Acton",
+    "county_name": "Middlesex",
+    "latitude": 42.4751,
+    "longitude": -71.4483
+  },
+  "01721": {
+    "place_name": "Ashland",
+    "county_name": "Middlesex",
+    "latitude": 42.2539,
+    "longitude": -71.4583
+  },
+  "01730": {
+    "place_name": "Bedford",
+    "county_name": "Middlesex",
+    "latitude": 42.4843,
+    "longitude": -71.2768
+  },
+  "01731": {
+    "place_name": "Hanscom Afb",
+    "county_name": "Middlesex",
+    "latitude": 42.4567,
+    "longitude": -71.2795
+  },
+  "01740": {
+    "place_name": "Bolton",
+    "county_name": "Worcester",
+    "latitude": 42.4365,
+    "longitude": -71.6076
+  },
+  "01741": {
+    "place_name": "Carlisle",
+    "county_name": "Middlesex",
+    "latitude": 42.5286,
+    "longitude": -71.3519
+  },
+  "01742": {
+    "place_name": "Concord",
+    "county_name": "Middlesex",
+    "latitude": 42.4567,
+    "longitude": -71.3747
+  },
+  "01745": {
+    "place_name": "Fayville",
+    "county_name": "Worcester",
+    "latitude": 42.2934,
+    "longitude": -71.5028
+  },
+  "01746": {
+    "place_name": "Holliston",
+    "county_name": "Middlesex",
+    "latitude": 42.2026,
+    "longitude": -71.4361
+  },
+  "01747": {
+    "place_name": "Hopedale",
+    "county_name": "Worcester",
+    "latitude": 42.1268,
+    "longitude": -71.5376
+  },
+  "01748": {
+    "place_name": "Hopkinton",
+    "county_name": "Middlesex",
+    "latitude": 42.219,
+    "longitude": -71.5302
+  },
+  "01749": {
+    "place_name": "Hudson",
+    "county_name": "Middlesex",
+    "latitude": 42.3918,
+    "longitude": -71.5609
+  },
+  "01752": {
+    "place_name": "Marlborough",
+    "county_name": "Middlesex",
+    "latitude": 42.3509,
+    "longitude": -71.5434
+  },
+  "01754": {
+    "place_name": "Maynard",
+    "county_name": "Middlesex",
+    "latitude": 42.4321,
+    "longitude": -71.455
+  },
+  "01756": {
+    "place_name": "Mendon",
+    "county_name": "Worcester",
+    "latitude": 42.0967,
+    "longitude": -71.5499
+  },
+  "01757": {
+    "place_name": "Milford",
+    "county_name": "Worcester",
+    "latitude": 42.1511,
+    "longitude": -71.5274
+  },
+  "01760": {
+    "place_name": "Natick",
+    "county_name": "Middlesex",
+    "latitude": 42.2875,
+    "longitude": -71.3574
+  },
+  "01770": {
+    "place_name": "Sherborn",
+    "county_name": "Middlesex",
+    "latitude": 42.2331,
+    "longitude": -71.3787
+  },
+  "01772": {
+    "place_name": "Southborough",
+    "county_name": "Worcester",
+    "latitude": 42.2939,
+    "longitude": -71.532
+  },
+  "01773": {
+    "place_name": "Lincoln",
+    "county_name": "Middlesex",
+    "latitude": 42.4217,
+    "longitude": -71.3137
+  },
+  "01775": {
+    "place_name": "Stow",
+    "county_name": "Middlesex",
+    "latitude": 42.4308,
+    "longitude": -71.515
+  },
+  "01776": {
+    "place_name": "Sudbury",
+    "county_name": "Middlesex",
+    "latitude": 42.3837,
+    "longitude": -71.4282
+  },
+  "01778": {
+    "place_name": "Wayland",
+    "county_name": "Middlesex",
+    "latitude": 42.3486,
+    "longitude": -71.3588
+  },
+  "01784": {
+    "place_name": "Woodville",
+    "county_name": "Middlesex",
+    "latitude": 42.2376,
+    "longitude": -71.562
+  },
+  "01801": {
+    "place_name": "Woburn",
+    "county_name": "Middlesex",
+    "latitude": 42.4829,
+    "longitude": -71.1574
+  },
+  "01803": {
+    "place_name": "Burlington",
+    "county_name": "Middlesex",
+    "latitude": 42.5089,
+    "longitude": -71.2004
+  },
+  "01805": {
+    "place_name": "Burlington",
+    "county_name": "Middlesex",
+    "latitude": 42.5048,
+    "longitude": -71.1956
+  },
+  "01810": {
+    "place_name": "Andover",
+    "county_name": "Essex",
+    "latitude": 42.6496,
+    "longitude": -71.1565
+  },
+  "01812": {
+    "place_name": "Andover",
+    "county_name": "Essex",
+    "latitude": 42.6472,
+    "longitude": -71.1842
+  },
+  "01813": {
+    "place_name": "Woburn",
+    "county_name": "Middlesex",
+    "latitude": 42.4793,
+    "longitude": -71.1523
+  },
+  "01815": {
+    "place_name": "Woburn",
+    "county_name": "Middlesex",
+    "latitude": 42.4793,
+    "longitude": -71.1523
+  },
+  "01821": {
+    "place_name": "Billerica",
+    "county_name": "Middlesex",
+    "latitude": 42.5519,
+    "longitude": -71.2518
+  },
+  "01822": {
+    "place_name": "Billerica",
+    "county_name": "Middlesex",
+    "latitude": 42.5584,
+    "longitude": -71.2689
+  },
+  "01824": {
+    "place_name": "Chelmsford",
+    "county_name": "Middlesex",
+    "latitude": 42.5911,
+    "longitude": -71.3556
+  },
+  "01825": {
+    "place_name": "North Reading",
+    "county_name": "Middlesex",
+    "latitude": 42.5751,
+    "longitude": -71.0787
+  },
+  "01826": {
+    "place_name": "Dracut",
+    "county_name": "Middlesex",
+    "latitude": 42.6764,
+    "longitude": -71.3186
+  },
+  "01827": {
+    "place_name": "Dunstable",
+    "county_name": "Middlesex",
+    "latitude": 42.6739,
+    "longitude": -71.4952
+  },
+  "01830": {
+    "place_name": "Haverhill",
+    "county_name": "Essex",
+    "latitude": 42.7856,
+    "longitude": -71.0721
+  },
+  "01831": {
+    "place_name": "Haverhill",
+    "county_name": "Essex",
+    "latitude": 42.7711,
+    "longitude": -71.1221
+  },
+  "01832": {
+    "place_name": "Haverhill",
+    "county_name": "Essex",
+    "latitude": 42.7792,
+    "longitude": -71.1095
+  },
+  "01833": {
+    "place_name": "Georgetown",
+    "county_name": "Essex",
+    "latitude": 42.7281,
+    "longitude": -70.9822
+  },
+  "01834": {
+    "place_name": "Groveland",
+    "county_name": "Essex",
+    "latitude": 42.753,
+    "longitude": -71.027
+  },
+  "01835": {
+    "place_name": "Haverhill",
+    "county_name": "Essex",
+    "latitude": 42.7528,
+    "longitude": -71.0843
+  },
+  "01840": {
+    "place_name": "Lawrence",
+    "county_name": "Essex",
+    "latitude": 42.708,
+    "longitude": -71.1638
+  },
+  "01841": {
+    "place_name": "Lawrence",
+    "county_name": "Essex",
+    "latitude": 42.7115,
+    "longitude": -71.167
+  },
+  "01842": {
+    "place_name": "Lawrence",
+    "county_name": "Essex",
+    "latitude": 42.707,
+    "longitude": -71.1631
+  },
+  "01843": {
+    "place_name": "Lawrence",
+    "county_name": "Essex",
+    "latitude": 42.6911,
+    "longitude": -71.1605
+  },
+  "01844": {
+    "place_name": "Methuen",
+    "county_name": "Essex",
+    "latitude": 42.728,
+    "longitude": -71.181
+  },
+  "01845": {
+    "place_name": "North Andover",
+    "county_name": "Essex",
+    "latitude": 42.6826,
+    "longitude": -71.109
+  },
+  "01850": {
+    "place_name": "Lowell",
+    "county_name": "Middlesex",
+    "latitude": 42.656,
+    "longitude": -71.3051
+  },
+  "01851": {
+    "place_name": "Lowell",
+    "county_name": "Middlesex",
+    "latitude": 42.6315,
+    "longitude": -71.3329
+  },
+  "01852": {
+    "place_name": "Lowell",
+    "county_name": "Middlesex",
+    "latitude": 42.6344,
+    "longitude": -71.2983
+  },
+  "01853": {
+    "place_name": "Lowell",
+    "county_name": "Middlesex",
+    "latitude": 42.6334,
+    "longitude": -71.3162
+  },
+  "01854": {
+    "place_name": "Lowell",
+    "county_name": "Middlesex",
+    "latitude": 42.6493,
+    "longitude": -71.3355
+  },
+  "01860": {
+    "place_name": "Merrimac",
+    "county_name": "Essex",
+    "latitude": 42.8346,
+    "longitude": -71.0047
+  },
+  "01862": {
+    "place_name": "North Billerica",
+    "county_name": "Middlesex",
+    "latitude": 42.5757,
+    "longitude": -71.2902
+  },
+  "01863": {
+    "place_name": "North Chelmsford",
+    "county_name": "Middlesex",
+    "latitude": 42.6347,
+    "longitude": -71.3908
+  },
+  "01864": {
+    "place_name": "North Reading",
+    "county_name": "Middlesex",
+    "latitude": 42.5819,
+    "longitude": -71.0947
+  },
+  "01865": {
+    "place_name": "Nutting Lake",
+    "county_name": "Middlesex",
+    "latitude": 42.5379,
+    "longitude": -71.2689
+  },
+  "01866": {
+    "place_name": "Pinehurst",
+    "county_name": "Middlesex",
+    "latitude": 42.5293,
+    "longitude": -71.2281
+  },
+  "01867": {
+    "place_name": "Reading",
+    "county_name": "Middlesex",
+    "latitude": 42.528,
+    "longitude": -71.109
+  },
+  "01876": {
+    "place_name": "Tewksbury",
+    "county_name": "Middlesex",
+    "latitude": 42.6028,
+    "longitude": -71.2232
+  },
+  "01879": {
+    "place_name": "Tyngsboro",
+    "county_name": "Middlesex",
+    "latitude": 42.6724,
+    "longitude": -71.4158
+  },
+  "01880": {
+    "place_name": "Wakefield",
+    "county_name": "Middlesex",
+    "latitude": 42.5009,
+    "longitude": -71.0685
+  },
+  "01885": {
+    "place_name": "West Boxford",
+    "county_name": "Essex",
+    "latitude": 42.707,
+    "longitude": -71.0639
+  },
+  "01886": {
+    "place_name": "Westford",
+    "county_name": "Middlesex",
+    "latitude": 42.5864,
+    "longitude": -71.4401
+  },
+  "01887": {
+    "place_name": "Wilmington",
+    "county_name": "Middlesex",
+    "latitude": 42.5581,
+    "longitude": -71.1723
+  },
+  "01888": {
+    "place_name": "Woburn",
+    "county_name": "Middlesex",
+    "latitude": 42.4793,
+    "longitude": -71.1523
+  },
+  "01889": {
+    "place_name": "North Reading",
+    "county_name": "Middlesex",
+    "latitude": 42.5716,
+    "longitude": -71.1096
+  },
+  "01890": {
+    "place_name": "Winchester",
+    "county_name": "Middlesex",
+    "latitude": 42.453,
+    "longitude": -71.1441
+  },
+  "01899": {
+    "place_name": "Andover",
+    "county_name": "Essex",
+    "latitude": 42.6584,
+    "longitude": -71.137
+  },
+  "01901": {
+    "place_name": "Lynn",
+    "county_name": "Essex",
+    "latitude": 42.4612,
+    "longitude": -70.9467
+  },
+  "01902": {
+    "place_name": "Lynn",
+    "county_name": "Essex",
+    "latitude": 42.4698,
+    "longitude": -70.942
+  },
+  "01903": {
+    "place_name": "Lynn",
+    "county_name": "Essex",
+    "latitude": 42.4668,
+    "longitude": -70.9495
+  },
+  "01904": {
+    "place_name": "Lynn",
+    "county_name": "Essex",
+    "latitude": 42.4889,
+    "longitude": -70.9647
+  },
+  "01905": {
+    "place_name": "Lynn",
+    "county_name": "Essex",
+    "latitude": 42.4694,
+    "longitude": -70.9728
+  },
+  "01906": {
+    "place_name": "Saugus",
+    "county_name": "Essex",
+    "latitude": 42.4633,
+    "longitude": -71.0111
+  },
+  "01907": {
+    "place_name": "Swampscott",
+    "county_name": "Essex",
+    "latitude": 42.4746,
+    "longitude": -70.9098
+  },
+  "01908": {
+    "place_name": "Nahant",
+    "county_name": "Essex",
+    "latitude": 42.4261,
+    "longitude": -70.9277
+  },
+  "01910": {
+    "place_name": "Lynn",
+    "county_name": "Essex",
+    "latitude": 42.4548,
+    "longitude": -70.9747
+  },
+  "01913": {
+    "place_name": "Amesbury",
+    "county_name": "Essex",
+    "latitude": 42.8559,
+    "longitude": -70.9367
+  },
+  "01915": {
+    "place_name": "Beverly",
+    "county_name": "Essex",
+    "latitude": 42.5608,
+    "longitude": -70.8759
+  },
+  "01921": {
+    "place_name": "Boxford",
+    "county_name": "Essex",
+    "latitude": 42.6797,
+    "longitude": -71.0114
+  },
+  "01922": {
+    "place_name": "Byfield",
+    "county_name": "Essex",
+    "latitude": 42.7568,
+    "longitude": -70.9351
+  },
+  "01923": {
+    "place_name": "Danvers",
+    "county_name": "Essex",
+    "latitude": 42.5694,
+    "longitude": -70.9425
+  },
+  "01929": {
+    "place_name": "Essex",
+    "county_name": "Essex",
+    "latitude": 42.6286,
+    "longitude": -70.7828
+  },
+  "01930": {
+    "place_name": "Gloucester",
+    "county_name": "Essex",
+    "latitude": 42.6208,
+    "longitude": -70.6721
+  },
+  "01931": {
+    "place_name": "Gloucester",
+    "county_name": "Essex",
+    "latitude": 42.6159,
+    "longitude": -70.662
+  },
+  "01936": {
+    "place_name": "Hamilton",
+    "county_name": "Essex",
+    "latitude": 42.6354,
+    "longitude": -70.8791
+  },
+  "01937": {
+    "place_name": "Hathorne",
+    "county_name": "Essex",
+    "latitude": 42.5862,
+    "longitude": -70.9745
+  },
+  "01938": {
+    "place_name": "Ipswich",
+    "county_name": "Essex",
+    "latitude": 42.6809,
+    "longitude": -70.8494
+  },
+  "01940": {
+    "place_name": "Lynnfield",
+    "county_name": "Essex",
+    "latitude": 42.5327,
+    "longitude": -71.0339
+  },
+  "01944": {
+    "place_name": "Manchester",
+    "county_name": "Essex",
+    "latitude": 42.5796,
+    "longitude": -70.7674
+  },
+  "01945": {
+    "place_name": "Marblehead",
+    "county_name": "Essex",
+    "latitude": 42.4984,
+    "longitude": -70.8653
+  },
+  "01949": {
+    "place_name": "Middleton",
+    "county_name": "Essex",
+    "latitude": 42.5942,
+    "longitude": -71.013
+  },
+  "01950": {
+    "place_name": "Newburyport",
+    "county_name": "Essex",
+    "latitude": 42.813,
+    "longitude": -70.8847
+  },
+  "01951": {
+    "place_name": "Newbury",
+    "county_name": "Essex",
+    "latitude": 42.7835,
+    "longitude": -70.8474
+  },
+  "01952": {
+    "place_name": "Salisbury",
+    "county_name": "Essex",
+    "latitude": 42.8507,
+    "longitude": -70.8588
+  },
+  "01960": {
+    "place_name": "Peabody",
+    "county_name": "Essex",
+    "latitude": 42.5326,
+    "longitude": -70.9612
+  },
+  "01961": {
+    "place_name": "Peabody",
+    "county_name": "Essex",
+    "latitude": 42.6354,
+    "longitude": -70.8791
+  },
+  "01965": {
+    "place_name": "Prides Crossing",
+    "county_name": "Essex",
+    "latitude": 42.5581,
+    "longitude": -70.8257
+  },
+  "01966": {
+    "place_name": "Rockport",
+    "county_name": "Essex",
+    "latitude": 42.658,
+    "longitude": -70.6194
+  },
+  "01969": {
+    "place_name": "Rowley",
+    "county_name": "Essex",
+    "latitude": 42.7138,
+    "longitude": -70.907
+  },
+  "01970": {
+    "place_name": "Salem",
+    "county_name": "Essex",
+    "latitude": 42.5151,
+    "longitude": -70.9003
+  },
+  "01971": {
+    "place_name": "Salem",
+    "county_name": "Essex",
+    "latitude": 42.6354,
+    "longitude": -70.8791
+  },
+  "01982": {
+    "place_name": "South Hamilton",
+    "county_name": "Essex",
+    "latitude": 42.6185,
+    "longitude": -70.8561
+  },
+  "01983": {
+    "place_name": "Topsfield",
+    "county_name": "Essex",
+    "latitude": 42.6415,
+    "longitude": -70.9488
+  },
+  "01984": {
+    "place_name": "Wenham",
+    "county_name": "Essex",
+    "latitude": 42.6017,
+    "longitude": -70.8786
+  },
+  "01985": {
+    "place_name": "West Newbury",
+    "county_name": "Essex",
+    "latitude": 42.7949,
+    "longitude": -70.9778
+  },
+  "02018": {
+    "place_name": "Accord",
+    "county_name": "Plymouth",
+    "latitude": 42.1745,
+    "longitude": -70.8837
+  },
+  "02019": {
+    "place_name": "Bellingham",
+    "county_name": "Norfolk",
+    "latitude": 42.0746,
+    "longitude": -71.4768
+  },
+  "02020": {
+    "place_name": "Brant Rock",
+    "county_name": "Plymouth",
+    "latitude": 42.0818,
+    "longitude": -70.6439
+  },
+  "02021": {
+    "place_name": "Canton",
+    "county_name": "Norfolk",
+    "latitude": 42.1645,
+    "longitude": -71.1355
+  },
+  "02025": {
+    "place_name": "Cohasset",
+    "county_name": "Norfolk",
+    "latitude": 42.2395,
+    "longitude": -70.8128
+  },
+  "02026": {
+    "place_name": "Dedham",
+    "county_name": "Norfolk",
+    "latitude": 42.2437,
+    "longitude": -71.1637
+  },
+  "02027": {
+    "place_name": "Dedham",
+    "county_name": "Norfolk",
+    "latitude": 42.18,
+    "longitude": -71.0892
+  },
+  "02030": {
+    "place_name": "Dover",
+    "county_name": "Norfolk",
+    "latitude": 42.2362,
+    "longitude": -71.2854
+  },
+  "02032": {
+    "place_name": "East Walpole",
+    "county_name": "Norfolk",
+    "latitude": 42.1532,
+    "longitude": -71.2179
+  },
+  "02035": {
+    "place_name": "Foxboro",
+    "county_name": "Norfolk",
+    "latitude": 42.0649,
+    "longitude": -71.2441
+  },
+  "02038": {
+    "place_name": "Franklin",
+    "county_name": "Norfolk",
+    "latitude": 42.0935,
+    "longitude": -71.4058
+  },
+  "02040": {
+    "place_name": "Greenbush",
+    "county_name": "Plymouth",
+    "latitude": 42.1793,
+    "longitude": -70.7495
+  },
+  "02041": {
+    "place_name": "Green Harbor",
+    "county_name": "Plymouth",
+    "latitude": 42.0696,
+    "longitude": -70.6491
+  },
+  "02043": {
+    "place_name": "Hingham",
+    "county_name": "Plymouth",
+    "latitude": 42.2245,
+    "longitude": -70.8911
+  },
+  "02044": {
+    "place_name": "Hingham",
+    "county_name": "Plymouth",
+    "latitude": 42.2418,
+    "longitude": -70.8898
+  },
+  "02045": {
+    "place_name": "Hull",
+    "county_name": "Plymouth",
+    "latitude": 42.2853,
+    "longitude": -70.8754
+  },
+  "02047": {
+    "place_name": "Humarock",
+    "county_name": "Plymouth",
+    "latitude": 42.1428,
+    "longitude": -70.6935
+  },
+  "02048": {
+    "place_name": "Mansfield",
+    "county_name": "Bristol",
+    "latitude": 42.0212,
+    "longitude": -71.2178
+  },
+  "02050": {
+    "place_name": "Marshfield",
+    "county_name": "Plymouth",
+    "latitude": 42.1062,
+    "longitude": -70.6993
+  },
+  "02051": {
+    "place_name": "Marshfield Hills",
+    "county_name": "Plymouth",
+    "latitude": 42.1512,
+    "longitude": -70.7341
+  },
+  "02052": {
+    "place_name": "Medfield",
+    "county_name": "Norfolk",
+    "latitude": 42.1845,
+    "longitude": -71.3048
+  },
+  "02053": {
+    "place_name": "Medway",
+    "county_name": "Norfolk",
+    "latitude": 42.1514,
+    "longitude": -71.4217
+  },
+  "02054": {
+    "place_name": "Millis",
+    "county_name": "Norfolk",
+    "latitude": 42.1669,
+    "longitude": -71.3607
+  },
+  "02055": {
+    "place_name": "Minot",
+    "county_name": "Plymouth",
+    "latitude": 42.2404,
+    "longitude": -70.762
+  },
+  "02056": {
+    "place_name": "Norfolk",
+    "county_name": "Norfolk",
+    "latitude": 42.1177,
+    "longitude": -71.3269
+  },
+  "02059": {
+    "place_name": "North Marshfield",
+    "county_name": "Plymouth",
+    "latitude": 42.1432,
+    "longitude": -70.7703
+  },
+  "02060": {
+    "place_name": "North Scituate",
+    "county_name": "Plymouth",
+    "latitude": 42.219,
+    "longitude": -70.7856
+  },
+  "02061": {
+    "place_name": "Norwell",
+    "county_name": "Plymouth",
+    "latitude": 42.1596,
+    "longitude": -70.8217
+  },
+  "02062": {
+    "place_name": "Norwood",
+    "county_name": "Norfolk",
+    "latitude": 42.1868,
+    "longitude": -71.2033
+  },
+  "02065": {
+    "place_name": "Ocean Bluff",
+    "county_name": "Plymouth",
+    "latitude": 42.0972,
+    "longitude": -70.6516
+  },
+  "02066": {
+    "place_name": "Scituate",
+    "county_name": "Plymouth",
+    "latitude": 42.2032,
+    "longitude": -70.7525
+  },
+  "02067": {
+    "place_name": "Sharon",
+    "county_name": "Norfolk",
+    "latitude": 42.1094,
+    "longitude": -71.1759
+  },
+  "02070": {
+    "place_name": "Sheldonville",
+    "county_name": "Norfolk",
+    "latitude": 42.0348,
+    "longitude": -71.387
+  },
+  "02071": {
+    "place_name": "South Walpole",
+    "county_name": "Norfolk",
+    "latitude": 42.0992,
+    "longitude": -71.2752
+  },
+  "02072": {
+    "place_name": "Stoughton",
+    "county_name": "Norfolk",
+    "latitude": 42.1253,
+    "longitude": -71.1074
+  },
+  "02081": {
+    "place_name": "Walpole",
+    "county_name": "Norfolk",
+    "latitude": 42.1444,
+    "longitude": -71.2544
+  },
+  "02090": {
+    "place_name": "Westwood",
+    "county_name": "Norfolk",
+    "latitude": 42.2148,
+    "longitude": -71.2104
+  },
+  "02093": {
+    "place_name": "Wrentham",
+    "county_name": "Norfolk",
+    "latitude": 42.0617,
+    "longitude": -71.3396
+  },
+  "02108": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3576,
+    "longitude": -71.0684
+  },
+  "02109": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.36,
+    "longitude": -71.0545
+  },
+  "02110": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3576,
+    "longitude": -71.0514
+  },
+  "02111": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3503,
+    "longitude": -71.0629
+  },
+  "02112": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3584,
+    "longitude": -71.0598
+  },
+  "02113": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3657,
+    "longitude": -71.056
+  },
+  "02114": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3611,
+    "longitude": -71.0682
+  },
+  "02115": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3427,
+    "longitude": -71.0922
+  },
+  "02116": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3492,
+    "longitude": -71.0768
+  },
+  "02117": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3585,
+    "longitude": -71.058
+  },
+  "02118": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3362,
+    "longitude": -71.0729
+  },
+  "02119": {
+    "place_name": "Roxbury",
+    "county_name": "Suffolk",
+    "latitude": 42.3251,
+    "longitude": -71.0953
+  },
+  "02120": {
+    "place_name": "Roxbury Crossing",
+    "county_name": "Suffolk",
+    "latitude": 42.3307,
+    "longitude": -71.0912
+  },
+  "02121": {
+    "place_name": "Dorchester",
+    "county_name": "Suffolk",
+    "latitude": 42.2973,
+    "longitude": -71.0745
+  },
+  "02122": {
+    "place_name": "Dorchester",
+    "county_name": "Suffolk",
+    "latitude": 42.2973,
+    "longitude": -71.0745
+  },
+  "02123": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3389,
+    "longitude": -70.9196
+  },
+  "02124": {
+    "place_name": "Dorchester Center",
+    "county_name": "Suffolk",
+    "latitude": 42.2918,
+    "longitude": -71.0717
+  },
+  "02125": {
+    "place_name": "Dorchester",
+    "county_name": "Suffolk",
+    "latitude": 42.2973,
+    "longitude": -71.0745
+  },
+  "02126": {
+    "place_name": "Mattapan",
+    "county_name": "Suffolk",
+    "latitude": 42.2739,
+    "longitude": -71.0939
+  },
+  "02127": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3347,
+    "longitude": -71.0375
+  },
+  "02128": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3642,
+    "longitude": -71.0257
+  },
+  "02129": {
+    "place_name": "Charlestown",
+    "county_name": "Suffolk",
+    "latitude": 42.3778,
+    "longitude": -71.0627
+  },
+  "02130": {
+    "place_name": "Jamaica Plain",
+    "county_name": "Suffolk",
+    "latitude": 42.3126,
+    "longitude": -71.1115
+  },
+  "02131": {
+    "place_name": "Roslindale",
+    "county_name": "Suffolk",
+    "latitude": 42.2836,
+    "longitude": -71.1295
+  },
+  "02132": {
+    "place_name": "West Roxbury",
+    "county_name": "Suffolk",
+    "latitude": 42.2787,
+    "longitude": -71.1589
+  },
+  "02133": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3584,
+    "longitude": -71.0598
+  },
+  "02134": {
+    "place_name": "Allston",
+    "county_name": "Suffolk",
+    "latitude": 42.3535,
+    "longitude": -71.1329
+  },
+  "02135": {
+    "place_name": "Brighton",
+    "county_name": "Suffolk",
+    "latitude": 42.3478,
+    "longitude": -71.1566
+  },
+  "02136": {
+    "place_name": "Hyde Park",
+    "county_name": "Suffolk",
+    "latitude": 42.254,
+    "longitude": -71.1261
+  },
+  "02137": {
+    "place_name": "Readville",
+    "county_name": "Suffolk",
+    "latitude": 42.2404,
+    "longitude": -71.137
+  },
+  "02138": {
+    "place_name": "Cambridge",
+    "county_name": "Middlesex",
+    "latitude": 42.377,
+    "longitude": -71.1256
+  },
+  "02139": {
+    "place_name": "Cambridge",
+    "county_name": "Middlesex",
+    "latitude": 42.3647,
+    "longitude": -71.1042
+  },
+  "02140": {
+    "place_name": "Cambridge",
+    "county_name": "Middlesex",
+    "latitude": 42.3932,
+    "longitude": -71.1338
+  },
+  "02141": {
+    "place_name": "Cambridge",
+    "county_name": "Middlesex",
+    "latitude": 42.3687,
+    "longitude": -71.0836
+  },
+  "02142": {
+    "place_name": "Cambridge",
+    "county_name": "Middlesex",
+    "latitude": 42.362,
+    "longitude": -71.083
+  },
+  "02143": {
+    "place_name": "Somerville",
+    "county_name": "Middlesex",
+    "latitude": 42.3829,
+    "longitude": -71.1028
+  },
+  "02144": {
+    "place_name": "Somerville",
+    "county_name": "Middlesex",
+    "latitude": 42.4003,
+    "longitude": -71.1221
+  },
+  "02145": {
+    "place_name": "Somerville",
+    "county_name": "Middlesex",
+    "latitude": 42.3907,
+    "longitude": -71.0929
+  },
+  "02148": {
+    "place_name": "Malden",
+    "county_name": "Middlesex",
+    "latitude": 42.4291,
+    "longitude": -71.0605
+  },
+  "02149": {
+    "place_name": "Everett",
+    "county_name": "Middlesex",
+    "latitude": 42.4112,
+    "longitude": -71.0514
+  },
+  "02150": {
+    "place_name": "Chelsea",
+    "county_name": "Suffolk",
+    "latitude": 42.3963,
+    "longitude": -71.0325
+  },
+  "02151": {
+    "place_name": "Revere",
+    "county_name": "Suffolk",
+    "latitude": 42.4138,
+    "longitude": -71.0052
+  },
+  "02152": {
+    "place_name": "Winthrop",
+    "county_name": "Suffolk",
+    "latitude": 42.3763,
+    "longitude": -70.98
+  },
+  "02153": {
+    "place_name": "Medford",
+    "county_name": "Middlesex",
+    "latitude": 42.4184,
+    "longitude": -71.1062
+  },
+  "02155": {
+    "place_name": "Medford",
+    "county_name": "Middlesex",
+    "latitude": 42.4173,
+    "longitude": -71.1087
+  },
+  "02156": {
+    "place_name": "West Medford",
+    "county_name": "Middlesex",
+    "latitude": 42.4223,
+    "longitude": -71.1328
+  },
+  "02163": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3253,
+    "longitude": -71.1122
+  },
+  "02169": {
+    "place_name": "Quincy",
+    "county_name": "Norfolk",
+    "latitude": 42.2491,
+    "longitude": -70.9978
+  },
+  "02170": {
+    "place_name": "Quincy",
+    "county_name": "Norfolk",
+    "latitude": 42.2671,
+    "longitude": -71.0186
+  },
+  "02171": {
+    "place_name": "Quincy",
+    "county_name": "Norfolk",
+    "latitude": 42.2825,
+    "longitude": -71.0241
+  },
+  "02176": {
+    "place_name": "Melrose",
+    "county_name": "Middlesex",
+    "latitude": 42.4581,
+    "longitude": -71.0632
+  },
+  "02180": {
+    "place_name": "Stoneham",
+    "county_name": "Middlesex",
+    "latitude": 42.4828,
+    "longitude": -71.0978
+  },
+  "02184": {
+    "place_name": "Braintree",
+    "county_name": "Norfolk",
+    "latitude": 42.2093,
+    "longitude": -70.9963
+  },
+  "02185": {
+    "place_name": "Braintree",
+    "county_name": "Norfolk",
+    "latitude": 42.18,
+    "longitude": -71.0892
+  },
+  "02186": {
+    "place_name": "Milton",
+    "county_name": "Norfolk",
+    "latitude": 42.2537,
+    "longitude": -71.0771
+  },
+  "02187": {
+    "place_name": "Milton Village",
+    "county_name": "Norfolk",
+    "latitude": 42.2668,
+    "longitude": -71.0717
+  },
+  "02188": {
+    "place_name": "Weymouth",
+    "county_name": "Norfolk",
+    "latitude": 42.2113,
+    "longitude": -70.9582
+  },
+  "02189": {
+    "place_name": "East Weymouth",
+    "county_name": "Norfolk",
+    "latitude": 42.214,
+    "longitude": -70.9203
+  },
+  "02190": {
+    "place_name": "South Weymouth",
+    "county_name": "Norfolk",
+    "latitude": 42.1751,
+    "longitude": -70.9495
+  },
+  "02191": {
+    "place_name": "North Weymouth",
+    "county_name": "Norfolk",
+    "latitude": 42.2459,
+    "longitude": -70.9467
+  },
+  "02196": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3584,
+    "longitude": -71.0598
+  },
+  "02199": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3479,
+    "longitude": -71.0825
+  },
+  "02201": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3584,
+    "longitude": -71.0598
+  },
+  "02203": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3615,
+    "longitude": -71.0604
+  },
+  "02204": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3389,
+    "longitude": -70.9196
+  },
+  "02205": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3503,
+    "longitude": -71.0539
+  },
+  "02206": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3389,
+    "longitude": -70.9196
+  },
+  "02210": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3489,
+    "longitude": -71.0465
+  },
+  "02211": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3584,
+    "longitude": -71.0598
+  },
+  "02212": {
+    "place_name": "Boston",
+    "county_name": "Middlesex",
+    "latitude": 42.3584,
+    "longitude": -71.0598
+  },
+  "02215": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3471,
+    "longitude": -71.1027
+  },
+  "02217": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3389,
+    "longitude": -70.9196
+  },
+  "02222": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3644,
+    "longitude": -71.0633
+  },
+  "02238": {
+    "place_name": "Cambridge",
+    "county_name": "Middlesex",
+    "latitude": 42.3751,
+    "longitude": -71.1056
+  },
+  "02241": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3584,
+    "longitude": -71.0598
+  },
+  "02266": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3584,
+    "longitude": -71.0598
+  },
+  "02269": {
+    "place_name": "Quincy",
+    "county_name": "Norfolk",
+    "latitude": 42.2529,
+    "longitude": -71.0023
+  },
+  "02283": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3389,
+    "longitude": -70.9196
+  },
+  "02284": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3389,
+    "longitude": -70.9196
+  },
+  "02293": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3584,
+    "longitude": -71.0598
+  },
+  "02297": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3584,
+    "longitude": -71.0598
+  },
+  "02298": {
+    "place_name": "Boston",
+    "county_name": "Suffolk",
+    "latitude": 42.3823,
+    "longitude": -71.0323
+  },
+  "02301": {
+    "place_name": "Brockton",
+    "county_name": "Plymouth",
+    "latitude": 42.0794,
+    "longitude": -71.04
+  },
+  "02302": {
+    "place_name": "Brockton",
+    "county_name": "Plymouth",
+    "latitude": 42.0847,
+    "longitude": -71.0002
+  },
+  "02303": {
+    "place_name": "Brockton",
+    "county_name": "Plymouth",
+    "latitude": 42.0834,
+    "longitude": -71.0184
+  },
+  "02304": {
+    "place_name": "Brockton",
+    "county_name": "Plymouth",
+    "latitude": 42.0834,
+    "longitude": -71.0184
+  },
+  "02305": {
+    "place_name": "Brockton",
+    "county_name": "Plymouth",
+    "latitude": 42.0834,
+    "longitude": -71.0184
+  },
+  "02322": {
+    "place_name": "Avon",
+    "county_name": "Norfolk",
+    "latitude": 42.1258,
+    "longitude": -71.0437
+  },
+  "02324": {
+    "place_name": "Bridgewater",
+    "county_name": "Plymouth",
+    "latitude": 41.9773,
+    "longitude": -70.9723
+  },
+  "02325": {
+    "place_name": "Bridgewater",
+    "county_name": "Plymouth",
+    "latitude": 41.9873,
+    "longitude": -70.9728
+  },
+  "02327": {
+    "place_name": "Bryantville",
+    "county_name": "Plymouth",
+    "latitude": 42.0407,
+    "longitude": -70.8272
+  },
+  "02330": {
+    "place_name": "Carver",
+    "county_name": "Plymouth",
+    "latitude": 41.8883,
+    "longitude": -70.7678
+  },
+  "02331": {
+    "place_name": "Duxbury",
+    "county_name": "Plymouth",
+    "latitude": 41.9705,
+    "longitude": -70.7014
+  },
+  "02332": {
+    "place_name": "Duxbury",
+    "county_name": "Plymouth",
+    "latitude": 42.0399,
+    "longitude": -70.7163
+  },
+  "02333": {
+    "place_name": "East Bridgewater",
+    "county_name": "Plymouth",
+    "latitude": 42.0315,
+    "longitude": -70.945
+  },
+  "02334": {
+    "place_name": "Easton",
+    "county_name": "Bristol",
+    "latitude": 42.0235,
+    "longitude": -71.1324
+  },
+  "02337": {
+    "place_name": "Elmwood",
+    "county_name": "Plymouth",
+    "latitude": 42.0098,
+    "longitude": -70.962
+  },
+  "02338": {
+    "place_name": "Halifax",
+    "county_name": "Plymouth",
+    "latitude": 42.0002,
+    "longitude": -70.8448
+  },
+  "02339": {
+    "place_name": "Hanover",
+    "county_name": "Plymouth",
+    "latitude": 42.1214,
+    "longitude": -70.857
+  },
+  "02340": {
+    "place_name": "Hanover",
+    "county_name": "Plymouth",
+    "latitude": 42.1137,
+    "longitude": -70.8161
+  },
+  "02341": {
+    "place_name": "Hanson",
+    "county_name": "Plymouth",
+    "latitude": 42.0616,
+    "longitude": -70.8651
+  },
+  "02343": {
+    "place_name": "Holbrook",
+    "county_name": "Norfolk",
+    "latitude": 42.1464,
+    "longitude": -71.0083
+  },
+  "02344": {
+    "place_name": "Middleboro",
+    "county_name": "Plymouth",
+    "latitude": 41.8932,
+    "longitude": -70.9112
+  },
+  "02345": {
+    "place_name": "Manomet",
+    "county_name": "Plymouth",
+    "latitude": 41.8882,
+    "longitude": -70.581
+  },
+  "02346": {
+    "place_name": "Middleboro",
+    "county_name": "Plymouth",
+    "latitude": 41.8884,
+    "longitude": -70.893
+  },
+  "02347": {
+    "place_name": "Lakeville",
+    "county_name": "Plymouth",
+    "latitude": 41.8374,
+    "longitude": -70.9582
+  },
+  "02348": {
+    "place_name": "Lakeville",
+    "county_name": "Plymouth",
+    "latitude": 41.8459,
+    "longitude": -70.9495
+  },
+  "02349": {
+    "place_name": "Middleboro",
+    "county_name": "Plymouth",
+    "latitude": 41.8932,
+    "longitude": -70.9112
+  },
+  "02350": {
+    "place_name": "Monponsett",
+    "county_name": "Plymouth",
+    "latitude": 42.0185,
+    "longitude": -70.8475
+  },
+  "02351": {
+    "place_name": "Abington",
+    "county_name": "Plymouth",
+    "latitude": 42.1167,
+    "longitude": -70.9543
+  },
+  "02355": {
+    "place_name": "North Carver",
+    "county_name": "Plymouth",
+    "latitude": 41.9169,
+    "longitude": -70.8013
+  },
+  "02356": {
+    "place_name": "North Easton",
+    "county_name": "Bristol",
+    "latitude": 42.059,
+    "longitude": -71.1123
+  },
+  "02357": {
+    "place_name": "North Easton",
+    "county_name": "Bristol",
+    "latitude": 42.0645,
+    "longitude": -71.0871
+  },
+  "02358": {
+    "place_name": "North Pembroke",
+    "county_name": "Plymouth",
+    "latitude": 42.0932,
+    "longitude": -70.7925
+  },
+  "02359": {
+    "place_name": "Pembroke",
+    "county_name": "Plymouth",
+    "latitude": 42.0621,
+    "longitude": -70.8044
+  },
+  "02360": {
+    "place_name": "Plymouth",
+    "county_name": "Plymouth",
+    "latitude": 41.9104,
+    "longitude": -70.642
+  },
+  "02361": {
+    "place_name": "Plymouth",
+    "county_name": "Plymouth",
+    "latitude": 41.9705,
+    "longitude": -70.7014
+  },
+  "02362": {
+    "place_name": "Plymouth",
+    "county_name": "Plymouth",
+    "latitude": 41.9584,
+    "longitude": -70.6673
+  },
+  "02364": {
+    "place_name": "Kingston",
+    "county_name": "Plymouth",
+    "latitude": 41.995,
+    "longitude": -70.741
+  },
+  "02366": {
+    "place_name": "South Carver",
+    "county_name": "Plymouth",
+    "latitude": 41.8501,
+    "longitude": -70.7044
+  },
+  "02367": {
+    "place_name": "Plympton",
+    "county_name": "Plymouth",
+    "latitude": 41.9655,
+    "longitude": -70.8046
+  },
+  "02368": {
+    "place_name": "Randolph",
+    "county_name": "Norfolk",
+    "latitude": 42.1736,
+    "longitude": -71.0514
+  },
+  "02370": {
+    "place_name": "Rockland",
+    "county_name": "Plymouth",
+    "latitude": 42.1293,
+    "longitude": -70.9133
+  },
+  "02375": {
+    "place_name": "South Easton",
+    "county_name": "Bristol",
+    "latitude": 42.0257,
+    "longitude": -71.0988
+  },
+  "02379": {
+    "place_name": "West Bridgewater",
+    "county_name": "Plymouth",
+    "latitude": 42.0255,
+    "longitude": -71.0161
+  },
+  "02381": {
+    "place_name": "White Horse Beach",
+    "county_name": "Plymouth",
+    "latitude": 41.9316,
+    "longitude": -70.5611
+  },
+  "02382": {
+    "place_name": "Whitman",
+    "county_name": "Plymouth",
+    "latitude": 42.0816,
+    "longitude": -70.9381
+  },
+  "02420": {
+    "place_name": "Lexington",
+    "county_name": "Middlesex",
+    "latitude": 42.4563,
+    "longitude": -71.2167
+  },
+  "02421": {
+    "place_name": "Lexington",
+    "county_name": "Middlesex",
+    "latitude": 42.4426,
+    "longitude": -71.2265
+  },
+  "02445": {
+    "place_name": "Brookline",
+    "county_name": "Norfolk",
+    "latitude": 42.3259,
+    "longitude": -71.1341
+  },
+  "02446": {
+    "place_name": "Brookline",
+    "county_name": "Norfolk",
+    "latitude": 42.3431,
+    "longitude": -71.123
+  },
+  "02447": {
+    "place_name": "Brookline Village",
+    "county_name": "Norfolk",
+    "latitude": 42.3329,
+    "longitude": -71.1162
+  },
+  "02451": {
+    "place_name": "Waltham",
+    "county_name": "Middlesex",
+    "latitude": 42.3986,
+    "longitude": -71.2451
+  },
+  "02452": {
+    "place_name": "Waltham",
+    "county_name": "Middlesex",
+    "latitude": 42.3943,
+    "longitude": -71.218
+  },
+  "02453": {
+    "place_name": "Waltham",
+    "county_name": "Middlesex",
+    "latitude": 42.3654,
+    "longitude": -71.2317
+  },
+  "02454": {
+    "place_name": "Waltham",
+    "county_name": "Middlesex",
+    "latitude": 42.3567,
+    "longitude": -71.2505
+  },
+  "02455": {
+    "place_name": "North Waltham",
+    "county_name": "Middlesex",
+    "latitude": 42.3621,
+    "longitude": -71.2055
+  },
+  "02456": {
+    "place_name": "New Town",
+    "county_name": "Middlesex",
+    "latitude": 42.4464,
+    "longitude": -71.4594
+  },
+  "02457": {
+    "place_name": "Babson Park",
+    "county_name": "Norfolk",
+    "latitude": 42.2987,
+    "longitude": -71.2595
+  },
+  "02458": {
+    "place_name": "Newton",
+    "county_name": "Middlesex",
+    "latitude": 42.3528,
+    "longitude": -71.1875
+  },
+  "02459": {
+    "place_name": "Newton Center",
+    "county_name": "Middlesex",
+    "latitude": 42.3341,
+    "longitude": -71.1833
+  },
+  "02460": {
+    "place_name": "Newtonville",
+    "county_name": "Middlesex",
+    "latitude": 42.352,
+    "longitude": -71.2084
+  },
+  "02461": {
+    "place_name": "Newton Highlands",
+    "county_name": "Middlesex",
+    "latitude": 42.3168,
+    "longitude": -71.2084
+  },
+  "02462": {
+    "place_name": "Newton Lower Falls",
+    "county_name": "Middlesex",
+    "latitude": 42.3299,
+    "longitude": -71.2562
+  },
+  "02464": {
+    "place_name": "Newton Upper Falls",
+    "county_name": "Middlesex",
+    "latitude": 42.3129,
+    "longitude": -71.2195
+  },
+  "02465": {
+    "place_name": "West Newton",
+    "county_name": "Middlesex",
+    "latitude": 42.3492,
+    "longitude": -71.2267
+  },
+  "02466": {
+    "place_name": "Auburndale",
+    "county_name": "Middlesex",
+    "latitude": 42.3441,
+    "longitude": -71.248
+  },
+  "02467": {
+    "place_name": "Chestnut Hill",
+    "county_name": "Middlesex",
+    "latitude": 42.3164,
+    "longitude": -71.1612
+  },
+  "02468": {
+    "place_name": "Waban",
+    "county_name": "Middlesex",
+    "latitude": 42.3271,
+    "longitude": -71.2315
+  },
+  "02471": {
+    "place_name": "Watertown",
+    "county_name": "Middlesex",
+    "latitude": 42.3709,
+    "longitude": -71.1828
+  },
+  "02472": {
+    "place_name": "Watertown",
+    "county_name": "Middlesex",
+    "latitude": 42.37,
+    "longitude": -71.1773
+  },
+  "02474": {
+    "place_name": "Arlington",
+    "county_name": "Middlesex",
+    "latitude": 42.4202,
+    "longitude": -71.1565
+  },
+  "02475": {
+    "place_name": "Arlington Heights",
+    "county_name": "Middlesex",
+    "latitude": 42.4204,
+    "longitude": -71.1801
+  },
+  "02476": {
+    "place_name": "Arlington",
+    "county_name": "Middlesex",
+    "latitude": 42.4162,
+    "longitude": -71.1752
+  },
+  "02477": {
+    "place_name": "Watertown",
+    "county_name": "Middlesex",
+    "latitude": 42.3709,
+    "longitude": -71.1828
+  },
+  "02478": {
+    "place_name": "Belmont",
+    "county_name": "Middlesex",
+    "latitude": 42.3959,
+    "longitude": -71.1787
+  },
+  "02479": {
+    "place_name": "Waverley",
+    "county_name": "Middlesex",
+    "latitude": 42.3876,
+    "longitude": -71.1828
+  },
+  "02481": {
+    "place_name": "Wellesley Hills",
+    "county_name": "Norfolk",
+    "latitude": 42.3106,
+    "longitude": -71.2747
+  },
+  "02482": {
+    "place_name": "Wellesley",
+    "county_name": "Norfolk",
+    "latitude": 42.2945,
+    "longitude": -71.2992
+  },
+  "02492": {
+    "place_name": "Needham",
+    "county_name": "Norfolk",
+    "latitude": 42.2798,
+    "longitude": -71.2501
+  },
+  "02493": {
+    "place_name": "Weston",
+    "county_name": "Middlesex",
+    "latitude": 42.3589,
+    "longitude": -71.3001
+  },
+  "02494": {
+    "place_name": "Needham Heights",
+    "county_name": "Norfolk",
+    "latitude": 42.2945,
+    "longitude": -71.2328
+  },
+  "02495": {
+    "place_name": "Nonantum",
+    "county_name": "Middlesex",
+    "latitude": 42.3626,
+    "longitude": -71.2023
+  },
+  "02532": {
+    "place_name": "Buzzards Bay",
+    "county_name": "Barnstable",
+    "latitude": 41.7455,
+    "longitude": -70.5905
+  },
+  "02534": {
+    "place_name": "Cataumet",
+    "county_name": "Barnstable",
+    "latitude": 41.6694,
+    "longitude": -70.6234
+  },
+  "02535": {
+    "place_name": "Chilmark",
+    "county_name": "Dukes",
+    "latitude": 41.3575,
+    "longitude": -70.7416
+  },
+  "02536": {
+    "place_name": "East Falmouth",
+    "county_name": "Barnstable",
+    "latitude": 41.5968,
+    "longitude": -70.5671
+  },
+  "02537": {
+    "place_name": "East Sandwich",
+    "county_name": "Barnstable",
+    "latitude": 41.7283,
+    "longitude": -70.44
+  },
+  "02538": {
+    "place_name": "East Wareham",
+    "county_name": "Plymouth",
+    "latitude": 41.7682,
+    "longitude": -70.6532
+  },
+  "02539": {
+    "place_name": "Edgartown",
+    "county_name": "Dukes",
+    "latitude": 41.3889,
+    "longitude": -70.5339
+  },
+  "02540": {
+    "place_name": "Falmouth",
+    "county_name": "Barnstable",
+    "latitude": 41.5648,
+    "longitude": -70.6217
+  },
+  "02541": {
+    "place_name": "Falmouth",
+    "county_name": "Barnstable",
+    "latitude": 41.5515,
+    "longitude": -70.6148
+  },
+  "02542": {
+    "place_name": "Buzzards Bay",
+    "county_name": "Barnstable",
+    "latitude": 41.6531,
+    "longitude": -70.5537
+  },
+  "02543": {
+    "place_name": "Woods Hole",
+    "county_name": "Barnstable",
+    "latitude": 41.5263,
+    "longitude": -70.6643
+  },
+  "02552": {
+    "place_name": "Menemsha",
+    "county_name": "Dukes",
+    "latitude": 41.3798,
+    "longitude": -70.6431
+  },
+  "02553": {
+    "place_name": "Monument Beach",
+    "county_name": "Barnstable",
+    "latitude": 41.7196,
+    "longitude": -70.612
+  },
+  "02554": {
+    "place_name": "Nantucket",
+    "county_name": "Nantucket",
+    "latitude": 41.2725,
+    "longitude": -70.0932
+  },
+  "02556": {
+    "place_name": "North Falmouth",
+    "county_name": "Barnstable",
+    "latitude": 41.6417,
+    "longitude": -70.623
+  },
+  "02557": {
+    "place_name": "Oak Bluffs",
+    "county_name": "Dukes",
+    "latitude": 41.4543,
+    "longitude": -70.562
+  },
+  "02558": {
+    "place_name": "Onset",
+    "county_name": "Plymouth",
+    "latitude": 41.7476,
+    "longitude": -70.6582
+  },
+  "02559": {
+    "place_name": "Pocasset",
+    "county_name": "Barnstable",
+    "latitude": 41.6881,
+    "longitude": -70.6105
+  },
+  "02561": {
+    "place_name": "Sagamore",
+    "county_name": "Barnstable",
+    "latitude": 41.7703,
+    "longitude": -70.5337
+  },
+  "02562": {
+    "place_name": "Sagamore Beach",
+    "county_name": "Barnstable",
+    "latitude": 41.7933,
+    "longitude": -70.5196
+  },
+  "02563": {
+    "place_name": "Sandwich",
+    "county_name": "Barnstable",
+    "latitude": 41.7113,
+    "longitude": -70.4775
+  },
+  "02564": {
+    "place_name": "Siasconset",
+    "county_name": "Nantucket",
+    "latitude": 41.2639,
+    "longitude": -69.9626
+  },
+  "02568": {
+    "place_name": "Vineyard Haven",
+    "county_name": "Dukes",
+    "latitude": 41.45,
+    "longitude": -70.5937
+  },
+  "02571": {
+    "place_name": "Wareham",
+    "county_name": "Plymouth",
+    "latitude": 41.7541,
+    "longitude": -70.7116
+  },
+  "02574": {
+    "place_name": "West Falmouth",
+    "county_name": "Barnstable",
+    "latitude": 41.6039,
+    "longitude": -70.6382
+  },
+  "02575": {
+    "place_name": "West Tisbury",
+    "county_name": "Dukes",
+    "latitude": 41.4213,
+    "longitude": -70.6428
+  },
+  "02576": {
+    "place_name": "West Wareham",
+    "county_name": "Plymouth",
+    "latitude": 41.7796,
+    "longitude": -70.7642
+  },
+  "02584": {
+    "place_name": "Nantucket",
+    "county_name": "Nantucket",
+    "latitude": 41.2778,
+    "longitude": -70.046
+  },
+  "02601": {
+    "place_name": "Hyannis",
+    "county_name": "Barnstable",
+    "latitude": 41.6601,
+    "longitude": -70.2967
+  },
+  "02630": {
+    "place_name": "Barnstable",
+    "county_name": "Barnstable",
+    "latitude": 41.6983,
+    "longitude": -70.3001
+  },
+  "02631": {
+    "place_name": "Brewster",
+    "county_name": "Barnstable",
+    "latitude": 41.7492,
+    "longitude": -70.0699
+  },
+  "02632": {
+    "place_name": "Centerville",
+    "county_name": "Barnstable",
+    "latitude": 41.6606,
+    "longitude": -70.3532
+  },
+  "02633": {
+    "place_name": "Chatham",
+    "county_name": "Barnstable",
+    "latitude": 41.6889,
+    "longitude": -69.9722
+  },
+  "02634": {
+    "place_name": "Centerville",
+    "county_name": "Barnstable",
+    "latitude": 41.6487,
+    "longitude": -70.3481
+  },
+  "02635": {
+    "place_name": "Cotuit",
+    "county_name": "Barnstable",
+    "latitude": 41.6243,
+    "longitude": -70.4364
+  },
+  "02637": {
+    "place_name": "Cummaquid",
+    "county_name": "Barnstable",
+    "latitude": 41.7014,
+    "longitude": -70.2772
+  },
+  "02638": {
+    "place_name": "Dennis",
+    "county_name": "Barnstable",
+    "latitude": 41.7322,
+    "longitude": -70.1911
+  },
+  "02639": {
+    "place_name": "Dennis Port",
+    "county_name": "Barnstable",
+    "latitude": 41.6649,
+    "longitude": -70.1327
+  },
+  "02641": {
+    "place_name": "East Dennis",
+    "county_name": "Barnstable",
+    "latitude": 41.7426,
+    "longitude": -70.162
+  },
+  "02642": {
+    "place_name": "Eastham",
+    "county_name": "Barnstable",
+    "latitude": 41.8408,
+    "longitude": -69.9849
+  },
+  "02643": {
+    "place_name": "East Orleans",
+    "county_name": "Barnstable",
+    "latitude": 41.7843,
+    "longitude": -69.962
+  },
+  "02644": {
+    "place_name": "Forestdale",
+    "county_name": "Barnstable",
+    "latitude": 41.6827,
+    "longitude": -70.5143
+  },
+  "02645": {
+    "place_name": "Harwich",
+    "county_name": "Barnstable",
+    "latitude": 41.7008,
+    "longitude": -70.0579
+  },
+  "02646": {
+    "place_name": "Harwich Port",
+    "county_name": "Barnstable",
+    "latitude": 41.6703,
+    "longitude": -70.0722
+  },
+  "02647": {
+    "place_name": "Hyannis Port",
+    "county_name": "Barnstable",
+    "latitude": 41.635,
+    "longitude": -70.3063
+  },
+  "02648": {
+    "place_name": "Marstons Mills",
+    "county_name": "Barnstable",
+    "latitude": 41.6703,
+    "longitude": -70.4163
+  },
+  "02649": {
+    "place_name": "Mashpee",
+    "county_name": "Barnstable",
+    "latitude": 41.6181,
+    "longitude": -70.4854
+  },
+  "02650": {
+    "place_name": "North Chatham",
+    "county_name": "Barnstable",
+    "latitude": 41.703,
+    "longitude": -69.9666
+  },
+  "02651": {
+    "place_name": "North Eastham",
+    "county_name": "Barnstable",
+    "latitude": 41.8243,
+    "longitude": -69.9818
+  },
+  "02652": {
+    "place_name": "North Truro",
+    "county_name": "Barnstable",
+    "latitude": 42.0338,
+    "longitude": -70.0875
+  },
+  "02653": {
+    "place_name": "Orleans",
+    "county_name": "Barnstable",
+    "latitude": 41.7792,
+    "longitude": -69.9822
+  },
+  "02655": {
+    "place_name": "Osterville",
+    "county_name": "Barnstable",
+    "latitude": 41.63,
+    "longitude": -70.3837
+  },
+  "02657": {
+    "place_name": "Provincetown",
+    "county_name": "Barnstable",
+    "latitude": 42.0534,
+    "longitude": -70.1865
+  },
+  "02659": {
+    "place_name": "South Chatham",
+    "county_name": "Barnstable",
+    "latitude": 41.6801,
+    "longitude": -70.0241
+  },
+  "02660": {
+    "place_name": "South Dennis",
+    "county_name": "Barnstable",
+    "latitude": 41.7097,
+    "longitude": -70.1585
+  },
+  "02661": {
+    "place_name": "South Harwich",
+    "county_name": "Barnstable",
+    "latitude": 41.6862,
+    "longitude": -70.0329
+  },
+  "02662": {
+    "place_name": "South Orleans",
+    "county_name": "Barnstable",
+    "latitude": 41.7567,
+    "longitude": -69.9841
+  },
+  "02663": {
+    "place_name": "South Wellfleet",
+    "county_name": "Barnstable",
+    "latitude": 41.9182,
+    "longitude": -69.9953
+  },
+  "02664": {
+    "place_name": "South Yarmouth",
+    "county_name": "Barnstable",
+    "latitude": 41.6739,
+    "longitude": -70.1949
+  },
+  "02666": {
+    "place_name": "Truro",
+    "county_name": "Barnstable",
+    "latitude": 41.9988,
+    "longitude": -70.0564
+  },
+  "02667": {
+    "place_name": "Wellfleet",
+    "county_name": "Barnstable",
+    "latitude": 41.9289,
+    "longitude": -70.0186
+  },
+  "02668": {
+    "place_name": "West Barnstable",
+    "county_name": "Barnstable",
+    "latitude": 41.7002,
+    "longitude": -70.372
+  },
+  "02669": {
+    "place_name": "West Chatham",
+    "county_name": "Barnstable",
+    "latitude": 41.6812,
+    "longitude": -69.9911
+  },
+  "02670": {
+    "place_name": "West Dennis",
+    "county_name": "Barnstable",
+    "latitude": 41.6626,
+    "longitude": -70.1681
+  },
+  "02671": {
+    "place_name": "West Harwich",
+    "county_name": "Barnstable",
+    "latitude": 41.6694,
+    "longitude": -70.1135
+  },
+  "02672": {
+    "place_name": "West Hyannisport",
+    "county_name": "Barnstable",
+    "latitude": 41.6356,
+    "longitude": -70.3233
+  },
+  "02673": {
+    "place_name": "West Yarmouth",
+    "county_name": "Barnstable",
+    "latitude": 41.6614,
+    "longitude": -70.2363
+  },
+  "02675": {
+    "place_name": "Yarmouth Port",
+    "county_name": "Barnstable",
+    "latitude": 41.7051,
+    "longitude": -70.227
+  },
+  "02702": {
+    "place_name": "Assonet",
+    "county_name": "Bristol",
+    "latitude": 41.7975,
+    "longitude": -71.0607
+  },
+  "02703": {
+    "place_name": "Attleboro",
+    "county_name": "Bristol",
+    "latitude": 41.9296,
+    "longitude": -71.3009
+  },
+  "02712": {
+    "place_name": "Chartley",
+    "county_name": "Bristol",
+    "latitude": 41.9487,
+    "longitude": -71.2259
+  },
+  "02713": {
+    "place_name": "Cuttyhunk",
+    "county_name": "Dukes",
+    "latitude": 41.4218,
+    "longitude": -70.9313
+  },
+  "02714": {
+    "place_name": "Dartmouth",
+    "county_name": "Bristol",
+    "latitude": 41.7562,
+    "longitude": -71.0671
+  },
+  "02715": {
+    "place_name": "Dighton",
+    "county_name": "Bristol",
+    "latitude": 41.8125,
+    "longitude": -71.1427
+  },
+  "02717": {
+    "place_name": "East Freetown",
+    "county_name": "Bristol",
+    "latitude": 41.7635,
+    "longitude": -70.9677
+  },
+  "02718": {
+    "place_name": "East Taunton",
+    "county_name": "Bristol",
+    "latitude": 41.8736,
+    "longitude": -71.0192
+  },
+  "02719": {
+    "place_name": "Fairhaven",
+    "county_name": "Bristol",
+    "latitude": 41.6409,
+    "longitude": -70.8896
+  },
+  "02720": {
+    "place_name": "Fall River",
+    "county_name": "Bristol",
+    "latitude": 41.7182,
+    "longitude": -71.14
+  },
+  "02721": {
+    "place_name": "Fall River",
+    "county_name": "Bristol",
+    "latitude": 41.6883,
+    "longitude": -71.1574
+  },
+  "02722": {
+    "place_name": "Fall River",
+    "county_name": "Bristol",
+    "latitude": 41.7015,
+    "longitude": -71.155
+  },
+  "02723": {
+    "place_name": "Fall River",
+    "county_name": "Bristol",
+    "latitude": 41.6926,
+    "longitude": -71.1332
+  },
+  "02724": {
+    "place_name": "Fall River",
+    "county_name": "Bristol",
+    "latitude": 41.685,
+    "longitude": -71.1748
+  },
+  "02725": {
+    "place_name": "Somerset",
+    "county_name": "Bristol",
+    "latitude": 41.7223,
+    "longitude": -71.178
+  },
+  "02726": {
+    "place_name": "Somerset",
+    "county_name": "Bristol",
+    "latitude": 41.756,
+    "longitude": -71.1492
+  },
+  "02738": {
+    "place_name": "Marion",
+    "county_name": "Plymouth",
+    "latitude": 41.7095,
+    "longitude": -70.7613
+  },
+  "02739": {
+    "place_name": "Mattapoisett",
+    "county_name": "Plymouth",
+    "latitude": 41.6618,
+    "longitude": -70.8164
+  },
+  "02740": {
+    "place_name": "New Bedford",
+    "county_name": "Bristol",
+    "latitude": 41.6347,
+    "longitude": -70.9372
+  },
+  "02741": {
+    "place_name": "New Bedford",
+    "county_name": "Bristol",
+    "latitude": 41.6362,
+    "longitude": -70.9342
+  },
+  "02742": {
+    "place_name": "New Bedford",
+    "county_name": "Bristol",
+    "latitude": 41.6362,
+    "longitude": -70.9342
+  },
+  "02743": {
+    "place_name": "Acushnet",
+    "county_name": "Bristol",
+    "latitude": 41.6997,
+    "longitude": -70.9087
+  },
+  "02744": {
+    "place_name": "New Bedford",
+    "county_name": "Bristol",
+    "latitude": 41.6127,
+    "longitude": -70.9167
+  },
+  "02745": {
+    "place_name": "New Bedford",
+    "county_name": "Bristol",
+    "latitude": 41.6913,
+    "longitude": -70.9355
+  },
+  "02746": {
+    "place_name": "New Bedford",
+    "county_name": "Bristol",
+    "latitude": 41.66,
+    "longitude": -70.9324
+  },
+  "02747": {
+    "place_name": "North Dartmouth",
+    "county_name": "Bristol",
+    "latitude": 41.6338,
+    "longitude": -70.9958
+  },
+  "02748": {
+    "place_name": "South Dartmouth",
+    "county_name": "Bristol",
+    "latitude": 41.5665,
+    "longitude": -70.9843
+  },
+  "02760": {
+    "place_name": "North Attleboro",
+    "county_name": "Bristol",
+    "latitude": 41.9775,
+    "longitude": -71.3298
+  },
+  "02761": {
+    "place_name": "North Attleboro",
+    "county_name": "Bristol",
+    "latitude": 41.9834,
+    "longitude": -71.3328
+  },
+  "02762": {
+    "place_name": "Plainville",
+    "county_name": "Norfolk",
+    "latitude": 42.0124,
+    "longitude": -71.3275
+  },
+  "02763": {
+    "place_name": "Attleboro Falls",
+    "county_name": "Bristol",
+    "latitude": 41.9726,
+    "longitude": -71.3082
+  },
+  "02764": {
+    "place_name": "North Dighton",
+    "county_name": "Bristol",
+    "latitude": 41.8529,
+    "longitude": -71.1485
+  },
+  "02766": {
+    "place_name": "Norton",
+    "county_name": "Bristol",
+    "latitude": 41.9718,
+    "longitude": -71.1894
+  },
+  "02767": {
+    "place_name": "Raynham",
+    "county_name": "Bristol",
+    "latitude": 41.9324,
+    "longitude": -71.0469
+  },
+  "02768": {
+    "place_name": "Raynham Center",
+    "county_name": "Bristol",
+    "latitude": 41.7562,
+    "longitude": -71.0671
+  },
+  "02769": {
+    "place_name": "Rehoboth",
+    "county_name": "Bristol",
+    "latitude": 41.8515,
+    "longitude": -71.2545
+  },
+  "02770": {
+    "place_name": "Rochester",
+    "county_name": "Plymouth",
+    "latitude": 41.7591,
+    "longitude": -70.8523
+  },
+  "02771": {
+    "place_name": "Seekonk",
+    "county_name": "Bristol",
+    "latitude": 41.8378,
+    "longitude": -71.3224
+  },
+  "02777": {
+    "place_name": "Swansea",
+    "county_name": "Bristol",
+    "latitude": 41.7473,
+    "longitude": -71.2122
+  },
+  "02779": {
+    "place_name": "Berkley",
+    "county_name": "Bristol",
+    "latitude": 41.8353,
+    "longitude": -71.0765
+  },
+  "02780": {
+    "place_name": "Taunton",
+    "county_name": "Bristol",
+    "latitude": 41.905,
+    "longitude": -71.1026
+  },
+  "02783": {
+    "place_name": "Taunton",
+    "county_name": "Bristol",
+    "latitude": 41.7562,
+    "longitude": -71.0671
+  },
+  "02790": {
+    "place_name": "Westport",
+    "county_name": "Bristol",
+    "latitude": 41.6211,
+    "longitude": -71.089
+  },
+  "02791": {
+    "place_name": "Westport Point",
+    "county_name": "Bristol",
+    "latitude": 41.5223,
+    "longitude": -71.0745
+  },
+  "05501": {
+    "place_name": "Andover",
+    "county_name": "Essex",
+    "latitude": 42.6472,
+    "longitude": -71.1842
+  },
+  "05544": {
+    "place_name": "Andover",
+    "county_name": "Essex",
+    "latitude": 42.6472,
+    "longitude": -71.1842
+  }
+}
