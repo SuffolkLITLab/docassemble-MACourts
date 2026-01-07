@@ -8,7 +8,14 @@ import pgeocode
 
 def main() -> None:
     repo_root = Path(__file__).resolve().parents[1]
-    output_path = repo_root / "docassemble" / "MACourts" / "data" / "sources" / "ma_zip_codes.json"
+    output_path = (
+        repo_root
+        / "docassemble"
+        / "MACourts"
+        / "data"
+        / "sources"
+        / "ma_zip_codes.json"
+    )
 
     nomi = pgeocode.Nominatim("us")
     data = nomi._data
@@ -34,7 +41,9 @@ def main() -> None:
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8") as outfile:
-        json.dump({k: records[k] for k in sorted(records)}, outfile, indent=2, sort_keys=False)
+        json.dump(
+            {k: records[k] for k in sorted(records)}, outfile, indent=2, sort_keys=False
+        )
         outfile.write("\n")
 
     print(f"Wrote {len(records)} MA zip code records to {output_path}")

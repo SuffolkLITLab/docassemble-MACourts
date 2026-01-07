@@ -202,7 +202,11 @@ def fetch_massgov_locations(force_refresh: bool = False) -> List[MassGovLocation
                     "country": address.get("country_code", "") or "",
                 }
             elif inc_type == "node--contact_information":
-                rel = inc.get("relationships", {}).get("field_ref_address", {}).get("data")
+                rel = (
+                    inc.get("relationships", {})
+                    .get("field_ref_address", {})
+                    .get("data")
+                )
                 address_ids: List[str] = []
                 if isinstance(rel, list):
                     address_ids = [r["id"] for r in rel]
@@ -242,7 +246,9 @@ def fetch_massgov_locations(force_refresh: bool = False) -> List[MassGovLocation
                     seen.add(key)
                     addresses.append(addr)
 
-            cities = {normalize_text(a.get("city", "")) for a in addresses if a.get("city")}
+            cities = {
+                normalize_text(a.get("city", "")) for a in addresses if a.get("city")
+            }
             locations.append(
                 MassGovLocation(
                     title=title,
@@ -317,8 +323,10 @@ def find_best_match(
                     score += 0.2
                     addr_match = True
                     break
-                if local.orig_address and addr_norm and addr_norm in normalize_address(
+                if (
                     local.orig_address
+                    and addr_norm
+                    and addr_norm in normalize_address(local.orig_address)
                 ):
                     score += 0.15
                     addr_match = True
@@ -367,7 +375,9 @@ def recommend_action(
     return "verify_web", "needs_manual", "Name match without address confirmation"
 
 
-def write_report(local_courts: List[LocalCourt], locations: List[MassGovLocation]) -> None:
+def write_report(
+    local_courts: List[LocalCourt], locations: List[MassGovLocation]
+) -> None:
     manual_verifications: Dict[str, Dict[str, str]] = {}
     if MANUAL_VERIFICATIONS.exists():
         manual_verifications = json.loads(MANUAL_VERIFICATIONS.read_text())
