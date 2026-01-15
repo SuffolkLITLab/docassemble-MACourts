@@ -591,6 +591,24 @@ class TestCourtFinder(unittest.TestCase):
         address.norm = address
         self.all_courts.matching_courts(address, court_types=self.court_types)
 
+    @given(address=st.text(), city=st.text(), county=st.text(), zip=st.from_regex(r"[0-9]{5}"))
+    def test_search_housing(self, address, city, county, zip):
+        # Main address needs both city and county attribute to make it to all other cases
+        address = Address(address=address, city=city, county=county, state="Massachusetts", zip=zip)
+        # 1. Norm long without city or county
+        address.norm_long = Address(address=address, state="Massachusetts", zip=zip)
+        address.norm = address
+        self.all_courts.matching_housing_court_name(address)
+
+        # 2. Norm long without county
+        address.norm_long = Address(address=address, city=city, state="Massachusetts", zip=zip) 
+        self.all_courts.matching_housing_court_name(address)
+
+        # 3. Norm long without city
+        address.norm_long = Address(address=address, county=county, state="Massachusetts", zip=zip)
+        self.all_courts.matching_housing_court_name(address)
+
+
 
 if __name__ == "__main__":
     unittest.main()

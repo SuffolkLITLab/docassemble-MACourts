@@ -3205,7 +3205,7 @@ class MACourtList(DAList):
 
         # Try one time to match the normalized address instead of the
         # literal provided address if first match fails
-        if depth == 0 and not local_housing_court and hasattr(address, "norm_long"):
+        if depth == 0 and not local_housing_court and hasattr(address, "norm_long") and hasattr(address.norm_long, "city"):
             return self.matching_housing_court_name(address.norm_long, depth=1)
         return local_housing_court
 
