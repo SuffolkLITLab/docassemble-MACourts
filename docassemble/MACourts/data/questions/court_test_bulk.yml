@@ -50,7 +50,7 @@ table: result_table
 rows: matches
 columns:
   - City: |
-      '<a href="https://www.mass.gov/info-details/courts-serving-' + row_item[0].city.lower() + '">' + row_item[0].city + "</a>"
+      f'<a href="{'https://www.mass.gov/'}{'info-details/courts-serving-'}{row_item[0].city.lower()}">{row_item[0].city}</a>'
   - Address: |
       row_item[0].on_one_line()
   - District/BMC: |
