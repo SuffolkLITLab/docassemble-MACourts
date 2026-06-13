@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docassemble.MACourts"
+version = "1.4.0"
+description = "List Massachusetts Courts in Docassemble"
+readme = "README.md"
+authors = [
+    { name="Quinten Steenhuis", email="qsteenhuis@gbls.org" },
+]
+dependencies = [
+    "Shapely>=1.0.15",
+    "geopandas>=0.2.0",
+    "usaddress>=0.5.10",
+    "shapely>=2.0.6",
+    "pgeocode",
+]
+license = { text = "The MIT License (MIT)" }
+
+[project.urls]
+Homepage = "https://docassemble.org"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.mypy]
+exclude = ["^setup\\.py$"]
+
+[[tool.mypy.overrides]]
+module = [
+    "docassemble.webapp.*",
+    "docassemble.base.*",
+    "geopandas.*",
+    "shapely.geometry.*",
+    "pgeocode"
+]
+ignore_missing_imports = true
