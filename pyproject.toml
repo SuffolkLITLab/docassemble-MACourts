@@ -29,6 +29,7 @@ where = ["."]
 [dependency-groups]
 dev = [
     "docassemble.base>=1.6.5",
+    "docassemble.webapp>=1.6.5",
     "hypothesis>=6.0.0",
     "mypy>=1.0.0",
     "pytest>=7.0.0",
