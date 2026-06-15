@@ -27,6 +27,7 @@ where = ["."]
 
 [dependency-groups]
 dev = [
+    "docassemble>=1.6.5",
     "mypy>=1.0.0",
     "pytest>=7.0.0",
 ]
