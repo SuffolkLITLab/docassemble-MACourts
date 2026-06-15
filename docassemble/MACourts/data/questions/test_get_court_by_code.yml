@@ -10,6 +10,7 @@ code: |
   court_code
   results
 ---
+id: court code
 question: |
   Court code
 subquestion: |
@@ -17,6 +18,7 @@ subquestion: |
 fields:
   - Court code: court_code
 ---
+id: court results
 event: results
 question: |
   Court

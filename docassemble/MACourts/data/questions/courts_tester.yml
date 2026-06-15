@@ -14,7 +14,7 @@ features:
 mandatory: True
 code: |
   addresses.gather()
-  # geocoded_addresses
+  geocoded_addresses
   court_choice
   your_choice
 ---
@@ -34,7 +34,6 @@ fields:
   - Zip: addresses[i].zip
 list collect: True
 ---
-mandatory: True
 code: |
   for add in addresses:
     add.geolocate()

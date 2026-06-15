@@ -13,6 +13,7 @@ code: |
   else:
     waiting
 ---
+id: press continue
 question: Press continue
 field: go_on
 ---
@@ -23,11 +24,13 @@ event: save_courts
 code: |
   save_courts_to_file()
 ---
+id: still waiting
 question: |
   Still waiting
 field: waiting
 reload: True
 ---
+id: results
 event: results
 question: |
   Results
