@@ -25,6 +25,12 @@ Homepage = "https://docassemble.org"
 [tool.setuptools.packages.find]
 where = ["."]
 
+[dependency-groups]
+dev = [
+    "mypy>=1.0.0",
+    "pytest>=7.0.0",
+]
+
 [tool.mypy]
 exclude = ["^setup\\.py$"]
 
