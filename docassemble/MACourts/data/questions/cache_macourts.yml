@@ -18,6 +18,7 @@ code: |
     waiting
   results
 ---
+id: begin caching
 question: Press continue to begin caching the court list
 field: go_on
 ---
@@ -32,6 +33,7 @@ code: |
   background_response(save_courts_to_file())
   # background_response(test_write())
 ---
+id: downloading
 question: |
   Downloading court list
 subquestion: |
@@ -39,6 +41,7 @@ subquestion: |
 event: waiting
 reload: True
 ---
+id: results
 event: results
 question: |
   Results

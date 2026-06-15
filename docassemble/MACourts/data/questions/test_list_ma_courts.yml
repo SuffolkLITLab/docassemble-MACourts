@@ -11,8 +11,11 @@ code: |
   my_courts
   my_courts.load_courts(['probate_and_family_courts'],data_path='data/sources/') # Test with the local copy
   #default_court = my_courts.matching_housing_court(my_address)
+  saw_list
+  x
+  match_court
 ---
-mandatory: True
+id: test courts
 question: |
   Test
 subquestion: |
@@ -24,6 +27,7 @@ subquestion: |
   %endfor
 field: saw_list
 ---
+id: enter address
 question: |
   Address
 fields:
@@ -34,12 +38,14 @@ fields:
   - Zip: my_address.zip
   - County: my_address.county
 ---
+id: results
 question: Results
 subquestion: |
   ${my_courts.matching_housing_court(my_address)}
 field: x
 ---
 #mandatory: True
+id: defaulting court
 question: |
   Defaulting court
 subquestion: |

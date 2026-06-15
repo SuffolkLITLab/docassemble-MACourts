@@ -33,7 +33,6 @@ fields:
   - Zip: addresses[i].zip
 list collect: True
 ---
-mandatory: True
 code: |
   for add in addresses:
     add.geolocate()
@@ -87,6 +86,7 @@ columns:
       comma_list([item for item in row_item[1] if item.department == 'Land Court' ])
   
 ---
+id: court results
 event: court_results
 question: |
   Court Results
