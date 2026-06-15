@@ -5,6 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "docassemble.MACourts"
 version = "1.4.0"
+requires-python = ">=3.10"
 description = "List Massachusetts Courts in Docassemble"
 readme = "README.md"
 authors = [
@@ -27,7 +28,7 @@ where = ["."]
 
 [dependency-groups]
 dev = [
-    "docassemble>=1.6.5",
+    "docassemble.base>=1.6.5",
     "hypothesis>=6.0.0",
     "mypy>=1.0.0",
     "pytest>=7.0.0",
