@@ -323,15 +323,36 @@ class MACourtList(DAList):
             elif self.courts is True:
                 self.load_courts(data_path=self.data_path)
 
-    def filter_courts(self, court_types: Union[str, Iterable]) -> Optional[List]:
+    def filter_courts(
+        self,
+        court_types: Union[str, Iterable],
+        column: str = "department",
+        search_column: Optional[str] = None,
+        search_func: Optional[Callable[[str], bool]] = None
+    ) -> Optional[list]:
         """Return the list of courts matching the specified department(s).
-        E.g., Housing Court. court_types may be list or single court department."""
+        E.g., Housing Court. court_types may be list or single court department.
+        
+        Args:
+          court_types (Union[str, Iterable]): the types of courts that will be returned
+          column (str): the column that "court_types" is directly compared against
+          search_column (Optional[str]): the column that the "search_func" will be given
+          search_func (Optional[Callable[[str], bool]]): a general function that will be used to filter the courts.
+
+        Returns:
+          a list of the courts that match the params given, None if court_types in invalid
+        """
         if isinstance(court_types, str):
-            return self.filter(department=court_types)
+            filtered = [court for court in self.elements if getattr(court, column) == court_types]
         elif isinstance(court_types, Iterable):
-            return [court for court in self.elements if court.department in court_types]
+            filtered = [court for court in self.elements if getattr(court, column) in court_types]
         else:
             return None
+        
+        if search_func and search_column:
+            filtered = [court for court in filtered if search_func(getattr(court, search_column))]
+        
+        return filtered 
 
     def get_court_by_code(self, court_code: str) -> Optional[MACourt]:
         """Return a court that has the matching court_code"""

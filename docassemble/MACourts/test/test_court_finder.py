@@ -92,6 +92,12 @@ class TestCourtFinder(unittest.TestCase):
         self.assertEqual(len(court_list), 1)
         self.assertEqual(court_list[0].name, "Supreme Judicial Court")
 
+    def test_find_specific_tyler(self):
+        court_list = self.all_courts.filter_courts(court_types="District Court", search_column="tyler_code", search_func=lambda r: r == "805")
+        self.assertEqual(len(court_list), 1)
+        self.assertEqual(court_list[0].name, "Brockton District Court")
+
+
     def test_random_points(self):
         # previously generated 65 random points that were within the state, and turned those into these addresses
         # dfd = gpd.GeoDataFrame.from_features(feature) # (rough outline of massachusetts)
