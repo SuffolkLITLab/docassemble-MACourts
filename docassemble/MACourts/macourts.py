@@ -1,5 +1,5 @@
-from docassemble.base.functions import server
 from docassemble.base.geocode import GoogleV3GeoCoder
+from docassemble.base.config import daconfig
 from docassemble.base.core import DAObject, DAList
 from docassemble.base.util import (
     path_and_mimetype,
@@ -15,6 +15,7 @@ from docassemble.webapp.playground import PlaygroundSection
 from collections.abc import Iterable
 import copy
 import math
+from types import SimpleNamespace
 from functools import lru_cache
 
 # Needed for Boston Municipal Court
@@ -41,6 +42,22 @@ def test_write() -> str:
     return fpath
 
 
+def _make_google_v3_geocoder() -> GoogleV3GeoCoder:
+    """Instantiate the Google geocoder across supported docassemble versions.
+
+    docassemble 1.9 expects a ``server`` object with ``daconfig``.  Newer
+    docassemble versions read ``daconfig`` directly and do not accept the
+    keyword.  Keep the compatibility handling local so importing this module
+    does not depend on the private ``functions.server`` symbol.
+    """
+    try:
+        return GoogleV3GeoCoder()
+    except KeyError as err:
+        if err.args != ("server",):
+            raise
+        return GoogleV3GeoCoder(server=SimpleNamespace(daconfig=daconfig))
+
+
 def try_to_populate_county(address: Address, force: bool = False) -> None:
     """
     Jurisdiction depends on exactly matching names for county, city, etc. but we can't ask
@@ -65,7 +82,7 @@ def try_to_populate_county(address: Address, force: bool = False) -> None:
         return
     county = "Unknown"
     try:
-        geocoder = GoogleV3GeoCoder(server=server)
+        geocoder = _make_google_v3_geocoder()
         geocoder.initialize()
     except:
         address.county = county
