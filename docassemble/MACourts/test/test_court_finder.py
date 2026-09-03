@@ -126,6 +126,30 @@ class TestCourtFinder(unittest.TestCase):
         self.assertEqual(len(matches), 1)
         self.assertEqual(matches[0].address.address, "1288 Central St.")
 
+    def test_stoughton_exposes_separate_filing_and_appearance_locations(self):
+        stoughton = next(
+            court
+            for court in self.all_courts.elements
+            if court.name == "Metro South Housing Court - Stoughton Session"
+        )
+        canton = next(
+            court
+            for court in self.all_courts.elements
+            if court.name == "Metro South Housing Court - Canton Session"
+        )
+
+        self.assertFalse(stoughton.accepts_filings)
+        self.assertEqual(
+            stoughton.filing_location_name,
+            "Metro South Housing Court - Canton Session",
+        )
+        self.assertEqual(stoughton.address.city, "Stoughton")
+        self.assertEqual(stoughton.effective_filing_address.city, "Canton")
+        self.assertIn(
+            "Metro South Housing Court - Stoughton Session",
+            canton.appearance_location_names,
+        )
+
     def test_stoughton_housing_court_matches_new_session(self):
         address = Address(
             address="1288 Central Street",
