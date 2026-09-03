@@ -273,6 +273,36 @@ class MACourt(Court):
     def phone_number(self):
         return getattr(self, "phone")
 
+    @property
+    def effective_filing_address(self):
+        """Address where filings/correspondence should be directed.
+
+        Most courts accept filings at the same physical location where the
+        court sits. Appearance-only sessions can define a separate
+        `filing_address` in the shared MACourts data.
+        """
+        return getattr(self, "filing_address", self.address)
+
+    @property
+    def filing_location_name(self):
+        """Canonical filing location for this court/session."""
+        return getattr(
+            self,
+            "filing_location",
+            getattr(self, "location_name", self.name),
+        )
+
+    @property
+    def appearance_location_names(self):
+        """Physical/session locations associated with this filing location."""
+        return tuple(
+            getattr(
+                self,
+                "appearance_locations",
+                [getattr(self, "location_name", self.name)],
+            )
+        )
+
     def __str__(self) -> str:
         return str(self.name)
 
@@ -587,12 +617,46 @@ class MACourtList(DAList):
             court.location.longitude = item["location"]["longitude"]
             court.has_po_box = item.get("has_po_box")
             court.description = item.get("description")
+            court.location_name = item.get("location_name", item["name"])
+            court.accepts_filings = item.get("accepts_filings", True)
+            court.filing_location = item.get(
+                "filing_location",
+                court.location_name,
+            )
+            court.appearance_locations = item.get(
+                "appearance_locations",
+                [court.location_name],
+            )
+            court.filing_note = item.get("filing_note")
+            court.tyler_code_status = item.get("tyler_code_status")
+            court.tyler_code_note = item.get("tyler_code_note")
             court.address.address = item["address"]["address"]
             court.address.city = item["address"]["city"]
             court.address.state = item["address"]["state"]
             court.address.zip = item["address"]["zip"]
             court.address.county = item["address"]["county"]
             court.address.orig_address = item["address"].get("orig_address")
+
+            filing_address = item.get("filing_address")
+            if filing_address:
+                court.initializeAttribute("filing_address", Address)
+                court.filing_address.address = filing_address.get("address")
+                court.filing_address.unit = filing_address.get("unit")
+                court.filing_address.city = filing_address.get("city")
+                court.filing_address.state = filing_address.get("state")
+                court.filing_address.zip = filing_address.get("zip")
+                court.filing_address.county = filing_address.get("county")
+
+            mailing_address = item.get("mailing_address")
+            if mailing_address:
+                court.initializeAttribute("mailing_address", Address)
+                court.mailing_address.address = mailing_address.get("address")
+                court.mailing_address.unit = mailing_address.get("unit")
+                court.mailing_address.city = mailing_address.get("city")
+                court.mailing_address.state = mailing_address.get("state")
+                court.mailing_address.zip = mailing_address.get("zip")
+                court.mailing_address.county = mailing_address.get("county")
+
             court.ada_coordinators = item.get("ada_coordinators", [])
 
     def matching_juvenile_court(self, address) -> Set[MACourt]:
