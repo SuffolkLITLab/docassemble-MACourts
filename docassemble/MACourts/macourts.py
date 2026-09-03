@@ -402,13 +402,24 @@ class MACourtList(DAList):
         return filtered 
 
     def get_court_by_code(self, court_code: str) -> Optional[MACourt]:
-        """Return a court that has the matching court_code"""
+        """Return a court matching a primary or alternate/historical court code."""
         if isinstance(court_code, str):
+            normalized = court_code.strip().lower()
             return next(
                 (
                     court
                     for court in self
-                    if str(court.court_code).lower() == court_code.lower()
+                    if (
+                        (
+                            getattr(court, "court_code", None)
+                            and str(court.court_code).strip().lower() == normalized
+                        )
+                        or normalized
+                        in {
+                            str(alias).strip().lower()
+                            for alias in getattr(court, "court_code_aliases", [])
+                        }
+                    )
                 ),
                 None,
             )
