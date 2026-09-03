@@ -101,6 +101,31 @@ class TestCourtFinder(unittest.TestCase):
             },
         )
 
+    def test_former_winchendon_district_court_towns_now_use_gardner(self):
+        for city in [
+            "Ashburnham",
+            "Phillipston",
+            "Royalston",
+            "Templeton",
+            "Winchendon",
+        ]:
+            address = Address(
+                city=city,
+                county="Worcester County",
+                state="Massachusetts",
+            )
+            court_names = self.all_courts.matching_district_court_name(address)
+            self.assertEqual(court_names, {"Gardner District Court"})
+
+    def test_stoughton_housing_session_is_loaded_as_current_location(self):
+        matches = [
+            court
+            for court in self.all_courts.elements
+            if court.name == "Metro South Housing Court - Stoughton Session"
+        ]
+        self.assertEqual(len(matches), 1)
+        self.assertEqual(matches[0].address.address, "1288 Central St.")
+
     def test_bellingham_housing_court_is_canton(self):
         address = Address(
             address="161 Mechanic Street",
