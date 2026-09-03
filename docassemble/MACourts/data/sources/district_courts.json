@@ -508,12 +508,12 @@
     },
     "address": {
       "city": "Fall River",
-      "zip": "02720",
-      "orig_address": "186 S. Main St., 5th Floor, Fall River, MA 02720",
+      "zip": "02721",
+      "orig_address": "186 S. Main St., 2nd Floor, Fall River, MA 02721",
       "county": "Bristol County",
       "state": "MA",
       "address": "186 S. Main St.",
-      "unit": "5th Floor"
+      "unit": "2nd Floor"
     },
     "ada_coordinators": [
       {
@@ -522,7 +522,9 @@
         "email": "maura.donovan@jud.state.ma.us"
       }
     ],
-    "description": "This court serves Fall River, Freetown, Somerset, Swansea, and Westport."
+    "description": "This court serves Fall River, Freetown, Somerset, Swansea, and Westport.",
+    "address_source": "https://www.mass.gov/locations/fall-river-district-court",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "",
@@ -667,7 +669,11 @@
         "email": "kimberly.walsh@jud.state.ma.us"
       }
     ],
-    "description": "This court serves Gardner, Hubbardston, Petersham, and Westminster."
+    "description": "This court serves Ashburnham, Gardner, Hubbardston, Petersham, Phillipston, Royalston, Templeton, Westminster, and Winchendon.",
+    "address_source": "https://www.mass.gov/locations/gardner-district-court",
+    "address_verified": "2026-09-03",
+    "jurisdiction_source": "https://www.mass.gov/locations/gardner-district-court",
+    "jurisdiction_verified": "2026-09-03"
   },
   {
     "fax": "(978) 283-8784",
@@ -1626,11 +1632,11 @@
     },
     "address": {
       "city": "Springfield",
-      "zip": "01102",
-      "orig_address": "50 State St., P.O. Box 2421, Springfield, MA 01102",
+      "zip": "01103",
+      "orig_address": "50 State St., Springfield, MA 01103",
       "county": "Hampden County",
       "state": "MA",
-      "address": "50 State St., P.O. Box 2421"
+      "address": "50 State St."
     },
     "ada_coordinators": [
       {
@@ -1639,7 +1645,15 @@
         "email": "susanne.moultrie@jud.state.ma.us"
       }
     ],
-    "description": "This court serves Longmeadow, Springfield, and West Springfield."
+    "description": "This court serves Longmeadow, Springfield, and West Springfield.",
+    "mailing_address": {
+      "city": "Springfield",
+      "zip": "01102",
+      "state": "MA",
+      "address": "50 State Street"
+    },
+    "address_source": "https://www.mass.gov/locations/springfield-district-court",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "(781) 341-8744",
@@ -1900,7 +1914,12 @@
         "email": "kimberly.walsh@jud.state.ma.us"
       }
     ],
-    "description": "The Winchendon District Court sits in Gardner and serves Ashburnham, Phillipston, Royalston, Templeton and Winchendon."
+    "description": "The Winchendon District Court sits in Gardner and serves Ashburnham, Phillipston, Royalston, Templeton and Winchendon.",
+    "active": false,
+    "successor": "Gardner District Court",
+    "retired_reason": "Retained only for historical docket-code compatibility. Gardner District Court and Winchendon District Court were consolidated into Gardner District Court under St. 2025, c. 9.",
+    "retirement_source": "https://www.mass.gov/locations/gardner-district-court",
+    "status_verified": "2026-09-03"
   },
   {
     "fax": "(781) 933-4404",
