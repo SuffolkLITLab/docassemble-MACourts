@@ -82,6 +82,17 @@ class TestCourtFinder(unittest.TestCase):
         self.assertIn("Boston Juvenile Court", court_strings)
         self.assertIn("Land Court", court_strings)
 
+    def test_bellingham_housing_court_is_canton(self):
+        address = Address(
+            address="161 Mechanic Street",
+            city="Bellingham",
+            county="Norfolk County",
+            state="Massachusetts",
+            zip="02019",
+        )
+        court_name = self.all_courts.matching_housing_court_name(address)
+        self.assertEqual(court_name, "Metro South Housing Court - Canton Session")
+
     def test_find_sjc(self):
         address = Address(
             address="123 Main St", city="Anywhere", state="Massachusetts", zip="00000"
