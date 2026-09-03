@@ -3543,7 +3543,8 @@ class MACourtList(DAList):
             matching_courts = [
                 court
                 for court in self.elements
-                if court.court_code.strip().lower() == str(search_court_code).lower()
+                if getattr(court, "court_code", None)
+                and court.court_code.strip().lower() == str(search_court_code).lower()
             ]
             if not matching_courts:
                 raise KeyError(
