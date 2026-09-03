@@ -16,15 +16,15 @@
       "state": "MA",
       "address": "279 West Main St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Katie LaGorce",    
-        "phone": "(508) 831-2065", 
-        "email": "kathleen.lagorce@jud.state.ma.us"  
+        "name": "Katie LaGorce",
+        "phone": "(508) 831-2065",
+        "email": "kathleen.lagorce@jud.state.ma.us"
       },
       {
-        "name": "Aracelis Arroyo Centeno", 
-        "phone": "(508) 831-2066", 
+        "name": "Aracelis Arroyo Centeno",
+        "phone": "(508) 831-2066",
         "email": "aracelis.arroyo@jud.state.ma.us"
       }
     ],
@@ -51,15 +51,15 @@
       "state": "MA",
       "address": "25 School St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Katie LaGorce",    
-        "phone": "(508) 831-2065", 
-        "email": "kathleen.lagorce@jud.state.ma.us"  
+        "name": "Katie LaGorce",
+        "phone": "(508) 831-2065",
+        "email": "kathleen.lagorce@jud.state.ma.us"
       },
       {
-        "name": "Aracelis Arroyo Centeno", 
-        "phone": "(508) 831-2066", 
+        "name": "Aracelis Arroyo Centeno",
+        "phone": "(508) 831-2066",
         "email": "aracelis.arroyo@jud.state.ma.us"
       }
     ],
@@ -86,15 +86,15 @@
       "state": "MA",
       "address": "45 Williams St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Katie LaGorce",    
-        "phone": "(508) 831-2065", 
-        "email": "kathleen.lagorce@jud.state.ma.us"  
+        "name": "Katie LaGorce",
+        "phone": "(508) 831-2065",
+        "email": "kathleen.lagorce@jud.state.ma.us"
       },
       {
-        "name": "Aracelis Arroyo Centeno", 
-        "phone": "(508) 831-2066", 
+        "name": "Aracelis Arroyo Centeno",
+        "phone": "(508) 831-2066",
         "email": "aracelis.arroyo@jud.state.ma.us"
       }
     ],
@@ -121,23 +121,25 @@
       "state": "MA",
       "address": "225 Main St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Katie LaGorce",    
-        "phone": "(508) 831-2065", 
-        "email": "kathleen.lagorce@jud.state.ma.us"  
+        "name": "Katie LaGorce",
+        "phone": "(508) 831-2065",
+        "email": "kathleen.lagorce@jud.state.ma.us"
       },
       {
-        "name": "Aracelis Arroyo Centeno", 
-        "phone": "(508) 831-2066", 
+        "name": "Aracelis Arroyo Centeno",
+        "phone": "(508) 831-2066",
         "email": "aracelis.arroyo@jud.state.ma.us"
       }
     ],
-    "description": "The Worcester session of the Central Division of the Housing Court serves Auburn, Barre, Bellingham, Blackstone, Boylston, Brookfield, Clinton, Douglas, East Brookfield, Grafton, Hardwick, Hopedale, Lancaster, Leicester, Mendon, Milford, Millbury, Millville, New Braintree, Northbridge, North Brookfield, Oakham, Oxford, Paxton, Rutland, Shrewsbury, Spencer, Sterling, Sutton, Upton, Uxbridge, Warren, West Boylston, and Worcester.",
+    "description": "The Worcester session of the Central Division of the Housing Court serves Auburn, Barre, Blackstone, Boylston, Brookfield, Clinton, Douglas, East Brookfield, Grafton, Hardwick, Hopedale, Lancaster, Leicester, Mendon, Milford, Millbury, Millville, New Braintree, Northbridge, North Brookfield, Oakham, Paxton, Rutland, Shrewsbury, Spencer, Sterling, Sutton, Upton, Uxbridge, Warren, West Boylston, West Brookfield, and Worcester.",
     "court_code": "H85",
     "tyler_code": "535",
     "tyler_lower_court_code": "1831",
-    "tyler_prod_lower_court_code": "7060"
+    "tyler_prod_lower_court_code": "7060",
+    "jurisdiction_source": "https://www.mass.gov/locations/central-housing-court-worcester-session",
+    "jurisdiction_verified": "2026-09-03"
   },
   {
     "fax": "",
@@ -156,10 +158,10 @@
       "state": "MA",
       "address": "24 New Chardon St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Natasha Woodley",    
-        "phone": "(617) 788-6523",  
+        "name": "Natasha Woodley",
+        "phone": "(617) 788-6523",
         "email": "Natasha.woodley@jud.state.ma.us"
       }
     ],
@@ -187,18 +189,20 @@
       "address": "215 Main St.",
       "unit": "Suite 160"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Catarina Andrade",  
-        "phone": "(508) 897-2910",  
-        "email": "catarina.andrade@jud.state.ma.us" 
+        "name": "Catarina Andrade",
+        "phone": "(508) 897-2910",
+        "email": "catarina.andrade@jud.state.ma.us"
       }
     ],
-    "description": "The Metro South Housing Court - Brockton Session serves Abington, Avon, Bellingham, Braintree, Bridgewater, Brockton, Canton, Cohasset, Dedham, Dover, East Bridgewater, Eastham, Foxborough, Franklin, Holbrook, Medfield, Medway, Millis, Milton, Needham, Norfolk, Norwood, Plainville, Quincy, Randolph, Sharon, Stoughton, Walpole, Wellesley, West Bridgewater, Westwood, Weymouth, Whitman, and Wrentham.",
+    "description": "The Metro South Housing Court - Brockton Session serves Abington, Bridgewater, Brockton, East Bridgewater, West Bridgewater, and Whitman.",
     "court_code": "H82",
     "tyler_code": "1265",
     "tyler_lower_court_code": "1829",
-    "tyler_prod_lower_court_code": "7058"
+    "tyler_prod_lower_court_code": "7058",
+    "jurisdiction_source": "https://www.mass.gov/locations/metro-south-housing-court-brockton-session",
+    "jurisdiction_verified": "2026-09-03"
   },
   {
     "fax": "(508) 894-4166",
@@ -217,18 +221,20 @@
       "state": "MA",
       "address": "35 Shawmut Road"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Catarina Andrade",   
-        "phone": "(508) 897-2910", 
-        "email": "catarina.andrade@jud.state.ma.us" 
+        "name": "Catarina Andrade",
+        "phone": "(508) 897-2910",
+        "email": "catarina.andrade@jud.state.ma.us"
       }
     ],
-    "description": "This court serves all cities and towns in Norfolk County. Filings only permitted at this location on days court is in session (currently Fridays).",
+    "description": "The Metro South Housing Court - Canton Session serves Bellingham and other communities assigned to the Canton session. See the current Mass.gov location page for the full service list.",
     "court_code": "H82",
     "tyler_code": "1265",
     "tyler_lower_court_code": "1829",
-    "tyler_prod_lower_court_code": "7058"
+    "tyler_prod_lower_court_code": "7058",
+    "jurisdiction_source": "https://www.mass.gov/locations/metro-south-housing-court-canton-session",
+    "jurisdiction_verified": "2026-09-03"
   },
   {
     "fax": "",
@@ -248,11 +254,11 @@
       "address": "2 Appleton St.",
       "unit": "2nd Floor"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Cynthia Kappotis",   
-        "phone": "(978) 689-7833",   
-        "email": "cynthia.kappotis@jud.state.ma.us" 
+        "name": "Cynthia Kappotis",
+        "phone": "(978) 689-7833",
+        "email": "cynthia.kappotis@jud.state.ma.us"
       }
     ],
     "description": "The Lawrence Session of the Northeast Housing Court serves Amesbury, Andover, Boxford, Georgetown, Groveland, Haverhill, Lawrence, Merrimac, Methuen, Newbury, Newburyport, North Andover, Rowley, Salisbury, and West Newbury.  ",
@@ -278,11 +284,11 @@
       "state": "MA",
       "address": "370 Jackson St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Cynthia Kappotis",   
-        "phone": "(978) 689-7833",   
-        "email": "cynthia.kappotis@jud.state.ma.us" 
+        "name": "Cynthia Kappotis",
+        "phone": "(978) 689-7833",
+        "email": "cynthia.kappotis@jud.state.ma.us"
       }
     ],
     "description": "The Lowell session of the Northeast Housing Court serves Acton, Ashby, Ayer, Billerica, Boxborough, Carlisle, Chelmsford, Devens, Dracut, Dunstable, Groton, Littleton, Lowell, Maynard, Pepperell, Shirley, Stow, Tewksbury, Townsend, Tyngsborough, and Westford.",
@@ -308,11 +314,11 @@
       "state": "MA",
       "address": "56 Federal"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Cynthia Kappotis",   
-        "phone": "(978) 689-7833",   
-        "email": "cynthia.kappotis@jud.state.ma.us" 
+        "name": "Cynthia Kappotis",
+        "phone": "(978) 689-7833",
+        "email": "cynthia.kappotis@jud.state.ma.us"
       }
     ],
     "description": "The Lynn session of the Northeast Housing Court is located in Salem and serves Lynn, Nahant, and Saugus.",
@@ -338,11 +344,11 @@
       "state": "MA",
       "address": "56 Federal"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Cynthia Kappotis",   
-        "phone": "(978) 689-7833",   
-        "email": "cynthia.kappotis@jud.state.ma.us" 
+        "name": "Cynthia Kappotis",
+        "phone": "(978) 689-7833",
+        "email": "cynthia.kappotis@jud.state.ma.us"
       }
     ],
     "description": "The Salem session of the Northeast Housing Court serves Beverly, Danvers, Essex, Gloucester, Hamilton, Ipswich, Lynnfield, Manchester-by-The-Sea, Marblehead, Middleton, Peabody, Rockport, Salem, Swampscott, Topsfield, and Wenham.",
@@ -369,11 +375,11 @@
       "address": "200 Trade Center",
       "unit": "Courtroom 540 5th Floor"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Cynthia Kappotis",   
-        "phone": "(978) 689-7833",   
-        "email": "cynthia.kappotis@jud.state.ma.us" 
+        "name": "Cynthia Kappotis",
+        "phone": "(978) 689-7833",
+        "email": "cynthia.kappotis@jud.state.ma.us"
       }
     ],
     "description": "The Woburn session of the Northeast Housing Court serves Bedford, Burlington, Concord, Everett,Lexington, Lincoln, Malden, Melrose, North Reading, Reading, Stoneham, Wakefield, Waltham, Watertown, Weston, Wilmington, Winchester, and Woburn.",
@@ -399,10 +405,10 @@
       "state": "MA",
       "address": "289 Rock St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Suzette Fagan Clarke",  
-        "phone": "508-677-1505",  
+        "name": "Suzette Fagan Clarke",
+        "phone": "508-677-1505",
         "email": "suzette.fagan-clarke@jud.state.ma.us"
       }
     ],
@@ -410,7 +416,9 @@
     "court_code": "H83",
     "tyler_code": "555:FR",
     "tyler_lower_court_code": "1829",
-    "tyler_prod_lower_court_code": "7058"
+    "tyler_prod_lower_court_code": "7058",
+    "jurisdiction_source": "https://www.mass.gov/locations/southeast-housing-court-fall-river-session",
+    "jurisdiction_verified": "2026-09-03"
   },
   {
     "fax": "(508) 994-7538",
@@ -429,10 +437,10 @@
       "state": "MA",
       "address": "139 Hathaway Road"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Suzette Fagan Clarke",  
-        "phone": "508-677-1505",  
+        "name": "Suzette Fagan Clarke",
+        "phone": "508-677-1505",
         "email": "suzette.fagan-clarke@jud.state.ma.us"
       }
     ],
@@ -440,7 +448,9 @@
     "court_code": "H83",
     "tyler_code": "555:NB",
     "tyler_lower_court_code": "1829",
-    "tyler_prod_lower_court_code": "7058"
+    "tyler_prod_lower_court_code": "7058",
+    "jurisdiction_source": "https://www.mass.gov/locations/southeast-housing-court-new-bedford-session",
+    "jurisdiction_verified": "2026-09-03"
   },
   {
     "fax": "(508) 747-2017",
@@ -459,10 +469,10 @@
       "state": "MA",
       "address": "52 Obery St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Suzette Fagan Clarke",  
-        "phone": "508-677-1505",  
+        "name": "Suzette Fagan Clarke",
+        "phone": "508-677-1505",
         "email": "suzette.fagan-clarke@jud.state.ma.us"
       }
     ],
@@ -489,10 +499,10 @@
       "state": "MA",
       "address": "40 Broadway"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Suzette Fagan Clarke",  
-        "phone": "508-677-1505",  
+        "name": "Suzette Fagan Clarke",
+        "phone": "508-677-1505",
         "email": "suzette.fagan-clarke@jud.state.ma.us"
       }
     ],
@@ -519,11 +529,11 @@
       "state": "MA",
       "address": "43 Hope St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Arlene Correa",     
-        "phone": "413-748-7838", 
-        "email": "arlene.correa@jud.state.ma.us" 
+        "name": "Arlene Correa",
+        "phone": "413-748-7838",
+        "email": "arlene.correa@jud.state.ma.us"
       }
     ],
     "description": "The Western Housing Court in Greenfield serves Ashfield, Bernardston, Buckland, Charlemont, Colrain, Conway, Deerfield, Erving, Gill, Greenfield, Hawley, Heath, Leverett, Leyden, Monroe, Montague, New Salem, Northfield, Orange, Rowe, Shelburne, Shutesbury, Sunderland, Warwick, Wendell and Whately.",
@@ -549,11 +559,11 @@
       "state": "MA",
       "address": "116 Russell St."
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Arlene Correa",     
-        "phone": "413-748-7838", 
-        "email": "arlene.correa@jud.state.ma.us" 
+        "name": "Arlene Correa",
+        "phone": "413-748-7838",
+        "email": "arlene.correa@jud.state.ma.us"
       }
     ],
     "description": "The Hadley session of the Western Housing Court serves Amherst, Belchertown, Chesterfield, Cummington, Easthampton, Goshen, Granby, Hadley, Hatfield, Huntington, Middlefield, Northampton, Pelham, Plainfield, South Hadley, Southampton, Ware, Westhampton, Williamsburg and Worthington.",
@@ -580,11 +590,11 @@
       "address": "76 East St.",
       "unit": "Room 2"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Arlene Correa",     
-        "phone": "413-748-7838", 
-        "email": "arlene.correa@jud.state.ma.us" 
+        "name": "Arlene Correa",
+        "phone": "413-748-7838",
+        "email": "arlene.correa@jud.state.ma.us"
       }
     ],
     "description": "The Pittsfield session of the Western Housing Court serves cities and towns in Berkshire County on Wednesday mornings.",
@@ -610,11 +620,11 @@
       "state": "MA",
       "address": "37 Elm Street, P.O. Box 559"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Arlene Correa",     
-        "phone": "413-748-7838", 
-        "email": "arlene.correa@jud.state.ma.us" 
+        "name": "Arlene Correa",
+        "phone": "413-748-7838",
+        "email": "arlene.correa@jud.state.ma.us"
       }
     ],
     "description": "The Western Housing Court in Springfield serves Agawam, Blandford, Brimfield, Chester, Chicopee, East Longmeadow, Granville, Hampden, Holland, Holyoke, Longmeadow, Ludlow, Monson, Montgomery, Palmer, Russell, Southwick, Springfield, Tolland, Wales, West Springfield, Westfield and Wilbraham.",
@@ -642,11 +652,11 @@
       "county": "Middlesex County",
       "orig_address": "175 Fellsway, Somerville, MA 02145"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Natasha Woodley", 
-        "phone": "(617) 788-6523",  
-        "email": "Natasha.woodley@jud.state.ma.us"  
+        "name": "Natasha Woodley",
+        "phone": "(617) 788-6523",
+        "email": "Natasha.woodley@jud.state.ma.us"
       }
     ],
     "description": "The Middlesex Session of the Eastern Housing Court serves Arlington, Belmont, and Cambridge, Newton, Medford and Somerville. This location is only open on Fridays.",
@@ -671,11 +681,11 @@
       "state": "MA",
       "address": "3195 Main Street"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Suzette Fagan Clarke",   
-        "phone": "508-677-1505", 
-        "email": "suzette.fagan-clarke@jud.state.ma.us" 
+        "name": "Suzette Fagan Clarke",
+        "phone": "508-677-1505",
+        "email": "suzette.fagan-clarke@jud.state.ma.us"
       }
     ],
     "description": "The Barnstable session of the Southeast Housing court is located in Barnstable, MA and serves Barnstable, Nantucket, and Dukes counties.",
@@ -701,11 +711,11 @@
       "state": "MA",
       "address": "120 Broadway, Chelsea, MA 02150"
     },
-    "ada_coordinators": [ 
+    "ada_coordinators": [
       {
-        "name": "Natasha Woodley",   
-        "phone": "(617) 788-6523",  
-        "email": "Natasha.woodley@jud.state.ma.us" 
+        "name": "Natasha Woodley",
+        "phone": "(617) 788-6523",
+        "email": "Natasha.woodley@jud.state.ma.us"
       }
     ],
     "description": "The Chelsea session of Eastern Housing Court is located in Chelsea District Court and serves Chelsea, Revere, Winthrop and East Boston.",
