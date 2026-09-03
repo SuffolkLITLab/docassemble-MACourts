@@ -19,6 +19,10 @@
       "address": "1 Pemberton Square",
       "unit": "Suite 2500"
     },
-    "description": "The Massachusetts Supreme Judicial Court is the Commonwealth's highest appellate court. The seven Justices hear appeals on a broad range of criminal and civil cases."
+    "description": "The Massachusetts Supreme Judicial Court is the Commonwealth's highest appellate court. The seven Justices hear appeals on a broad range of criminal and civil cases.",
+    "url": "https://www.mass.gov/orgs/massachusetts-supreme-judicial-court",
+    "building_name": "John Adams Courthouse",
+    "address_source": "https://www.mass.gov/orgs/massachusetts-supreme-judicial-court",
+    "address_verified": "2026-09-03"
   }
 ]
