@@ -9,9 +9,9 @@
       "longitude": -71.923491
     },
     "address": {
-      "city": "Dudley District Court, Dudley",
+      "city": "Dudley",
       "zip": "01571",
-      "orig_address": "279 West Main St., Dudley District Court, Dudley, MA 01571",
+      "orig_address": "279 West Main St., Dudley, MA 01571",
       "county": "Worcester County",
       "state": "MA",
       "address": "279 West Main St."
@@ -32,7 +32,10 @@
     "court_code": "H85",
     "tyler_code": "535",
     "tyler_lower_court_code": "1831",
-    "tyler_prod_lower_court_code": "7060"
+    "tyler_prod_lower_court_code": "7060",
+    "location_name": "Central Housing Court - Dudley Session",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
   },
   {
     "fax": "",
@@ -44,9 +47,9 @@
       "longitude": -71.761178
     },
     "address": {
-      "city": "Leominster District Court, Leominster",
+      "city": "Leominster",
       "zip": "01453",
-      "orig_address": "25 School St., Leominster District Court, Leominster, MA 01453",
+      "orig_address": "25 School St., Leominster, MA 01453",
       "county": "Worcester County",
       "state": "MA",
       "address": "25 School St."
@@ -67,7 +70,10 @@
     "court_code": "H85",
     "tyler_code": "535",
     "tyler_lower_court_code": "1831",
-    "tyler_prod_lower_court_code": "7060"
+    "tyler_prod_lower_court_code": "7060",
+    "location_name": "Central Housing Court - Leominster Session",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
   },
   {
     "fax": "",
@@ -79,9 +85,9 @@
       "longitude": -71.563783
     },
     "address": {
-      "city": "Marlborough District Court, Marlborough",
+      "city": "Marlborough",
       "zip": "01752",
-      "orig_address": "45 Williams St., Marlborough District Court, Marlborough, MA 01752",
+      "orig_address": "45 Williams St., Marlborough, MA 01752",
       "county": "Middlesex County",
       "state": "MA",
       "address": "45 Williams St."
@@ -102,7 +108,10 @@
     "court_code": "H85",
     "tyler_code": "535",
     "tyler_lower_court_code": "1831",
-    "tyler_prod_lower_court_code": "7060"
+    "tyler_prod_lower_court_code": "7060",
+    "location_name": "Central Housing Court - Marlborough Session",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
   },
   {
     "fax": "",
@@ -139,12 +148,14 @@
     "tyler_lower_court_code": "1831",
     "tyler_prod_lower_court_code": "7060",
     "jurisdiction_source": "https://www.mass.gov/locations/central-housing-court-worcester-session",
-    "jurisdiction_verified": "2026-09-03"
+    "jurisdiction_verified": "2026-09-03",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
   },
   {
     "fax": "",
     "name": "Eastern Housing Court",
-    "phone": "(617) 788-8485",
+    "phone": "(617) 788-8486",
     "has_po_box": false,
     "location": {
       "latitude": 42.362961,
@@ -169,7 +180,75 @@
     "court_code": "H84",
     "tyler_code": "537",
     "tyler_lower_court_code": "1827",
-    "tyler_prod_lower_court_code": "7056"
+    "tyler_prod_lower_court_code": "7056",
+    "location_name": "Eastern Housing Court - Boston Session",
+    "url": "https://www.mass.gov/locations/eastern-housing-court-boston-session",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/locations/eastern-housing-court-boston-session"
+  },
+  {
+    "fax": "",
+    "court_code": "H84",
+    "name": "Eastern Housing Court - Chelsea Session",
+    "phone": "(617)788-8485",
+    "has_po_box": false,
+    "location": {
+      "latitude": 42.388969,
+      "longitude": -71.041077
+    },
+    "address": {
+      "city": "Chelsea",
+      "zip": "02150",
+      "orig_address": "120 Broadway, Chelsea, MA 02150",
+      "county": "Suffolk County",
+      "state": "MA",
+      "address": "120 Broadway"
+    },
+    "ada_coordinators": [
+      {
+        "name": "Natasha Woodley",
+        "phone": "(617) 788-6523",
+        "email": "Natasha.woodley@jud.state.ma.us"
+      }
+    ],
+    "description": "The Chelsea session of Eastern Housing Court is located in Chelsea District Court and serves Chelsea, Revere, Winthrop and East Boston.",
+    "tyler_code": "537",
+    "tyler_lower_court_code": "1827",
+    "tyler_prod_lower_court_code": "7056",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
+  },
+  {
+    "fax": "",
+    "court_code": "H84",
+    "tyler_code": "537",
+    "name": "Eastern Housing Court - Middlesex Session",
+    "phone": "(617) 788-8485",
+    "has_po_box": false,
+    "location": {
+      "latitude": 42.3955658,
+      "longitude": -71.0869202
+    },
+    "address": {
+      "city": "Somerville",
+      "address": "175 Fellsway",
+      "state": "MA",
+      "zip": "02145",
+      "county": "Middlesex County",
+      "orig_address": "175 Fellsway, Somerville, MA 02145"
+    },
+    "ada_coordinators": [
+      {
+        "name": "Natasha Woodley",
+        "phone": "(617) 788-6523",
+        "email": "Natasha.woodley@jud.state.ma.us"
+      }
+    ],
+    "description": "The Middlesex Session of the Eastern Housing Court serves Arlington, Belmont, and Cambridge, Newton, Medford and Somerville. This location is only open on Fridays.",
+    "tyler_lower_court_code": "1827",
+    "tyler_prod_lower_court_code": "7056",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
   },
   {
     "fax": "(508) 894-4168",
@@ -182,8 +261,8 @@
     },
     "address": {
       "city": "Brockton",
-      "zip": "02303",
-      "orig_address": "215 Main St., Suite 160, Brockton, MA 02303",
+      "zip": "02301",
+      "orig_address": "215 Main St., Suite 160, Brockton, MA 02301",
       "county": "Plymouth County",
       "state": "MA",
       "address": "215 Main St.",
@@ -202,12 +281,14 @@
     "tyler_lower_court_code": "1829",
     "tyler_prod_lower_court_code": "7058",
     "jurisdiction_source": "https://www.mass.gov/locations/metro-south-housing-court-brockton-session",
-    "jurisdiction_verified": "2026-09-03"
+    "jurisdiction_verified": "2026-09-03",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
   },
   {
     "fax": "(508) 894-4166",
     "name": "Metro South Housing Court - Canton Session",
-    "phone": "(508) 894-4170",
+    "phone": "(781) 830-0025",
     "has_po_box": false,
     "location": {
       "latitude": 42.189243,
@@ -234,7 +315,45 @@
     "tyler_lower_court_code": "1829",
     "tyler_prod_lower_court_code": "7058",
     "jurisdiction_source": "https://www.mass.gov/locations/metro-south-housing-court-canton-session",
-    "jurisdiction_verified": "2026-09-03"
+    "jurisdiction_verified": "2026-09-03",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
+  },
+  {
+    "fax": "",
+    "court_code": null,
+    "tyler_lower_court_code": null,
+    "tyler_prod_lower_court_code": null,
+    "tyler_code": null,
+    "name": "Metro South Housing Court - Stoughton Session",
+    "location_name": "Metro South Housing Court - Stoughton Session",
+    "url": "https://www.mass.gov/locations/metro-south-housing-court-stoughton-session",
+    "hours": "Second Friday of each month, 8:30 a.m.–2:00 p.m.",
+    "phone": "(781) 830-0025",
+    "has_po_box": false,
+    "location": {
+      "latitude": 42.13315,
+      "longitude": -71.111394
+    },
+    "address": {
+      "city": "Stoughton",
+      "zip": "02072",
+      "orig_address": "1288 Central St., Stoughton, MA 02072",
+      "county": "Norfolk County",
+      "state": "MA",
+      "address": "1288 Central St."
+    },
+    "filing_address": {
+      "city": "Canton",
+      "zip": "02021",
+      "state": "MA",
+      "address": "35 Shawmut Road"
+    },
+    "filing_note": "Direct all filings and correspondence to the Canton session; do not mail or direct filings to the Stoughton address.",
+    "description": "The Metro South Housing Court - Stoughton Session serves Stoughton only.",
+    "address_source": "https://www.mass.gov/locations/metro-south-housing-court-stoughton-session",
+    "address_verified": "2026-09-03",
+    "code_status": "Court/EFSP identifiers not yet independently verified for this newly added session."
   },
   {
     "fax": "",
@@ -265,12 +384,14 @@
     "court_code": "H77",
     "tyler_code": "516",
     "tyler_lower_court_code": "1828",
-    "tyler_prod_lower_court_code": "7057"
+    "tyler_prod_lower_court_code": "7057",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
   },
   {
     "fax": "",
     "name": "Northeast Housing Court - Lowell Session",
-    "phone": "(978) 689-7833",
+    "phone": "(978) 656-7600",
     "has_po_box": false,
     "location": {
       "latitude": 42.637493,
@@ -295,24 +416,26 @@
     "court_code": "H77",
     "tyler_code": "516",
     "tyler_lower_court_code": "1828",
-    "tyler_prod_lower_court_code": "7057"
+    "tyler_prod_lower_court_code": "7057",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
   },
   {
     "fax": "",
     "name": "Northeast Housing Court - Lynn Session",
-    "phone": "(978) 689-7833",
+    "phone": "(978) 825-4920",
     "has_po_box": false,
     "location": {
       "latitude": 42.464841,
       "longitude": -70.948987
     },
     "address": {
-      "city": "St. Salem",
+      "city": "Salem",
       "zip": "01970",
-      "orig_address": "56 Federal St. , Salem, MA 01970",
+      "orig_address": "56 Federal St., Salem, MA 01970",
       "county": "Essex County",
       "state": "MA",
-      "address": "56 Federal"
+      "address": "56 Federal St."
     },
     "ada_coordinators": [
       {
@@ -325,7 +448,9 @@
     "court_code": "H77",
     "tyler_code": "516",
     "tyler_lower_court_code": "1828",
-    "tyler_prod_lower_court_code": "7057"
+    "tyler_prod_lower_court_code": "7057",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
   },
   {
     "fax": "",
@@ -337,12 +462,12 @@
       "longitude": -70.896639
     },
     "address": {
-      "city": "St. Salem",
+      "city": "Salem",
       "zip": "01970",
-      "orig_address": "56 Federal St. , Salem, MA 01970",
+      "orig_address": "56 Federal St., Salem, MA 01970",
       "county": "Essex County",
       "state": "MA",
-      "address": "56 Federal"
+      "address": "56 Federal St."
     },
     "ada_coordinators": [
       {
@@ -355,12 +480,14 @@
     "court_code": "H77",
     "tyler_code": "516",
     "tyler_lower_court_code": "1828",
-    "tyler_prod_lower_court_code": "7057"
+    "tyler_prod_lower_court_code": "7057",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
   },
   {
     "fax": "",
     "name": "Northeast Housing Court - Woburn Session",
-    "phone": "(978) 689-7833",
+    "phone": "(978) 656-7600",
     "has_po_box": false,
     "location": {
       "latitude": 42.500543,
@@ -386,7 +513,50 @@
     "court_code": "H77",
     "tyler_code": "516",
     "tyler_lower_court_code": "1828",
-    "tyler_prod_lower_court_code": "7057"
+    "tyler_prod_lower_court_code": "7057",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
+  },
+  {
+    "fax": "(508)362-0290",
+    "court_code": "H83",
+    "name": "Southeast Housing Court - Barnstable session",
+    "phone": "(508) 994-0156",
+    "has_po_box": true,
+    "location": {
+      "latitude": 41.700346,
+      "longitude": -70.304021
+    },
+    "address": {
+      "city": "Barnstable",
+      "zip": "02630",
+      "orig_address": "3195 Main Street, Barnstable, MA 02630",
+      "county": "Barnstable County",
+      "state": "MA",
+      "address": "3195 Main Street"
+    },
+    "ada_coordinators": [
+      {
+        "name": "Suzette Fagan Clarke",
+        "phone": "508-677-1505",
+        "email": "suzette.fagan-clarke@jud.state.ma.us"
+      }
+    ],
+    "description": "The Barnstable session of the Southeast Housing court is located in Barnstable, MA and serves Barnstable, Nantucket, and Dukes counties.",
+    "tyler_code": "555:CI",
+    "tyler_lower_court_code": "1829",
+    "tyler_prod_lower_court_code": "7058",
+    "location_name": "Southeast Housing Court - Barnstable Session",
+    "url": "https://www.mass.gov/locations/southeast-housing-court-barnstable-session",
+    "filing_address": {
+      "city": "New Bedford",
+      "state": "MA",
+      "address": "139 Hathaway Road",
+      "zip": "02746"
+    },
+    "filing_note": "Direct all filings and correspondence to the New Bedford session; do not mail or direct filings to the Barnstable address.",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/locations/southeast-housing-court-barnstable-session"
   },
   {
     "fax": "(508) 672-9621",
@@ -418,7 +588,9 @@
     "tyler_lower_court_code": "1829",
     "tyler_prod_lower_court_code": "7058",
     "jurisdiction_source": "https://www.mass.gov/locations/southeast-housing-court-fall-river-session",
-    "jurisdiction_verified": "2026-09-03"
+    "jurisdiction_verified": "2026-09-03",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
   },
   {
     "fax": "(508) 994-7538",
@@ -450,7 +622,9 @@
     "tyler_lower_court_code": "1829",
     "tyler_prod_lower_court_code": "7058",
     "jurisdiction_source": "https://www.mass.gov/locations/southeast-housing-court-new-bedford-session",
-    "jurisdiction_verified": "2026-09-03"
+    "jurisdiction_verified": "2026-09-03",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
   },
   {
     "fax": "(508) 747-2017",
@@ -480,7 +654,9 @@
     "court_code": "H83",
     "tyler_code": "555:PL",
     "tyler_lower_court_code": "1829",
-    "tyler_prod_lower_court_code": "7058"
+    "tyler_prod_lower_court_code": "7058",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
   },
   {
     "fax": "(508) 977-0485",
@@ -510,7 +686,9 @@
     "court_code": "H83",
     "tyler_code": "555:TA",
     "tyler_lower_court_code": "1829",
-    "tyler_prod_lower_court_code": "7058"
+    "tyler_prod_lower_court_code": "7058",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
   },
   {
     "fax": "(413) 732-4607",
@@ -540,7 +718,9 @@
     "court_code": "H79",
     "tyler_code": "527",
     "tyler_lower_court_code": "1830",
-    "tyler_prod_lower_court_code": "7059"
+    "tyler_prod_lower_court_code": "7059",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
   },
   {
     "fax": "(413) 732-4607 ",
@@ -570,7 +750,9 @@
     "court_code": "H79",
     "tyler_code": "527",
     "tyler_lower_court_code": "1830",
-    "tyler_prod_lower_court_code": "7059"
+    "tyler_prod_lower_court_code": "7059",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
   },
   {
     "fax": "(413) 732-4607 ",
@@ -601,7 +783,9 @@
     "court_code": "H79",
     "tyler_code": "527",
     "tyler_lower_court_code": "1830",
-    "tyler_prod_lower_court_code": "7059"
+    "tyler_prod_lower_court_code": "7059",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
   },
   {
     "fax": "(413) 732-4607",
@@ -631,96 +815,8 @@
     "court_code": "H79",
     "tyler_code": "527",
     "tyler_lower_court_code": "1830",
-    "tyler_prod_lower_court_code": "7059"
-  },
-  {
-    "fax": "",
-    "court_code": "H84",
-    "tyler_code": "537",
-    "name": "Eastern Housing Court - Middlesex Session",
-    "phone": "(617) 788-8485",
-    "has_po_box": false,
-    "location": {
-      "latitude": 42.3955658,
-      "longitude": -71.0869202
-    },
-    "address": {
-      "city": "Somerville",
-      "address": "175 Fellsway",
-      "state": "MA",
-      "zip": "02145",
-      "county": "Middlesex County",
-      "orig_address": "175 Fellsway, Somerville, MA 02145"
-    },
-    "ada_coordinators": [
-      {
-        "name": "Natasha Woodley",
-        "phone": "(617) 788-6523",
-        "email": "Natasha.woodley@jud.state.ma.us"
-      }
-    ],
-    "description": "The Middlesex Session of the Eastern Housing Court serves Arlington, Belmont, and Cambridge, Newton, Medford and Somerville. This location is only open on Fridays.",
-    "tyler_lower_court_code": "1827",
-    "tyler_prod_lower_court_code": "7056"
-  },
-  {
-    "fax": "(508)362-0290",
-    "court_code": "H83",
-    "name": "Southeast Housing Court - Barnstable session",
-    "phone": "(508)375-6967",
-    "has_po_box": true,
-    "location": {
-      "latitude": 41.700346,
-      "longitude": -70.304021
-    },
-    "address": {
-      "city": "Barnstable",
-      "zip": "02630",
-      "orig_address": "3195 Main Street, Barnstable, MA 02630",
-      "county": "Barnstable County",
-      "state": "MA",
-      "address": "3195 Main Street"
-    },
-    "ada_coordinators": [
-      {
-        "name": "Suzette Fagan Clarke",
-        "phone": "508-677-1505",
-        "email": "suzette.fagan-clarke@jud.state.ma.us"
-      }
-    ],
-    "description": "The Barnstable session of the Southeast Housing court is located in Barnstable, MA and serves Barnstable, Nantucket, and Dukes counties.",
-    "tyler_code": "555:CI",
-    "tyler_lower_court_code": "1829",
-    "tyler_prod_lower_court_code": "7058"
-  },
-  {
-    "fax": "",
-    "court_code": "H84",
-    "name": "Eastern Housing Court - Chelsea Session",
-    "phone": "(617)788-8485",
-    "has_po_box": false,
-    "location": {
-      "latitude": 42.388969,
-      "longitude": -71.041077
-    },
-    "address": {
-      "city": "Chelsea",
-      "zip": "02150",
-      "orig_address": "120 Broadway, Chelasea, MA 02150",
-      "county": "Chelsea",
-      "state": "MA",
-      "address": "120 Broadway, Chelsea, MA 02150"
-    },
-    "ada_coordinators": [
-      {
-        "name": "Natasha Woodley",
-        "phone": "(617) 788-6523",
-        "email": "Natasha.woodley@jud.state.ma.us"
-      }
-    ],
-    "description": "The Chelsea session of Eastern Housing Court is located in Chelsea District Court and serves Chelsea, Revere, Winthrop and East Boston.",
-    "tyler_code": "537",
-    "tyler_lower_court_code": "1827",
-    "tyler_prod_lower_court_code": "7056"
+    "tyler_prod_lower_court_code": "7059",
+    "address_verified": "2026-09-03",
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
   }
 ]
