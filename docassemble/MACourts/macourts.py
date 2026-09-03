@@ -3039,41 +3039,15 @@ class MACourtList(DAList):
             local_housing_court = "Central Housing Court - Worcester Session"
         elif address_to_compare.city.lower() in [
             "abington",
-            "avon",
-            "bellingham",
-            "braintree",
             "bridgewater",
             "brockton",
-            "canton",
-            "cohasset",
-            "dedham",
-            "dover",
             "east bridgewater",
-            "eastham",
-            "foxborough",
-            "franklin",
-            "holbrook",
-            "medfield",
-            "medway",
-            "millis",
-            "milton",
-            "needham",
-            "norfolk",
-            "norwood",
-            "plainville",
-            "quincy",
-            "randolph",
-            "sharon",
-            "stoughton",
-            "walpole",
-            "wellesley",
             "west bridgewater",
-            "westwood",
-            "weymouth",
             "whitman",
-            "wrentham",
         ]:
             local_housing_court = "Metro South Housing Court - Brockton Session"
+        elif address_to_compare.city.lower() == "stoughton":
+            local_housing_court = "Metro South Housing Court - Stoughton Session"
         elif (
             address_to_compare.county.lower() == "norfolk county"
             and not address_to_compare.city.lower() in ["newton", "brookline"]
