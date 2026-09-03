@@ -126,6 +126,40 @@ class TestCourtFinder(unittest.TestCase):
         self.assertEqual(len(matches), 1)
         self.assertEqual(matches[0].address.address, "1288 Central St.")
 
+    def test_stoughton_housing_court_matches_new_session(self):
+        address = Address(
+            address="1288 Central Street",
+            city="Stoughton",
+            county="Norfolk County",
+            state="Massachusetts",
+            zip="02072",
+        )
+        court_name = self.all_courts.matching_housing_court_name(address)
+        self.assertEqual(
+            court_name,
+            "Metro South Housing Court - Stoughton Session",
+        )
+
+    def test_brockton_session_uses_current_six_town_roster(self):
+        expected_brockton = {
+            "Abington",
+            "Bridgewater",
+            "Brockton",
+            "East Bridgewater",
+            "West Bridgewater",
+            "Whitman",
+        }
+        for city in expected_brockton:
+            address = Address(
+                city=city,
+                county="Plymouth County",
+                state="Massachusetts",
+            )
+            self.assertEqual(
+                self.all_courts.matching_housing_court_name(address),
+                "Metro South Housing Court - Brockton Session",
+            )
+
     def test_bellingham_housing_court_is_canton(self):
         address = Address(
             address="161 Mechanic Street",
