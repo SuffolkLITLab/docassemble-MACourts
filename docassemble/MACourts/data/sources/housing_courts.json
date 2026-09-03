@@ -283,7 +283,10 @@
     "jurisdiction_source": "https://www.mass.gov/locations/metro-south-housing-court-brockton-session",
     "jurisdiction_verified": "2026-09-03",
     "address_verified": "2026-09-03",
-    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations",
+    "accepts_filings": true,
+    "tyler_code_status": "needs_reverification",
+    "tyler_code_note": "The legacy 1265 value was changed from 1550 in docassemble-MACourts PR #74 after a production issue. The August 2026 LITEFile staging catalog instead exposes Southeast Housing Court - Brockton as 555:BR. Treat this as environment-specific, dated route-key metadata."
   },
   {
     "fax": "(508) 894-4166",
@@ -317,7 +320,14 @@
     "jurisdiction_source": "https://www.mass.gov/locations/metro-south-housing-court-canton-session",
     "jurisdiction_verified": "2026-09-03",
     "address_verified": "2026-09-03",
-    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations",
+    "accepts_filings": true,
+    "appearance_locations": [
+      "Metro South Housing Court - Canton Session",
+      "Metro South Housing Court - Stoughton Session"
+    ],
+    "tyler_code_status": "needs_reverification",
+    "tyler_code_note": "The legacy 1265 value came from production-oriented docassemble-MACourts maintenance, but the August 2026 LITEFile staging catalog has no 1265/Metro South/Canton route and still exposes legacy Southeast Housing Court - Brockton 555:BR. Re-verify against the live target environment before relying on this route key."
   },
   {
     "fax": "",
@@ -353,7 +363,14 @@
     "description": "The Metro South Housing Court - Stoughton Session serves Stoughton only.",
     "address_source": "https://www.mass.gov/locations/metro-south-housing-court-stoughton-session",
     "address_verified": "2026-09-03",
-    "code_status": "Court/EFSP identifiers not yet independently verified for this newly added session."
+    "code_status": "Court/EFSP identifiers not yet independently verified for this newly added session.",
+    "accepts_filings": false,
+    "filing_location": "Metro South Housing Court - Canton Session",
+    "appearance_locations": [
+      "Metro South Housing Court - Stoughton Session"
+    ],
+    "tyler_code_status": "not_separate_in_2026-08-stage_catalog",
+    "tyler_code_note": "The August 2026 LITEFile Tyler staging catalog has no separate Stoughton or Canton route. Do not guess a Tyler route key; resolve through the canonical filing location and live EFSP taxonomy."
   },
   {
     "fax": "",
@@ -556,7 +573,12 @@
     },
     "filing_note": "Direct all filings and correspondence to the New Bedford session; do not mail or direct filings to the Barnstable address.",
     "address_verified": "2026-09-03",
-    "address_source": "https://www.mass.gov/locations/southeast-housing-court-barnstable-session"
+    "address_source": "https://www.mass.gov/locations/southeast-housing-court-barnstable-session",
+    "accepts_filings": false,
+    "filing_location": "Southeast Housing Court - New Bedford Session",
+    "appearance_locations": [
+      "Southeast Housing Court - Barnstable Session"
+    ]
   },
   {
     "fax": "(508) 672-9621",
@@ -624,7 +646,12 @@
     "jurisdiction_source": "https://www.mass.gov/locations/southeast-housing-court-new-bedford-session",
     "jurisdiction_verified": "2026-09-03",
     "address_verified": "2026-09-03",
-    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations",
+    "accepts_filings": true,
+    "appearance_locations": [
+      "Southeast Housing Court - New Bedford Session",
+      "Southeast Housing Court - Barnstable Session"
+    ]
   },
   {
     "fax": "(508) 747-2017",
