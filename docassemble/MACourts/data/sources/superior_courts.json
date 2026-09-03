@@ -26,7 +26,10 @@
         "email": "christine.higginbotham@jud.state.ma.us"
       }
     ],
-    "description": "This court serves the cities and towns of Barnstable County."
+    "description": "This court serves the cities and towns of Barnstable County.",
+    "location_name": "Barnstable County Superior Court",
+    "address_source": "https://www.mass.gov/orgs/superior-court/locations",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "(413) 442-9190",
@@ -55,7 +58,10 @@
         "email": "michele.dillon@jud.state.ma.us"
       }
     ],
-    "description": "This court serves all cities and towns of Berkshire County.\r\n\r\n"
+    "description": "This court serves all cities and towns of Berkshire County.\r\n\r\n",
+    "location_name": "Berkshire County Superior Court",
+    "address_source": "https://www.mass.gov/orgs/superior-court/locations",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "(508) 821-9563 ",
@@ -84,7 +90,11 @@
         "email": "Aaron.strojny@jud.state.ma.us"
       }
     ],
-    "description": "The Bristol County Superior Court in Taunton serves the cities and towns of Bristol County. This location only handles criminal matters."
+    "description": "The Bristol County Superior Court in Taunton serves the cities and towns of Bristol County. This location only handles criminal matters.",
+    "location_name": "Bristol County Superior Court",
+    "url": "https://www.mass.gov/locations/bristol-county-superior-court",
+    "address_source": "https://www.mass.gov/locations/bristol-county-superior-court",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "(508) 821-9563",
@@ -101,8 +111,8 @@
     },
     "address": {
       "city": "Fall River",
-      "zip": "02720",
-      "orig_address": "186 S. Main St., Fall River, MA 02720",
+      "zip": "02721",
+      "orig_address": "186 S. Main St., Fall River, MA 02721",
       "county": "Bristol County",
       "state": "MA",
       "address": "186 S. Main St."
@@ -114,7 +124,11 @@
         "email": "jennifer.sullivan@jud.state.ma.us"
       }
     ],
-    "description": "This court serves the cities and towns of Bristol County. This location handles only criminal matters"
+    "description": "This court serves the cities and towns of Bristol County. This location handles only criminal matters",
+    "location_name": "Bristol County Superior Court-Fall River",
+    "case_scope": "criminal matters",
+    "address_source": "https://www.mass.gov/locations/bristol-county-superior-court-fall-river",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "",
@@ -145,7 +159,11 @@
         "email": "jennifer.sullivan@jud.state.ma.us"
       }
     ],
-    "description": "The Bristol County Superior Court in New Bedford serves the cities and towns of Bristol County. This location handles  only civil matters."
+    "description": "The Bristol County Superior Court in New Bedford serves the cities and towns of Bristol County. This location handles  only civil matters.",
+    "location_name": "Bristol County Superior Court-New Bedford",
+    "case_scope": "civil matters",
+    "address_source": "https://www.mass.gov/locations/bristol-county-superior-court-new-bedford",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "",
@@ -174,7 +192,10 @@
         "email": "deanna.ruiz@jud.state.ma.us"
       }
     ],
-    "description": "This court serves all the towns of Dukes County."
+    "description": "This court serves all the towns of Dukes County.",
+    "location_name": "Dukes County Superior Court",
+    "address_source": "https://www.mass.gov/orgs/superior-court/locations",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "(978) 741-0691",
@@ -213,7 +234,11 @@
         "email": "lisa.gomes@jud.state.ma.us"
       }
     ],
-    "description": "This court serves all cities and towns of Essex County."
+    "description": "This court serves all cities and towns of Essex County.",
+    "location_name": "Essex County Superior Court",
+    "url": "https://www.mass.gov/locations/essex-county-superior-court",
+    "address_source": "https://www.mass.gov/locations/essex-county-superior-court",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "(978) 687-7869 ",
@@ -243,7 +268,10 @@
         "email": "stefano.cornelio@jud.state.ma.us"
       }
     ],
-    "description": "This court serves all cities and towns of Essex County."
+    "description": "This court serves all cities and towns of Essex County.",
+    "location_name": "Essex County Superior Court - Lawrence",
+    "address_source": "https://www.mass.gov/locations/essex-county-superior-court-lawrence",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "(978) 462-0432",
@@ -273,7 +301,10 @@
         "email": "dawn.mansfield@jud.state.ma.us"
       }
     ],
-    "description": "This court serves all cities and towns of Essex County."
+    "description": "This court serves all cities and towns of Essex County.",
+    "location_name": "Essex County Superior Court - Newburyport",
+    "address_source": "https://www.mass.gov/locations/essex-county-superior-court-newburyport",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "(413) 774-4770 ",
@@ -306,7 +337,10 @@
         "email": "susan.emond@jud.state.ma.us"
       }
     ],
-    "description": "This court serves all the cities and towns of Franklin County."
+    "description": "This court serves all the cities and towns of Franklin County.",
+    "location_name": "Franklin County Superior Court",
+    "address_source": "https://www.mass.gov/orgs/superior-court/locations",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "(413) 737-1611",
@@ -322,11 +356,11 @@
     },
     "address": {
       "city": "Springfield",
-      "zip": "01102",
-      "orig_address": "50 State St., P.O. Box 559, Springfield, MA 01102",
+      "zip": "01103",
+      "orig_address": "50 State St., Springfield, MA 01103",
       "county": "Hampden County",
       "state": "MA",
-      "address": "50 State St., P.O. Box 559"
+      "address": "50 State St."
     },
     "ada_coordinators": [
       {
@@ -335,7 +369,17 @@
         "email": "sheree.cope@jud.state.ma.us"
       }
     ],
-    "description": "This court serves all cities and towns of Hampden County."
+    "description": "This court serves all cities and towns of Hampden County.",
+    "mailing_address": {
+      "city": "Springfield",
+      "zip": "01102",
+      "state": "MA",
+      "address": "P.O. Box 559"
+    },
+    "url": "https://www.mass.gov/locations/hampden-county-superior-court",
+    "location_name": "Hampden County Superior Court",
+    "address_source": "https://www.mass.gov/locations/hampden-county-superior-court",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "(413) 586-8217",
@@ -369,7 +413,10 @@
         "email": "patricia.shepard@jud.state.ma.us"
       }
     ],
-    "description": "This court serves all cities and towns of Hampshire County."
+    "description": "This court serves all cities and towns of Hampshire County.",
+    "location_name": "Hampshire County Superior Court",
+    "address_source": "https://www.mass.gov/orgs/superior-court/locations",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "",
@@ -399,7 +446,11 @@
         "email": "matthew.day@jud.state.ma.us"
       }
     ],
-    "description": "This court serves all cities and towns of Middlesex County."
+    "description": "This court serves all cities and towns of Middlesex County.",
+    "location_name": "Middlesex County Superior Court",
+    "url": "https://www.mass.gov/locations/middlesex-county-superior-court",
+    "address_source": "https://www.mass.gov/locations/middlesex-county-superior-court",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "",
@@ -429,7 +480,10 @@
         "email": "matthew.day@jud.state.ma.us"
       }
     ],
-    "description": "This court serves all cities and towns of Middlesex County."
+    "description": "This court serves all cities and towns of Middlesex County.",
+    "location_name": "Middlesex County Superior Court - Lowell",
+    "address_source": "https://www.mass.gov/locations/middlesex-county-superior-court-lowell",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "(508) 228-3725",
@@ -445,9 +499,9 @@
     },
     "address": {
       "city": "Nantucket",
-      "zip": "02544",
-      "orig_address": "16 Broad St., Nantucket, MA 02544",
-      "county": null,
+      "zip": "02554",
+      "orig_address": "16 Broad St., Nantucket, MA 02554",
+      "county": "Nantucket County",
       "state": "MA",
       "address": "16 Broad St."
     },
@@ -458,7 +512,11 @@
         "email": "susan.beamish@jud.state.ma.us"
       }
     ],
-    "description": "This court serves all cities and towns in Nantucket County."
+    "description": "This court serves all cities and towns in Nantucket County.",
+    "url": "https://www.mass.gov/locations/nantucket-county-superior-court",
+    "location_name": "Nantucket County Superior Court",
+    "address_source": "https://www.mass.gov/locations/nantucket-county-superior-court",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "",
@@ -487,7 +545,10 @@
         "email": "mary.hickey@jud.state.ma.us"
       }
     ],
-    "description": "This court serves all cities and towns in Norfolk County."
+    "description": "This court serves all cities and towns in Norfolk County.",
+    "location_name": "Norfolk County Superior Court",
+    "address_source": "https://www.mass.gov/orgs/superior-court/locations",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "(508) 830-0676",
@@ -495,7 +556,7 @@
     "tyler_lower_court_code": "1881",
     "tyler_prod_lower_court_code": "7110",
     "name": "Plymouth County Superior Court",
-    "url": "https://www.mass.gov/locations/plymouth-county-superior-court-brockton",
+    "url": "https://www.mass.gov/locations/plymouth-county-superior-court",
     "phone": "(508) 747-8400",
     "has_po_box": false,
     "location": {
@@ -504,9 +565,9 @@
     },
     "address": {
       "city": "Plymouth",
-      "zip": "02630",
-      "orig_address": "52 Obery St., Plymouth, MA 02630",
-      "county": "Barnstable County",
+      "zip": "02360",
+      "orig_address": "52 Obery St., Plymouth, MA 02360",
+      "county": "Plymouth County",
       "state": "MA",
       "address": "52 Obery St."
     },
@@ -517,7 +578,17 @@
         "email": "ulisses.varela@jud.state.ma.us"
       }
     ],
-    "description": "This court serves all cities and towns in Plymouth County. Criminal sessions are held in Brockton."
+    "description": "This court serves all cities and towns in Plymouth County. Criminal sessions are held in Brockton.",
+    "location_name": "Plymouth County Superior Court",
+    "address_note": "The current Superior Court page displays ZIP 02630, which conflicts with current Plymouth District, Juvenile, Probate, and Law Library pages for the same 52 Obery St. building; 02360 is used here.",
+    "address_corrob_sources": [
+      "https://www.mass.gov/locations/plymouth-county-superior-court",
+      "https://www.mass.gov/locations/plymouth-probate-and-family-court",
+      "https://www.mass.gov/locations/plymouth-juvenile-court",
+      "https://www.mass.gov/locations/plymouth-district-court"
+    ],
+    "address_source": "https://www.mass.gov/locations/plymouth-county-superior-court",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "(508) 584-5639",
@@ -547,7 +618,10 @@
         "email": "ulisses.varela@jud.state.ma.us"
       }
     ],
-    "description": "This court serves all cities and towns in Plymouth County. Criminal sessions are held in Brockton."
+    "description": "This court serves all cities and towns in Plymouth County. Criminal sessions are held in Brockton.",
+    "location_name": "Plymouth County Superior Court - Brockton",
+    "address_source": "https://www.mass.gov/locations/plymouth-county-superior-court-brockton",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "",
@@ -586,7 +660,10 @@
         "email": "abigail.bryan@jud.state.ma.us"
       }
     ],
-    "description": "This court serves Boston, Winthrop, Chelsea, and Revere."
+    "description": "This court serves Boston, Winthrop, Chelsea, and Revere.",
+    "location_name": "Suffolk County Superior Court",
+    "address_source": "https://www.mass.gov/orgs/superior-court/locations",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "(508) 798-3216",
@@ -594,7 +671,7 @@
     "tyler_lower_court_code": "1883",
     "tyler_prod_lower_court_code": "7112",
     "name": "Worcester County Superior Court",
-    "phone": "(508) 831-2000",
+    "phone": "(508) 831-2300",
     "has_po_box": false,
     "location": {
       "latitude": 42.26744,
@@ -615,6 +692,9 @@
         "email": "amanda.calocci@jud.state.ma.us"
       }
     ],
-    "description": "This court serves all cities and towns in Worcester County."
+    "description": "This court serves all cities and towns in Worcester County.",
+    "location_name": "Worcester County Superior Court",
+    "address_source": "https://www.mass.gov/orgs/superior-court/locations",
+    "address_verified": "2026-09-03"
   }
 ]
