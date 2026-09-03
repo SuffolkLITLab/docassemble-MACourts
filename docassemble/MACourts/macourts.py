@@ -2380,10 +2380,15 @@ class MACourtList(DAList):
         ]:
             matches.append("Framingham District Court")
         if address_to_compare.city.lower() in [
+            "ashburnham",
             "gardner",
             "hubbardston",
             "petersham",
+            "phillipston",
+            "royalston",
+            "templeton",
             "westminster",
+            "winchendon",
         ]:
             matches.append("Gardner District Court")
         if address_to_compare.city.lower() in ["essex", "gloucester", "rockport"]:
@@ -2695,14 +2700,6 @@ class MACourtList(DAList):
             "westfield",
         ]:
             matches.append("Westfield District Court")
-        if address_to_compare.city.lower() in [
-            "ashburnham",
-            "phillipston",
-            "royalston",
-            "templeton",
-            "winchendon",
-        ]:
-            matches.append("Winchendon District Court")
         if address_to_compare.city.lower() in [
             "burlington",
             "north reading",
