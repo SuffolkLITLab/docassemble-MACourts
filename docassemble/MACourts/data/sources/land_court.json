@@ -5,17 +5,24 @@
     "tyler_lower_court_code": "1854",
     "tyler_prod_lower_court_code": "7083",
     "name": "Land Court",
-    "phone": "",
+    "phone": "(617) 788-7470",
     "has_po_box": false,
-    "location": { "latitude": 42.359891, "longitude": -71.061102 },
+    "location": {
+      "latitude": 42.359891,
+      "longitude": -71.061102
+    },
     "address": {
       "city": "Boston",
       "zip": "02108",
-      "orig_address": "3 Pemberton Square, Boston, MA 02108",
+      "orig_address": "3 Pemberton Square, 5th floor, Boston, MA 02108",
       "county": "Suffolk County",
       "state": "MA",
-      "address": "3 Pemberton Square"
+      "address": "3 Pemberton Square",
+      "unit": "5th floor"
     },
-    "description": "The Land Court Department serves the entire Commonwealth of Massachusetts. Based in Boston, the Land Court may schedule sessions in other locations within the Commonwealth."
+    "description": "The Land Court Department serves the entire Commonwealth of Massachusetts. Based in Boston, the Land Court may schedule sessions in other locations within the Commonwealth.",
+    "url": "https://www.mass.gov/orgs/land-court",
+    "address_source": "https://www.mass.gov/orgs/land-court",
+    "address_verified": "2026-09-03"
   }
 ]
