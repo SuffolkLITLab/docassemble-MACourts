@@ -605,6 +605,9 @@ class MACourtList(DAList):
             # translate the dictionary data into an MACourtList
             court = self.appendObject()
             court.court_code = item.get("court_code")
+            court.court_code_aliases = item.get("court_code_aliases", [])
+            court.court_code_status = item.get("court_code_status")
+            court.court_code_note = item.get("court_code_note")
             court.tyler_code = item.get("tyler_code")
             court.tyler_lower_court_code = item.get("tyler_lower_court_code")
             court.tyler_prod_lower_court_code = item.get("tyler_prod_lower_court_code")
@@ -631,6 +634,7 @@ class MACourtList(DAList):
             court.tyler_code_status = item.get("tyler_code_status")
             court.tyler_code_note = item.get("tyler_code_note")
             court.address.address = item["address"]["address"]
+            court.address.unit = item["address"].get("unit")
             court.address.city = item["address"]["city"]
             court.address.state = item["address"]["state"]
             court.address.zip = item["address"]["zip"]
@@ -3578,11 +3582,21 @@ class MACourtList(DAList):
                 search_court_code = self._alt_court_codes[court_code.upper()]
             else:
                 search_court_code = court_code
+            normalized_search_code = str(search_court_code).strip().lower()
             matching_courts = [
                 court
                 for court in self.elements
-                if getattr(court, "court_code", None)
-                and court.court_code.strip().lower() == str(search_court_code).lower()
+                if (
+                    (
+                        getattr(court, "court_code", None)
+                        and court.court_code.strip().lower() == normalized_search_code
+                    )
+                    or normalized_search_code
+                    in {
+                        str(alias).strip().lower()
+                        for alias in getattr(court, "court_code_aliases", [])
+                    }
+                )
             ]
             if not matching_courts:
                 raise KeyError(
