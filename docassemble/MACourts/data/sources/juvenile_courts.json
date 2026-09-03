@@ -68,10 +68,16 @@
       "city": "Barnstable",
       "zip": "02630-0427",
       "state": "MA",
-      "address": "P.O. Box 1209"
+      "address": "P.O. Box 427"
     },
     "address_source": "https://www.mass.gov/locations/barnstable-juvenile-court",
-    "address_verified": "2026-09-03"
+    "address_verified": "2026-09-03",
+    "address_note": "Mass.gov currently displays P.O. Box 1209 with ZIP+4 02630-0427. Independent current directories and an actual Trial Court summons by publication identify the Juvenile Court mailing box as P.O. Box 427; the ZIP+4 suffix itself is also consistent with 427.",
+    "address_corrob_sources": [
+      "https://www.courtreference.com/courts/10362/barnstable-juvenile-court",
+      "https://recordsfinder.com/court/courthouses/ma/barnstable/barnstable/barnstable-juvenile-court/",
+      "https://zeta.creativecirclecdn.com/chief/files/20230510-141627-phpoUwxcU.pdf"
+    ]
   },
   {
     "fax": "",
@@ -174,7 +180,11 @@
     "description": "The Plymouth County Juvenile Court in Brockton serves Abington, Bridgewater, Brockton, E. Bridgewater, W. Bridgewater, and Whitman.",
     "url": "https://www.mass.gov/locations/brockton-juvenile-court",
     "address_source": "https://www.mass.gov/locations/brockton-juvenile-court",
-    "address_verified": "2026-09-03"
+    "address_verified": "2026-09-03",
+    "address_corrob_sources": [
+      "https://wareham.theweektoday.com/node/157950"
+    ],
+    "address_note": "A June 2026 Trial Court summons by publication gives 215 Main Street, Suite 270, Brockton, MA 02301."
   },
   {
     "fax": "",
@@ -368,10 +378,11 @@
     "address": {
       "city": "Edgartown",
       "zip": "02539",
-      "orig_address": "12 Mariner's Way, Edgartown, MA 02539",
+      "orig_address": "12 Mariner's Way, Unit 4, Edgartown, MA 02539",
       "county": "Dukes County",
       "state": "MA",
-      "address": "12 Mariner's Way"
+      "address": "12 Mariner's Way",
+      "unit": "Unit 4"
     },
     "description": "The Barnstable County-Town of Plymouth Division of the Juvenile Court in Edgartown serves Aquinnah, Chilmark, Edgartown, Gosnold, Oaks Bluff, Tisbury, West Tisbury",
     "mailing_address": {
@@ -381,7 +392,12 @@
       "address": "PO Box 550"
     },
     "address_source": "https://www.mass.gov/locations/edgartown-juvenile-court",
-    "address_verified": "2026-09-03"
+    "address_verified": "2026-09-03",
+    "address_note": "Mass.gov currently omits the unit. Dukes County's own court directory and CourtReference both identify the Juvenile Court as Unit 4.",
+    "address_corrob_sources": [
+      "https://www.dukescounty.gov/DCCourts",
+      "https://www.courtreference.com/courts/21533/edgartown-juvenile-court"
+    ]
   },
   {
     "fax": "",
@@ -928,7 +944,10 @@
     ],
     "description": "The Essex County Juvenile Court in Newburyport serves Amesbury, Essex, Hamilton, Ipswich, Merrimac, Newbury, Newburyport, Rowley, Salisbury, Topsfield, Wenham, and West Newbury.",
     "address_source": "https://www.mass.gov/locations/newburyport-juvenile-court",
-    "address_verified": "2026-09-03"
+    "address_verified": "2026-09-03",
+    "address_corrob_sources": [
+      "https://www.courtreference.com/courts/10699/newburyport-juvenile-court"
+    ]
   },
   {
     "fax": "413-664-7788",
@@ -1229,7 +1248,14 @@
     "description": "The Hampden County Juvenile Court in Springfield serves Agawam, Chicopee, Longmeadow, Springfield, and West Springfield.",
     "url": "https://www.mass.gov/locations/springfield-juvenile-court",
     "address_source": "https://www.mass.gov/locations/springfield-juvenile-court",
-    "address_verified": "2026-09-03"
+    "address_verified": "2026-09-03",
+    "court_code_aliases": [
+      "J23"
+    ],
+    "court_code_status": "official_registry_lists_two_codes",
+    "court_code_note": "The Mass.gov Trial Court code registry, last updated 2021, lists Springfield Juvenile Court under both J23 and J69. Keep J69 as the primary current record code but preserve J23 as an alias for docket/history lookup rather than treating it as a second physical court.",
+    "court_code_source": "https://www.mass.gov/info-details/trial-court-codes-court-location-listing",
+    "court_code_verified": "2026-09-03"
   },
   {
     "fax": "",
