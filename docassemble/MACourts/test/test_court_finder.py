@@ -205,6 +205,30 @@ class TestCourtFinder(unittest.TestCase):
         self.assertEqual(len(court_list), 1)
         self.assertEqual(court_list[0].name, "Supreme Judicial Court")
 
+    def test_springfield_juvenile_primary_and_alias_codes(self):
+        self.assertEqual(
+            self.all_courts.get_court_by_code("J69").name,
+            "Springfield Juvenile Court",
+        )
+        self.assertEqual(
+            self.all_courts.get_court_by_code("J23").name,
+            "Springfield Juvenile Court",
+        )
+
+    def test_second_source_juvenile_address_details(self):
+        barnstable = next(
+            court
+            for court in self.all_courts.elements
+            if court.name == "Barnstable Juvenile Court"
+        )
+        edgartown = next(
+            court
+            for court in self.all_courts.elements
+            if court.name == "Edgartown Juvenile Court"
+        )
+        self.assertEqual(barnstable.mailing_address.address, "P.O. Box 427")
+        self.assertEqual(edgartown.address.unit, "Unit 4")
+
     def test_find_specific_tyler(self):
         court_list = self.all_courts.filter_courts(court_types="District Court", search_column="tyler_code", search_func=lambda r: r == "805")
         self.assertEqual(len(court_list), 1)
