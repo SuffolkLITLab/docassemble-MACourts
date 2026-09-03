@@ -452,7 +452,7 @@ class MACourtList(DAList):
         court_type_map: Mapping[
             str, Callable[[Address], Union[Set[MACourt], MACourt, None]]
         ] = {
-            "Housing Court": self.matching_housing_court,
+            "Housing Court": self.matching_housing_courts,
             "District Court": self.matching_district_court,
             "Boston Municipal Court": self.matching_bmc,
             "Juvenile Court": self.matching_juvenile_court,
@@ -2729,6 +2729,39 @@ class MACourtList(DAList):
         if not matches and depth == 0:
             return self.matching_district_court_name(address, depth=1)
         return set(matches)
+
+    def matching_housing_courts(self, address: Address) -> Set[MACourt]:
+        """Return all Housing Court sessions serving the given address.
+
+        This plural API preserves concurrent Housing Court jurisdiction where it
+        exists. The older matching_housing_court() method remains available for
+        backwards compatibility with callers that expect a single court.
+        """
+        court_names = self.matching_housing_court_names(address)
+        return set(
+            court
+            for court in self.elements
+            if court.name.rstrip().lower()
+            in {court_name.lower() for court_name in court_names}
+        )
+
+    def matching_housing_court_names(self, address: Address) -> Set[str]:
+        """Return all Housing Court session names serving the given address.
+
+        Freetown and Westport have concurrent Fall River / New Bedford Housing
+        Court jurisdiction. Current Mass.gov pages for both sessions list these
+        towns, and an official state audit expressly states that cases from
+        Freetown and Westport may be brought in either session.
+        """
+        city = getattr(address, "city", "")
+        if isinstance(city, str) and city.lower().strip() in {"freetown", "westport"}:
+            return {
+                "Southeast Housing Court - Fall River Session",
+                "Southeast Housing Court - New Bedford Session",
+            }
+
+        court_name = self.matching_housing_court_name(address)
+        return {court_name} if court_name else set()
 
     def matching_housing_court(self, address: Address) -> Optional[MACourt]:
         """Return the MACourt representing the Housing Court serving the given address"""
