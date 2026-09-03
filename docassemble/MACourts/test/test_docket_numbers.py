@@ -1,3 +1,4 @@
+# do not pre-load
 import unittest
 from ..macourts import *
 from pathlib import Path
@@ -75,6 +76,23 @@ class TestDocketNumbers(unittest.TestCase):
                 "Eastern Housing Court - Chelsea Session",
             ],
         )
+        # The 2021 Trial Court code registry lists Springfield Juvenile
+        # under both J23 and J69. Preserve both codes as aliases for the same
+        # current physical court instead of loading duplicate court records.
+        self._check_court_name("26J23CV000001", "Springfield Juvenile Court")
+        self._check_court_name("26J69CV000001", "Springfield Juvenile Court")
+
+        # H82 is the Metro South divisional docket code; the docket alone does
+        # not identify the physical session.
+        self._check_court_names(
+            "26H82SP000001",
+            [
+                "Metro South Housing Court - Brockton Session",
+                "Metro South Housing Court - Canton Session",
+                "Metro South Housing Court - Stoughton Session",
+            ],
+        )
+
         self._check_court_name("07 TL 001026", "Land Court")
         self._check_court_names(
             "ES15A0064AD",
