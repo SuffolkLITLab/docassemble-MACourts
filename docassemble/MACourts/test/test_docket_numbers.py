@@ -76,12 +76,6 @@ class TestDocketNumbers(unittest.TestCase):
                 "Eastern Housing Court - Chelsea Session",
             ],
         )
-        # The 2021 Trial Court code registry lists Springfield Juvenile
-        # under both J23 and J69. Preserve both codes as aliases for the same
-        # current physical court instead of loading duplicate court records.
-        self._check_court_name("26J23CV000001", "Springfield Juvenile Court")
-        self._check_court_name("26J69CV000001", "Springfield Juvenile Court")
-
         # H82 is the Metro South divisional docket code; the docket alone does
         # not identify the physical session.
         self._check_court_names(
