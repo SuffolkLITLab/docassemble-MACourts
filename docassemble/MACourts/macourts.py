@@ -1500,7 +1500,6 @@ class MACourtList(DAList):
             address_to_compare.city.lower()
             in [
                 "avon",
-                "bellingham",
                 "braintree",
                 "brookline",
                 "canton",
@@ -2973,7 +2972,6 @@ class MACourtList(DAList):
         elif address_to_compare.city.lower() in [
             "auburn",
             "barre",
-            "bellingham",
             "blackstone",
             "boylston",
             "brookfield",
