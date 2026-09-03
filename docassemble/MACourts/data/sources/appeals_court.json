@@ -7,18 +7,23 @@
     "phone": "(617) 725-8106",
     "has_po_box": false,
     "location": {
-      "latitude": 42.358930,
-      "longitude": -71.061340
+      "latitude": 42.35893,
+      "longitude": -71.06134
     },
     "address": {
       "city": "Boston",
       "zip": "02108",
-      "orig_address": "1 Pemberton Square, Room 1200, Boston, MA 02108",
+      "orig_address": "John Adams Courthouse, One Pemberton Square, Room 1200, Boston, MA 02108",
       "county": "Suffolk County",
       "state": "MA",
-      "address": "1 Pemberton Square"
+      "address": "1 Pemberton Square",
+      "unit": "Room 1200"
     },
-    "description": "The Massachusetts Appeals Court serves the entire Commonwealth of Massachusetts. The Appeals Court reviews decisions from the 7 trial court departments as well as three State agencies: the Appellate Tax Board, the Industrial Accident Board and the Commonwealth Employment Relations Board."
+    "description": "The Massachusetts Appeals Court serves the entire Commonwealth of Massachusetts. The Appeals Court reviews decisions from the 7 trial court departments as well as three State agencies: the Appellate Tax Board, the Industrial Accident Board and the Commonwealth Employment Relations Board.",
+    "url": "https://www.mass.gov/orgs/appeals-court",
+    "building_name": "John Adams Courthouse",
+    "address_source": "https://www.mass.gov/orgs/appeals-court",
+    "address_verified": "2026-09-03"
   },
   {
     "fax": "",
@@ -28,17 +33,22 @@
     "phone": "(617) 725-8106",
     "has_po_box": false,
     "location": {
-      "latitude": 42.358930,
-      "longitude": -71.061340
+      "latitude": 42.35893,
+      "longitude": -71.06134
     },
     "address": {
       "city": "Boston",
       "zip": "02108",
-      "orig_address": "1 Pemberton Square, Room 1200, Boston, MA 02108",
+      "orig_address": "John Adams Courthouse, One Pemberton Square, Room 1200, Boston, MA 02108",
       "county": "Suffolk County",
       "state": "MA",
-      "address": "1 Pemberton Square"
+      "address": "1 Pemberton Square",
+      "unit": "Room 1200"
     },
-    "description": "The Massachusetts Appeals Court serves the entire Commonwealth of Massachusetts. The Appeals Court reviews decisions from the 7 trial court departments as well as three State agencies: the Appellate Tax Board, the Industrial Accident Board and the Commonwealth Employment Relations Board."
+    "description": "The Massachusetts Appeals Court serves the entire Commonwealth of Massachusetts. The Appeals Court reviews decisions from the 7 trial court departments as well as three State agencies: the Appellate Tax Board, the Industrial Accident Board and the Commonwealth Employment Relations Board.",
+    "url": "https://www.mass.gov/orgs/appeals-court",
+    "building_name": "John Adams Courthouse",
+    "address_source": "https://www.mass.gov/orgs/appeals-court",
+    "address_verified": "2026-09-03"
   }
-] 
+]
