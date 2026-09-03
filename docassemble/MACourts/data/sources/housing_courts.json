@@ -216,7 +216,10 @@
     "tyler_lower_court_code": "1827",
     "tyler_prod_lower_court_code": "7056",
     "address_verified": "2026-09-03",
-    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations",
+    "address_corrob_sources": [
+      "https://www.courtreference.com/courts/10384/chelsea-district-court"
+    ]
   },
   {
     "fax": "",
@@ -286,7 +289,11 @@
     "address_source": "https://www.mass.gov/orgs/housing-court/locations",
     "accepts_filings": true,
     "tyler_code_status": "needs_reverification",
-    "tyler_code_note": "The legacy 1265 value was changed from 1550 in docassemble-MACourts PR #74 after a production issue. The August 2026 LITEFile staging catalog instead exposes Southeast Housing Court - Brockton as 555:BR. Treat this as environment-specific, dated route-key metadata."
+    "tyler_code_note": "The legacy 1265 value was changed from 1550 in docassemble-MACourts PR #74 after a production issue. The August 2026 LITEFile staging catalog instead exposes Southeast Housing Court - Brockton as 555:BR. Treat this as environment-specific, dated route-key metadata.",
+    "address_corrob_sources": [
+      "https://archives.lib.state.ma.us/bitstreams/1a64f099-118c-42b3-b22c-4e17d9630e27/download"
+    ],
+    "address_note": "The Commonwealth Auditor's formal Metro South Housing Court audit is addressed to 215 Main Street, Suite 160, Brockton, MA 02301, independently corroborating the physical ZIP."
   },
   {
     "fax": "(508) 894-4166",
@@ -331,7 +338,7 @@
   },
   {
     "fax": "",
-    "court_code": null,
+    "court_code": "H82",
     "tyler_lower_court_code": null,
     "tyler_prod_lower_court_code": null,
     "tyler_code": null,
@@ -363,14 +370,16 @@
     "description": "The Metro South Housing Court - Stoughton Session serves Stoughton only.",
     "address_source": "https://www.mass.gov/locations/metro-south-housing-court-stoughton-session",
     "address_verified": "2026-09-03",
-    "code_status": "Court/EFSP identifiers not yet independently verified for this newly added session.",
+    "code_status": "Metro South divisional docket code H82 verified; no separate Stoughton Tyler/EFSP route key has been verified.",
     "accepts_filings": false,
     "filing_location": "Metro South Housing Court - Canton Session",
     "appearance_locations": [
       "Metro South Housing Court - Stoughton Session"
     ],
     "tyler_code_status": "not_separate_in_2026-08-stage_catalog",
-    "tyler_code_note": "The August 2026 LITEFile Tyler staging catalog has no separate Stoughton or Canton route. Do not guess a Tyler route key; resolve through the canonical filing location and live EFSP taxonomy."
+    "tyler_code_note": "The August 2026 LITEFile Tyler staging catalog has no separate Stoughton or Canton route. Do not guess a Tyler route key; resolve through the canonical filing location and live EFSP taxonomy.",
+    "court_code_source": "https://www.mass.gov/info-details/housing-court-get-to-know-the-case-number-format",
+    "court_code_verified": "2026-09-03"
   },
   {
     "fax": "",
@@ -467,7 +476,10 @@
     "tyler_lower_court_code": "1828",
     "tyler_prod_lower_court_code": "7057",
     "address_verified": "2026-09-03",
-    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations",
+    "address_corrob_sources": [
+      "https://www.courtreference.com/Essex-County-Massachusetts-Courts.htm"
+    ]
   },
   {
     "fax": "",
@@ -499,7 +511,10 @@
     "tyler_lower_court_code": "1828",
     "tyler_prod_lower_court_code": "7057",
     "address_verified": "2026-09-03",
-    "address_source": "https://www.mass.gov/orgs/housing-court/locations"
+    "address_source": "https://www.mass.gov/orgs/housing-court/locations",
+    "address_corrob_sources": [
+      "https://www.courtreference.com/Essex-County-Massachusetts-Courts.htm"
+    ]
   },
   {
     "fax": "",
