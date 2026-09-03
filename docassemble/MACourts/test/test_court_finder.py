@@ -82,6 +82,25 @@ class TestCourtFinder(unittest.TestCase):
         self.assertIn("Boston Juvenile Court", court_strings)
         self.assertIn("Land Court", court_strings)
 
+    def test_freetown_housing_court_returns_both_sessions(self):
+        address = Address(
+            address="18 Elm Street",
+            city="Freetown",
+            county="Bristol County",
+            state="Massachusetts",
+            zip="02717",
+        )
+        court_list = self.all_courts.matching_courts(
+            address, court_types=["Housing Court"]
+        )
+        self.assertEqual(
+            {court.name for court in court_list},
+            {
+                "Southeast Housing Court - Fall River Session",
+                "Southeast Housing Court - New Bedford Session",
+            },
+        )
+
     def test_bellingham_housing_court_is_canton(self):
         address = Address(
             address="161 Mechanic Street",
